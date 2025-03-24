@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 # First argument is the time, in seconds, to run each fuzz test for.
 # If not provided, defaults to 1 second.
