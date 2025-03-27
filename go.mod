@@ -1,4 +1,4 @@
-module github.com/luxfi/node
+module github.com/skychains/chain
 
 // Changes to the minimum golang version must also be replicated in
 // CONTRIBUTING.md
