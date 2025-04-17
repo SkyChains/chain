@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/formatting"
-	"github.com/luxfi/node/utils/json"
-	"github.com/luxfi/node/utils/rpc"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/chain/utils/json"
+	"github.com/SkyChains/chain/utils/rpc"
 )
 
 type mockClient struct {

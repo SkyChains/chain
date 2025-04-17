@@ -7,16 +7,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/utils/math"
-	"github.com/luxfi/node/utils/timer/mockable"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/components/verify"
-	"github.com/luxfi/node/vms/platformvm/fx"
-	"github.com/luxfi/node/vms/platformvm/stakeable"
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/utils/math"
+	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/SkyChains/chain/vms/platformvm/fx"
+	"github.com/SkyChains/chain/vms/platformvm/stakeable"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 )
 
 var (

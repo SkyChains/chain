@@ -6,7 +6,7 @@ package bloom
 import (
 	"errors"
 
-	"github.com/luxfi/node/utils/bloom"
+	"github.com/SkyChains/chain/utils/bloom"
 )
 
 const bytesPerHash = 8

@@ -8,15 +8,15 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/luxfi/coreth/plugin/evm"
+	"github.com/SkyChains/coreth/plugin/evm"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/math"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/math"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )
@@ -97,9 +97,9 @@ type BuilderBackend interface {
 
 type builder struct {
 	luxAddrs set.Set[ids.ShortID]
-	ethAddrs  set.Set[ethcommon.Address]
-	context   *Context
-	backend   BuilderBackend
+	ethAddrs set.Set[ethcommon.Address]
+	context  *Context
+	backend  BuilderBackend
 }
 
 // NewBuilder returns a new transaction builder.
@@ -118,9 +118,9 @@ func NewBuilder(
 ) Builder {
 	return &builder{
 		luxAddrs: luxAddrs,
-		ethAddrs:  ethAddrs,
-		context:   context,
-		backend:   backend,
+		ethAddrs: ethAddrs,
+		context:  context,
+		backend:  backend,
 	}
 }
 
@@ -161,7 +161,7 @@ func (b *builder) GetImportableBalance(
 	var (
 		addrs           = ops.Addresses(b.luxAddrs)
 		minIssuanceTime = ops.MinIssuanceTime()
-		luxAssetID     = b.context.LUXAssetID
+		luxAssetID      = b.context.LUXAssetID
 		balance         uint64
 	)
 	for _, utxo := range utxos {
@@ -195,7 +195,7 @@ func (b *builder) NewImportTx(
 	var (
 		addrs           = ops.Addresses(b.luxAddrs)
 		minIssuanceTime = ops.MinIssuanceTime()
-		luxAssetID     = b.context.LUXAssetID
+		luxAssetID      = b.context.LUXAssetID
 
 		importedInputs = make([]*lux.TransferableInput, 0, len(utxos))
 		importedAmount uint64
@@ -269,7 +269,7 @@ func (b *builder) NewExportTx(
 	options ...common.Option,
 ) (*evm.UnsignedExportTx, error) {
 	var (
-		luxAssetID     = b.context.LUXAssetID
+		luxAssetID      = b.context.LUXAssetID
 		exportedOutputs = make([]*lux.TransferableOutput, len(outputs))
 		exportedAmount  uint64
 	)

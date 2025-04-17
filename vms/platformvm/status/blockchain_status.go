@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/luxfi/node/vms/components/verify"
+	"github.com/SkyChains/chain/vms/components/verify"
 )
 
 // List of possible blockchain status values:

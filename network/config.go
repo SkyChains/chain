@@ -9,16 +9,16 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/network/dialer"
-	"github.com/luxfi/node/network/throttling"
-	"github.com/luxfi/node/snow/networking/tracker"
-	"github.com/luxfi/node/snow/uptime"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/compression"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/network/dialer"
+	"github.com/SkyChains/chain/network/throttling"
+	"github.com/SkyChains/chain/snow/networking/tracker"
+	"github.com/SkyChains/chain/snow/uptime"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/compression"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 // HealthConfig describes parameters for network layer health checks.

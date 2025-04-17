@@ -6,11 +6,11 @@ package gsharedmemory
 import (
 	"context"
 
-	"github.com/luxfi/node/chains/atomic"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/chains/atomic"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
 
-	sharedmemorypb "github.com/luxfi/node/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/SkyChains/chain/proto/pb/sharedmemory"
 )
 
 var _ atomic.SharedMemory = (*Client)(nil)

@@ -6,13 +6,13 @@ package genesis
 import (
 	"path"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/vms/nftfx"
-	"github.com/luxfi/node/vms/platformvm/genesis"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/propertyfx"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/vms/nftfx"
+	"github.com/SkyChains/chain/vms/platformvm/genesis"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/propertyfx"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 )
 
 var (

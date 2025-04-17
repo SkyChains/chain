@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/snowtest"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/snowtest"
 )
 
 func TestRejectMiddleware(t *testing.T) {

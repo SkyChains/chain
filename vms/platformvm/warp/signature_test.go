@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 const pChainHeight uint64 = 1337

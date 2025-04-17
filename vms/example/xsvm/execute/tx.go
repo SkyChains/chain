@@ -7,15 +7,15 @@ import (
 	"context"
 	"errors"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/engine/snowman/block"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/utils/wrappers"
-	"github.com/luxfi/node/vms/example/xsvm/state"
-	"github.com/luxfi/node/vms/example/xsvm/tx"
-	"github.com/luxfi/node/vms/platformvm/warp"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/SkyChains/chain/vms/example/xsvm/state"
+	"github.com/SkyChains/chain/vms/example/xsvm/tx"
+	"github.com/SkyChains/chain/vms/platformvm/warp"
 )
 
 const (

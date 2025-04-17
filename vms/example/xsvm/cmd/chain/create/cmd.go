@@ -9,12 +9,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/example/xsvm/genesis"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/wallet/subnet/primary"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/example/xsvm/genesis"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 )
 
 func Command() *cobra.Command {

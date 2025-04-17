@@ -4,9 +4,9 @@
 package secp256k1fx
 
 import (
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 )
 
 // VM that this Fx must be run by

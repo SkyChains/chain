@@ -7,16 +7,16 @@ import (
 	"testing"
 
 	// ensure test packages are scanned by ginkgo
-	_ "github.com/luxfi/node/tests/e2e/banff"
-	_ "github.com/luxfi/node/tests/e2e/c"
-	_ "github.com/luxfi/node/tests/e2e/faultinjection"
-	_ "github.com/luxfi/node/tests/e2e/p"
-	_ "github.com/luxfi/node/tests/e2e/x"
-	_ "github.com/luxfi/node/tests/e2e/x/transfer"
+	_ "github.com/SkyChains/chain/tests/e2e/banff"
+	_ "github.com/SkyChains/chain/tests/e2e/c"
+	_ "github.com/SkyChains/chain/tests/e2e/faultinjection"
+	_ "github.com/SkyChains/chain/tests/e2e/p"
+	_ "github.com/SkyChains/chain/tests/e2e/x"
+	_ "github.com/SkyChains/chain/tests/e2e/x/transfer"
 
-	"github.com/luxfi/node/tests/e2e/vms"
-	"github.com/luxfi/node/tests/fixture/e2e"
-	"github.com/luxfi/node/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/tests/e2e/vms"
+	"github.com/SkyChains/chain/tests/fixture/e2e"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

@@ -10,15 +10,15 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/luxfi/node/vms/rpcchainvm/ghttp/gconn"
-	"github.com/luxfi/node/vms/rpcchainvm/ghttp/greader"
-	"github.com/luxfi/node/vms/rpcchainvm/ghttp/gwriter"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/vms/rpcchainvm/ghttp/gconn"
+	"github.com/SkyChains/chain/vms/rpcchainvm/ghttp/greader"
+	"github.com/SkyChains/chain/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
 
-	responsewriterpb "github.com/luxfi/node/proto/pb/http/responsewriter"
-	readerpb "github.com/luxfi/node/proto/pb/io/reader"
-	writerpb "github.com/luxfi/node/proto/pb/io/writer"
-	connpb "github.com/luxfi/node/proto/pb/net/conn"
+	responsewriterpb "github.com/SkyChains/chain/proto/pb/http/responsewriter"
+	readerpb "github.com/SkyChains/chain/proto/pb/io/reader"
+	writerpb "github.com/SkyChains/chain/proto/pb/io/writer"
+	connpb "github.com/SkyChains/chain/proto/pb/net/conn"
 )
 
 var (

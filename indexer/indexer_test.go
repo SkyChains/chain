@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/api/server"
-	"github.com/luxfi/node/database/memdb"
-	"github.com/luxfi/node/database/versiondb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/engine/lux/vertex"
-	"github.com/luxfi/node/snow/engine/snowman/block"
-	"github.com/luxfi/node/snow/snowtest"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/api/server"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/database/versiondb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/engine/lux/vertex"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/snow/snowtest"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 var (

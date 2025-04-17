@@ -6,8 +6,8 @@ package snowman
 import (
 	"context"
 
-	"github.com/luxfi/node/snow/consensus/snowman"
-	"github.com/luxfi/node/snow/engine/snowman/ancestor"
+	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/SkyChains/chain/snow/engine/snowman/ancestor"
 )
 
 var _ snowman.Block = (*memoryBlock)(nil)

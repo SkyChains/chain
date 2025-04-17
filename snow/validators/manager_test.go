@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/set"
 
-	safemath "github.com/luxfi/node/utils/math"
+	safemath "github.com/SkyChains/chain/utils/math"
 )
 
 var _ ManagerCallbackListener = (*managerCallbackListener)(nil)

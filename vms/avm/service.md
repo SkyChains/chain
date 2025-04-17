@@ -188,7 +188,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -241,7 +241,7 @@ TODO: Add avm.createAsset
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -335,7 +335,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -423,7 +423,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -524,7 +524,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -605,7 +605,7 @@ TODO: Add avm.exportLUX
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -660,7 +660,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -732,7 +732,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -851,7 +851,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1394,7 +1394,7 @@ This gives response:
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1458,7 +1458,7 @@ TODO: Add avm.importLUX
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1554,7 +1554,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1603,7 +1603,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1679,7 +1679,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1760,7 +1760,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1833,7 +1833,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1916,7 +1916,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -1993,7 +1993,7 @@ This call is made to the wallet API endpoint:
 
 :::caution
 
-Endpoint deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Endpoint deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -2049,7 +2049,7 @@ This call is made to the wallet API endpoint:
 
 :::caution
 
-Endpoint deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Endpoint deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -2127,7 +2127,7 @@ This call is made to the wallet API endpoint:
 
 :::caution
 
-Endpoint deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Endpoint deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -2209,7 +2209,7 @@ This call is made to the events API endpoint:
 
 :::caution
 
-Endpoint deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Endpoint deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -2225,8 +2225,8 @@ import (
     "net/http"
     "sync"
 
-    "github.com/luxfi/node/api"
-    "github.com/luxfi/node/pubsub"
+    "github.com/SkyChains/chain/api"
+    "github.com/SkyChains/chain/pubsub"
     "github.com/gorilla/websocket"
 )
 

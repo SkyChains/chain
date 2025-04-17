@@ -4,15 +4,15 @@
 package x
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms/avm"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/components/verify"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/wallet/chain/x/builder"
-	"github.com/luxfi/node/wallet/chain/x/signer"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms/avm"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/wallet/chain/x/builder"
+	"github.com/SkyChains/chain/wallet/chain/x/signer"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 )
 
 var _ Wallet = (*wallet)(nil)

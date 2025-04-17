@@ -6,12 +6,12 @@ package ledger
 import (
 	"fmt"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/keychain"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/keychain"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/version"
 
-	ledger "github.com/luxfi/ledger/go"
+	ledger "github.com/SkyChains/ledger/go"
 	bip32 "github.com/tyler-smith/go-bip32"
 )
 
@@ -111,7 +111,7 @@ func (l *Ledger) Sign(txBytes []byte, addressIndices []uint32) ([][]byte, error)
 		// app. When the tx that is being signed is too large, we sign with hash
 		// instead.
 		//
-		// Ref: https://github.com/luxfi/lux-wallet-sdk/blob/9a71f05e424e06b94eaccf21fd32d7983ed1b040/src/Wallet/Ledger/provider/ZondaxProvider.ts#L68
+		// Ref: https://github.com/SkyChains/lux-wallet-sdk/blob/9a71f05e424e06b94eaccf21fd32d7983ed1b040/src/Wallet/Ledger/provider/ZondaxProvider.ts#L68
 		unsignedHash := hashing.ComputeHash256(txBytes)
 		return l.SignHash(unsignedHash, addressIndices)
 	}

@@ -6,9 +6,9 @@ package atomic
 import (
 	"bytes"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/ids"
 )
 
 var (

@@ -9,11 +9,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/message"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/subnets"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/message"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/subnets"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 var (

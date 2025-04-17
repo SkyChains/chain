@@ -19,10 +19,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/luxfi/node/api/health"
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/node"
-	"github.com/luxfi/node/utils/perms"
+	"github.com/SkyChains/chain/api/health"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/node"
+	"github.com/SkyChains/chain/utils/perms"
 )
 
 const (

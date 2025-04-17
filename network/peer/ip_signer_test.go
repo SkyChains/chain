@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/staking"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/crypto/bls"
+	"github.com/SkyChains/chain/staking"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/crypto/bls"
 )
 
 func TestIPSigner(t *testing.T) {

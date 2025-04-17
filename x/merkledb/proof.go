@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/memdb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/trace"
-	"github.com/luxfi/node/utils/maybe"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/trace"
+	"github.com/SkyChains/chain/utils/maybe"
 
-	pb "github.com/luxfi/node/proto/pb/sync"
+	pb "github.com/SkyChains/chain/proto/pb/sync"
 )
 
 const verificationCacheSize = math.MaxUint16

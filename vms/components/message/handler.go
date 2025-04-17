@@ -6,8 +6,8 @@ package message
 import (
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 var _ Handler = NoopHandler{}

@@ -11,18 +11,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/tests/fixture/e2e"
-	"github.com/luxfi/node/utils/cb58"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/utils/formatting"
-	"github.com/luxfi/node/utils/formatting/address"
-	"github.com/luxfi/node/utils/json"
-	"github.com/luxfi/node/utils/units"
-	"github.com/luxfi/node/vms/avm"
-	"github.com/luxfi/node/vms/platformvm/api"
-	"github.com/luxfi/node/vms/platformvm/reward"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/tests/fixture/e2e"
+	"github.com/SkyChains/chain/utils/cb58"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/chain/utils/formatting/address"
+	"github.com/SkyChains/chain/utils/json"
+	"github.com/SkyChains/chain/utils/units"
+	"github.com/SkyChains/chain/vms/avm"
+	"github.com/SkyChains/chain/vms/platformvm/api"
+	"github.com/SkyChains/chain/vms/platformvm/reward"
 )
 
 var _ = ginkgo.Describe("[StaticHandlers]", func() {

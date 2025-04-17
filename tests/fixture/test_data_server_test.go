@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
 )
 
 // Check that funded test keys can be served from an http server to

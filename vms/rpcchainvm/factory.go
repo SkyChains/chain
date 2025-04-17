@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/luxfi/node/api/metrics"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/resource"
-	"github.com/luxfi/node/vms"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime/subprocess"
+	"github.com/SkyChains/chain/api/metrics"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/resource"
+	"github.com/SkyChains/chain/vms"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime/subprocess"
 )
 
 var _ vms.Factory = (*factory)(nil)

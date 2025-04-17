@@ -6,16 +6,16 @@ package config
 import (
 	"time"
 
-	"github.com/luxfi/node/chains"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/uptime"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/platformvm/reward"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/platformvm/txs/fee"
-	"github.com/luxfi/node/vms/platformvm/upgrade"
+	"github.com/SkyChains/chain/chains"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/uptime"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/platformvm/reward"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/platformvm/txs/fee"
+	"github.com/SkyChains/chain/vms/platformvm/upgrade"
 )
 
 // Struct collecting all foundational parameters of PlatformVM

@@ -6,7 +6,7 @@ package common
 import (
 	"context"
 
-	"github.com/luxfi/node/trace"
+	"github.com/SkyChains/chain/trace"
 )
 
 var _ StateSyncer = (*tracedStateSyncer)(nil)

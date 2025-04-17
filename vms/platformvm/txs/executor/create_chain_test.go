@@ -10,20 +10,20 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/utils/units"
-	"github.com/luxfi/node/vms/platformvm/state"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/platformvm/txs/txstest"
-	"github.com/luxfi/node/vms/platformvm/utxo"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/utils/units"
+	"github.com/SkyChains/chain/vms/platformvm/state"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/platformvm/txs/txstest"
+	"github.com/SkyChains/chain/vms/platformvm/utxo"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 
-	walletsigner "github.com/luxfi/node/wallet/chain/p/signer"
+	walletsigner "github.com/SkyChains/chain/wallet/chain/p/signer"
 )
 
 // Ensure Execute fails when there are not enough control sigs

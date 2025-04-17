@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 )
 
 func TestNewBanffProposalBlock(t *testing.T) {

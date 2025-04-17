@@ -6,8 +6,8 @@ package state
 import (
 	"github.com/google/btree"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
 )
 
 type Stakers interface {

@@ -8,13 +8,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/luxfi/coreth/ethclient"
-	"github.com/luxfi/coreth/plugin/evm"
+	"github.com/SkyChains/coreth/ethclient"
+	"github.com/SkyChains/coreth/plugin/evm"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/rpc"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )
@@ -71,20 +71,20 @@ func NewWallet(
 	backend Backend,
 ) Wallet {
 	return &wallet{
-		Backend:    backend,
-		builder:    builder,
-		signer:     signer,
+		Backend:   backend,
+		builder:   builder,
+		signer:    signer,
 		luxClient: luxClient,
-		ethClient:  ethClient,
+		ethClient: ethClient,
 	}
 }
 
 type wallet struct {
 	Backend
-	builder    Builder
-	signer     Signer
+	builder   Builder
+	signer    Signer
 	luxClient evm.Client
-	ethClient  ethclient.Client
+	ethClient ethclient.Client
 }
 
 func (w *wallet) Builder() Builder {

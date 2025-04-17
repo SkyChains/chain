@@ -4,8 +4,8 @@
 package keychain
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/version"
 )
 
 // Ledger interface for the ledger wrapper

@@ -4,13 +4,13 @@
 package chain
 
 import (
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/choices"
-	"github.com/luxfi/node/vms/example/xsvm/state"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/choices"
+	"github.com/SkyChains/chain/vms/example/xsvm/state"
 
-	xsblock "github.com/luxfi/node/vms/example/xsvm/block"
+	xsblock "github.com/SkyChains/chain/vms/example/xsvm/block"
 )
 
 var _ Chain = (*chain)(nil)

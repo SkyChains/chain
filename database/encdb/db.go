@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/utils/hashing"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/utils/hashing"
 )
 
 var (

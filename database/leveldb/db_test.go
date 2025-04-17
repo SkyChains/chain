@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func TestInterface(t *testing.T) {

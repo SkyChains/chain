@@ -6,10 +6,10 @@ package x
 import (
 	"context"
 
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/wallet/chain/x/builder"
-	"github.com/luxfi/node/wallet/chain/x/signer"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/wallet/chain/x/builder"
+	"github.com/SkyChains/chain/wallet/chain/x/signer"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 )
 
 var _ Backend = (*backend)(nil)

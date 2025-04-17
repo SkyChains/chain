@@ -6,7 +6,7 @@ package avm
 import (
 	"context"
 
-	"github.com/luxfi/node/utils/rpc"
+	"github.com/SkyChains/chain/utils/rpc"
 )
 
 var _ StaticClient = (*staticClient)(nil)

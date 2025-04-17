@@ -8,15 +8,15 @@ import (
 	"log"
 	"time"
 
-	"github.com/luxfi/coreth/plugin/evm"
+	"github.com/SkyChains/coreth/plugin/evm"
 
-	"github.com/luxfi/node/genesis"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/units"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/wallet/subnet/primary"
+	"github.com/SkyChains/chain/genesis"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/units"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/wallet/subnet/primary"
 )
 
 func main() {
@@ -32,9 +32,9 @@ func main() {
 	// [uri] is hosting.
 	walletSyncStartTime := time.Now()
 	wallet, err := primary.MakeWallet(ctx, &primary.WalletConfig{
-		URI:          uri,
+		URI:         uri,
 		LUXKeychain: kc,
-		EthKeychain:  kc,
+		EthKeychain: kc,
 	})
 	if err != nil {
 		log.Fatalf("failed to initialize wallet: %s\n", err)

@@ -6,16 +6,16 @@ package api
 import (
 	"net/http"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/vms/example/xsvm/block"
-	"github.com/luxfi/node/vms/example/xsvm/builder"
-	"github.com/luxfi/node/vms/example/xsvm/chain"
-	"github.com/luxfi/node/vms/example/xsvm/genesis"
-	"github.com/luxfi/node/vms/example/xsvm/state"
-	"github.com/luxfi/node/vms/example/xsvm/tx"
-	"github.com/luxfi/node/vms/platformvm/warp"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/vms/example/xsvm/block"
+	"github.com/SkyChains/chain/vms/example/xsvm/builder"
+	"github.com/SkyChains/chain/vms/example/xsvm/chain"
+	"github.com/SkyChains/chain/vms/example/xsvm/genesis"
+	"github.com/SkyChains/chain/vms/example/xsvm/state"
+	"github.com/SkyChains/chain/vms/example/xsvm/tx"
+	"github.com/SkyChains/chain/vms/platformvm/warp"
 )
 
 // Server defines the xsvm API server.

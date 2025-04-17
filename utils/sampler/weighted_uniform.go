@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math"
 
-	safemath "github.com/luxfi/node/utils/math"
+	safemath "github.com/SkyChains/chain/utils/math"
 )
 
 var (

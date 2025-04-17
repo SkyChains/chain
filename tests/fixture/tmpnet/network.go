@@ -18,13 +18,13 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/genesis"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/utils/perms"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/platformvm"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/genesis"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/utils/perms"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/platformvm"
 )
 
 // The Network type is defined in this file (orchestration) and

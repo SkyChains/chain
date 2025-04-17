@@ -6,9 +6,9 @@ package message
 import (
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/proto/pb/p2p"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/proto/pb/p2p"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 )
 
 var _ InboundMsgBuilder = (*inMsgBuilder)(nil)

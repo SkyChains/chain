@@ -4,8 +4,8 @@
 package xsvm
 
 import (
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms"
 )
 
 var _ vms.Factory = (*Factory)(nil)

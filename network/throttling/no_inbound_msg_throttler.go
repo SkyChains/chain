@@ -6,7 +6,7 @@ package throttling
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/ids"
 )
 
 var _ InboundMsgThrottler = (*noInboundMsgThrottler)(nil)

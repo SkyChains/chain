@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/vms/platformvm/reward"
-	"github.com/luxfi/node/vms/platformvm/state"
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/vms/platformvm/reward"
+	"github.com/SkyChains/chain/vms/platformvm/state"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 )
 
 var (

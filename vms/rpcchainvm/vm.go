@@ -14,15 +14,15 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 
-	"github.com/luxfi/node/snow/engine/snowman/block"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/version"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
-	"github.com/luxfi/node/vms/rpcchainvm/gruntime"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/version"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/vms/rpcchainvm/gruntime"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
 
-	vmpb "github.com/luxfi/node/proto/pb/vm"
-	runtimepb "github.com/luxfi/node/proto/pb/vm/runtime"
+	vmpb "github.com/SkyChains/chain/proto/pb/vm"
+	runtimepb "github.com/SkyChains/chain/proto/pb/vm/runtime"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )
 

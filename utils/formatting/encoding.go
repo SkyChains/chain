@@ -11,7 +11,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/luxfi/node/utils/hashing"
+	"github.com/SkyChains/chain/utils/hashing"
 )
 
 const (

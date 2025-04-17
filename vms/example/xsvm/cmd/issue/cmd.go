@@ -6,9 +6,9 @@ package issue
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/luxfi/node/vms/example/xsvm/cmd/issue/export"
-	"github.com/luxfi/node/vms/example/xsvm/cmd/issue/importtx"
-	"github.com/luxfi/node/vms/example/xsvm/cmd/issue/transfer"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/export"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/importtx"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/transfer"
 )
 
 func Command() *cobra.Command {

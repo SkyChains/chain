@@ -8,9 +8,9 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/hashing"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/hashing"
 )
 
 var (

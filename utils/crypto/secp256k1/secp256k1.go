@@ -10,10 +10,10 @@ import (
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"
 
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/cb58"
-	"github.com/luxfi/node/utils/hashing"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/cb58"
+	"github.com/SkyChains/chain/utils/hashing"
 
 	stdecdsa "crypto/ecdsa"
 	secp256k1 "github.com/decred/dcrd/dcrec/secp256k1/v4"

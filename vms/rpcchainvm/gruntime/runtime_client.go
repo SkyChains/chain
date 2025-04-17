@@ -6,9 +6,9 @@ package gruntime
 import (
 	"context"
 
-	"github.com/luxfi/node/vms/rpcchainvm/runtime"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
 
-	pb "github.com/luxfi/node/proto/pb/vm/runtime"
+	pb "github.com/SkyChains/chain/proto/pb/vm/runtime"
 )
 
 var _ runtime.Initializer = (*Client)(nil)

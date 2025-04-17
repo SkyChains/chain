@@ -10,16 +10,16 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/memdb"
-	"github.com/luxfi/node/database/versiondb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/version"
-	"github.com/luxfi/node/vms/avm/block"
-	"github.com/luxfi/node/vms/avm/fxs"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/database/versiondb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/version"
+	"github.com/SkyChains/chain/vms/avm/block"
+	"github.com/SkyChains/chain/vms/avm/fxs"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 )
 
 const trackChecksums = false

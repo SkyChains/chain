@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 // Note: TestInterface tests other batch functionality.

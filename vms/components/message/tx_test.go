@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/units"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/units"
 )
 
 func TestTx(t *testing.T) {

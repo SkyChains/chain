@@ -4,9 +4,9 @@
 package gsharedmemory
 
 import (
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/utils/set"
 
-	sharedmemorypb "github.com/luxfi/node/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/SkyChains/chain/proto/pb/sharedmemory"
 )
 
 type filteredBatch struct {

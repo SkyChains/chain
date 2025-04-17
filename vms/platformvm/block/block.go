@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 )
 
 // Block defines the common stateless interface for all blocks

@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/ids"
 )
 
 var _ Decidable = (*TestDecidable)(nil)

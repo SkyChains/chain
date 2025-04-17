@@ -8,12 +8,12 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/vms/components/verify"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/vms/components/verify"
 )
 
 var (

@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
 
-	pb "github.com/luxfi/node/proto/pb/validatorstate"
+	pb "github.com/SkyChains/chain/proto/pb/validatorstate"
 )
 
 var errCustom = errors.New("custom")

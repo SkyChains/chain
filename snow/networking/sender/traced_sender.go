@@ -8,10 +8,10 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/trace"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/trace"
+	"github.com/SkyChains/chain/utils/set"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

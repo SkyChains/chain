@@ -19,12 +19,12 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/luxfi/node/api/health"
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/node"
-	"github.com/luxfi/node/tests/fixture/tmpnet"
-	"github.com/luxfi/node/utils/perms"
+	"github.com/SkyChains/chain/api/health"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/node"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/utils/perms"
 )
 
 var errNodeAlreadyRunning = errors.New("failed to start local node: node is already running")

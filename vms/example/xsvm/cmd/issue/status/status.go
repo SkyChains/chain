@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms/example/xsvm/tx"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms/example/xsvm/tx"
 )
 
 type TxIssuance struct {

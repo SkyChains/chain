@@ -8,9 +8,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 
-	safemath "github.com/luxfi/node/utils/math"
+	safemath "github.com/SkyChains/chain/utils/math"
 )
 
 var (

@@ -11,12 +11,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/api/info"
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/tests/fixture/e2e"
-	"github.com/luxfi/node/tests/fixture/tmpnet"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/api/info"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/tests/fixture/e2e"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/utils/set"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

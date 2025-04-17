@@ -4,13 +4,13 @@
 package bootstrap
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/engine/lux/vertex"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/snow/engine/common/queue"
-	"github.com/luxfi/node/snow/engine/common/tracker"
-	"github.com/luxfi/node/snow/validators"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/engine/lux/vertex"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/snow/engine/common/queue"
+	"github.com/SkyChains/chain/snow/engine/common/tracker"
+	"github.com/SkyChains/chain/snow/validators"
 )
 
 type Config struct {

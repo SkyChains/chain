@@ -6,7 +6,7 @@ package hierarchycodec
 import (
 	"testing"
 
-	"github.com/luxfi/node/codec"
+	"github.com/SkyChains/chain/codec"
 )
 
 func TestVectors(t *testing.T) {

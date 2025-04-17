@@ -14,12 +14,12 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/network/p2p"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/network/p2p"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/version"
 )
 
 // Minimum amount of time to handle a request

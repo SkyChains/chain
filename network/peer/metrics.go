@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/message"
+	"github.com/SkyChains/chain/message"
 )
 
 const (

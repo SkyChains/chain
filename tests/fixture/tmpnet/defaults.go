@@ -6,9 +6,9 @@ package tmpnet
 import (
 	"time"
 
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/platformvm/txs/executor"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/platformvm/txs/executor"
 )
 
 const (
@@ -69,7 +69,7 @@ func DefaultChainConfigs() map[string]FlagsMap {
 	return map[string]FlagsMap{
 		// Supply only non-default configuration to ensure that default
 		// values will be used. Available C-Chain configuration options are
-		// defined in the `github.com/luxfi/coreth/evm` package.
+		// defined in the `github.com/SkyChains/coreth/evm` package.
 		"C": {
 			"warp-api-enabled": true,
 			"log-level":        "trace",

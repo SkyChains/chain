@@ -6,10 +6,10 @@ package vertex
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/consensus/snowstorm"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/consensus/snowstorm"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
 )
 
 type LinearizableVMWithEngine interface {

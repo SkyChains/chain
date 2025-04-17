@@ -4,8 +4,8 @@
 package snowman
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/consensus/snowball"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/consensus/snowball"
 )
 
 // Tracks the state of a snowman block

@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/txs/mempool"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/txs/mempool"
 
-	pmempool "github.com/luxfi/node/vms/platformvm/txs/mempool"
+	pmempool "github.com/SkyChains/chain/vms/platformvm/txs/mempool"
 )
 
 var errFoo = errors.New("foo")

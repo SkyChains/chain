@@ -6,13 +6,13 @@ package lux
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/cache/metercacher"
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/linkeddb"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/cache/metercacher"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/linkeddb"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/ids"
 )
 
 const (

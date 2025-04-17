@@ -16,13 +16,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/snow/engine/snowman/block"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime/subprocess"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime/subprocess"
 
-	vmpb "github.com/luxfi/node/proto/pb/vm"
+	vmpb "github.com/SkyChains/chain/proto/pb/vm"
 )
 
 const (

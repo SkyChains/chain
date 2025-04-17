@@ -11,10 +11,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/linked"
-	"github.com/luxfi/node/utils/math/meter"
-	"github.com/luxfi/node/utils/resource"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/linked"
+	"github.com/SkyChains/chain/utils/math/meter"
+	"github.com/SkyChains/chain/utils/resource"
 )
 
 const epsilon = 1e-9

@@ -8,9 +8,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/consensus/snowman"
-	"github.com/luxfi/node/snow/engine/snowman/job"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/SkyChains/chain/snow/engine/snowman/job"
 )
 
 var _ job.Job[ids.ID] = (*issuer)(nil)

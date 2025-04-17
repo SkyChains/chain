@@ -9,8 +9,8 @@ import (
 
 	_ "embed"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
 )
 
 const (

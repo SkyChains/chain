@@ -10,8 +10,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 const (

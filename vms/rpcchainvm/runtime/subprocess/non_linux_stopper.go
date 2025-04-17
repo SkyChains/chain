@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func NewCmd(path string, args ...string) *exec.Cmd {

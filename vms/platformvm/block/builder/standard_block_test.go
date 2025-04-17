@@ -9,15 +9,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/chains/atomic"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/platformvm/status"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/chains/atomic"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/platformvm/status"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 
-	walletsigner "github.com/luxfi/node/wallet/chain/p/signer"
+	walletsigner "github.com/SkyChains/chain/wallet/chain/p/signer"
 )
 
 func TestAtomicTxImports(t *testing.T) {

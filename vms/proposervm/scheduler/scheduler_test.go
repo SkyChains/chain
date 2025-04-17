@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func TestDelayFromNew(t *testing.T) {

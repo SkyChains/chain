@@ -6,13 +6,13 @@ package gkeystore
 import (
 	"context"
 
-	"github.com/luxfi/node/api/keystore"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/rpcdb"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/api/keystore"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/rpcdb"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
 
-	keystorepb "github.com/luxfi/node/proto/pb/keystore"
-	rpcdbpb "github.com/luxfi/node/proto/pb/rpcdb"
+	keystorepb "github.com/SkyChains/chain/proto/pb/keystore"
+	rpcdbpb "github.com/SkyChains/chain/proto/pb/rpcdb"
 )
 
 var _ keystorepb.KeystoreServer = (*Server)(nil)

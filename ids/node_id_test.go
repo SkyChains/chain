@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/utils/cb58"
+	"github.com/SkyChains/chain/utils/cb58"
 )
 
 func TestNodeIDEquality(t *testing.T) {

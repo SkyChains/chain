@@ -11,14 +11,14 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/luxfi/node/chains/atomic"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/encdb"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/json"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/password"
+	"github.com/SkyChains/chain/chains/atomic"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/encdb"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/json"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/password"
 )
 
 const (

@@ -6,9 +6,9 @@ package lux
 import (
 	"errors"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/vms/components/verify"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/vms/components/verify"
 )
 
 var (

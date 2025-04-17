@@ -11,11 +11,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/consensus/snowball"
-	"github.com/luxfi/node/utils/bag"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/consensus/snowball"
+	"github.com/SkyChains/chain/utils/bag"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 var (

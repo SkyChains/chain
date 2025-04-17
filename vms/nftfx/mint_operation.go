@@ -6,10 +6,10 @@ package nftfx
 import (
 	"errors"
 
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/vms/components/verify"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/vms/types"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/vms/types"
 )
 
 var errNilMintOperation = errors.New("nil mint operation")

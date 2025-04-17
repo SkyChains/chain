@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/validators"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/validators"
 )
 
 func TestOverriddenManager(t *testing.T) {

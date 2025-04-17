@@ -10,9 +10,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/message"
-	"github.com/luxfi/node/snow"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/message"
+	"github.com/SkyChains/chain/snow"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/memdb"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/memdb"
 )
 
 const testPassword = "lol totally a secure password" //nolint:gosec

@@ -6,11 +6,11 @@ package validators
 import (
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/types"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/types"
 )
 
 var _ SetCallbackListener = (*logger)(nil)

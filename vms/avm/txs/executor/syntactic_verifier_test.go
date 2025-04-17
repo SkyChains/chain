@@ -10,19 +10,19 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/snowtest"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/utils/timer/mockable"
-	"github.com/luxfi/node/vms/avm/config"
-	"github.com/luxfi/node/vms/avm/fxs"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/components/verify"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/snowtest"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/SkyChains/chain/vms/avm/config"
+	"github.com/SkyChains/chain/vms/avm/fxs"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 
-	safemath "github.com/luxfi/node/utils/math"
+	safemath "github.com/SkyChains/chain/utils/math"
 )
 
 var (

@@ -4,8 +4,8 @@
 package execute
 
 import (
-	"github.com/luxfi/node/vms/example/xsvm/block"
-	"github.com/luxfi/node/vms/example/xsvm/tx"
+	"github.com/SkyChains/chain/vms/example/xsvm/block"
+	"github.com/SkyChains/chain/vms/example/xsvm/tx"
 )
 
 var _ tx.Visitor = (*TxExpectsContext)(nil)

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/utils/constants"
+	"github.com/SkyChains/chain/utils/constants"
 )
 
 func TestWriteMsgLen(t *testing.T) {

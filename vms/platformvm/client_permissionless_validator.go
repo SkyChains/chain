@@ -6,10 +6,10 @@ package platformvm
 import (
 	"encoding/json"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/formatting/address"
-	"github.com/luxfi/node/vms/platformvm/api"
-	"github.com/luxfi/node/vms/platformvm/signer"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/formatting/address"
+	"github.com/SkyChains/chain/vms/platformvm/api"
+	"github.com/SkyChains/chain/vms/platformvm/signer"
 )
 
 // ClientStaker is the representation of a staker sent via client.

@@ -6,11 +6,11 @@ package executor
 import (
 	"time"
 
-	"github.com/luxfi/node/chains/atomic"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/platformvm/block"
-	"github.com/luxfi/node/vms/platformvm/state"
+	"github.com/SkyChains/chain/chains/atomic"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/platformvm/block"
+	"github.com/SkyChains/chain/vms/platformvm/state"
 )
 
 type proposalBlockState struct {

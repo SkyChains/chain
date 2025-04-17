@@ -3,7 +3,7 @@
 
 package lux
 
-import "github.com/luxfi/node/ids"
+import "github.com/SkyChains/chain/ids"
 
 // Removes the UTXOs consumed by [ins] from the UTXO set
 func Consume(utxoDB UTXODeleter, ins []*TransferableInput) {

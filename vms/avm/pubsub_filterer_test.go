@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/pubsub"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/pubsub"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 )
 
 type mockFilter struct {

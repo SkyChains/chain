@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 // Assert fields are set correctly.

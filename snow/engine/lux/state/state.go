@@ -6,13 +6,13 @@ package state
 import (
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/choices"
-	"github.com/luxfi/node/snow/engine/lux/vertex"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/choices"
+	"github.com/SkyChains/chain/snow/engine/lux/vertex"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 type state struct {

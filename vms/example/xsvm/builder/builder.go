@@ -7,17 +7,17 @@ import (
 	"context"
 	"time"
 
-	"github.com/luxfi/node/database/versiondb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/utils/linked"
-	"github.com/luxfi/node/vms/example/xsvm/chain"
-	"github.com/luxfi/node/vms/example/xsvm/execute"
-	"github.com/luxfi/node/vms/example/xsvm/tx"
+	"github.com/SkyChains/chain/database/versiondb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/linked"
+	"github.com/SkyChains/chain/vms/example/xsvm/chain"
+	"github.com/SkyChains/chain/vms/example/xsvm/execute"
+	"github.com/SkyChains/chain/vms/example/xsvm/tx"
 
-	smblock "github.com/luxfi/node/snow/engine/snowman/block"
-	xsblock "github.com/luxfi/node/vms/example/xsvm/block"
+	smblock "github.com/SkyChains/chain/snow/engine/snowman/block"
+	xsblock "github.com/SkyChains/chain/vms/example/xsvm/block"
 )
 
 const MaxTxsPerBlock = 10

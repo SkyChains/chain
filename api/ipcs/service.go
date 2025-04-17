@@ -11,12 +11,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/api"
-	"github.com/luxfi/node/chains"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/ipcs"
-	"github.com/luxfi/node/utils/json"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/chains"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/ipcs"
+	"github.com/SkyChains/chain/utils/json"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 type Service struct {

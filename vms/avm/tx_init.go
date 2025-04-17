@@ -6,9 +6,9 @@ package avm
 import (
 	"reflect"
 
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/vms/avm/fxs"
-	"github.com/luxfi/node/vms/avm/txs"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/vms/avm/fxs"
+	"github.com/SkyChains/chain/vms/avm/txs"
 )
 
 var _ txs.Visitor = (*txInit)(nil)

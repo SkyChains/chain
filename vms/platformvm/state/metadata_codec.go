@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/codec/linearcodec"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/codec/linearcodec"
 )
 
 const (

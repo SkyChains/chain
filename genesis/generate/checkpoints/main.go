@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/indexer"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/perms"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/indexer"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/perms"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 const (

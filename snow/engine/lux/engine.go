@@ -7,8 +7,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/engine/common"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/engine/common"
 )
 
 var (

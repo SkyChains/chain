@@ -6,13 +6,13 @@ package executor
 import (
 	"fmt"
 
-	"github.com/luxfi/node/chains/atomic"
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/avm/state"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/components/lux"
+	"github.com/SkyChains/chain/chains/atomic"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/avm/state"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/components/lux"
 )
 
 var _ txs.Visitor = (*Executor)(nil)

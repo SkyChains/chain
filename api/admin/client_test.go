@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/api"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/rpc"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/rpc"
 )
 
 var (

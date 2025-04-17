@@ -13,11 +13,11 @@ import (
 	"github.com/compose-spec/compose-go/types"
 	"gopkg.in/yaml.v3"
 
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/tests/fixture/tmpnet"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/perms"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/perms"
 )
 
 const bootstrapIndex = 0

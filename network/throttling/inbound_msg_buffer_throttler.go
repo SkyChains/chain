@@ -10,9 +10,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/metric"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/metric"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 // See inbound_msg_throttler.go

@@ -7,9 +7,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/version"
 )
 
 var _ Startup = (*startup)(nil)

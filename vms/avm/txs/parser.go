@@ -9,11 +9,11 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/codec/linearcodec"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/timer/mockable"
-	"github.com/luxfi/node/vms/avm/fxs"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/codec/linearcodec"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/SkyChains/chain/vms/avm/fxs"
 )
 
 // CodecVersion is the current default codec version

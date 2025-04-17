@@ -6,8 +6,8 @@ package merkledb
 import (
 	"slices"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/maybe"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/maybe"
 )
 
 // Representation of a node stored in the database.

@@ -8,11 +8,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/buffer"
-	"github.com/luxfi/node/utils/maybe"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/buffer"
+	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 var (

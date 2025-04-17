@@ -13,14 +13,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/heap"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/heap"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 
-	safemath "github.com/luxfi/node/utils/math"
+	safemath "github.com/SkyChains/chain/utils/math"
 )
 
 // If a peer consistently does not respond to queries, it will

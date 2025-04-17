@@ -4,8 +4,8 @@
 package nftfx
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms/fx"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms/fx"
 )
 
 const Name = "nftfx"

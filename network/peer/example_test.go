@@ -9,9 +9,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/luxfi/node/message"
-	"github.com/luxfi/node/snow/networking/router"
-	"github.com/luxfi/node/utils/constants"
+	"github.com/SkyChains/chain/message"
+	"github.com/SkyChains/chain/snow/networking/router"
+	"github.com/SkyChains/chain/utils/constants"
 )
 
 func ExampleStartTestPeer() {

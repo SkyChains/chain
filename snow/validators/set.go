@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/formatting"
-	"github.com/luxfi/node/utils/math"
-	"github.com/luxfi/node/utils/sampler"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/chain/utils/math"
+	"github.com/SkyChains/chain/utils/sampler"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 var (

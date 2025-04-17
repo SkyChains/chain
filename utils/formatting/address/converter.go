@@ -3,7 +3,7 @@
 
 package address
 
-import "github.com/luxfi/node/ids"
+import "github.com/SkyChains/chain/ids"
 
 func ParseToID(addrStr string) (ids.ShortID, error) {
 	_, _, addrBytes, err := Parse(addrStr)

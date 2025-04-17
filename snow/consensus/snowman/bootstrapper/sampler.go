@@ -6,9 +6,9 @@ package bootstrapper
 import (
 	"errors"
 
-	"github.com/luxfi/node/utils/math"
-	"github.com/luxfi/node/utils/sampler"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/utils/math"
+	"github.com/SkyChains/chain/utils/sampler"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 var errUnexpectedSamplerFailure = errors.New("unexpected sampler failure")

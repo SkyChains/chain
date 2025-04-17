@@ -13,10 +13,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/luxfi/node/node"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/perms"
-	"github.com/luxfi/node/utils/ulimit"
+	"github.com/SkyChains/chain/node"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/perms"
+	"github.com/SkyChains/chain/utils/ulimit"
 )
 
 const Header = `     _____               .__                       .__

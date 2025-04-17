@@ -8,9 +8,9 @@ import (
 
 	_ "embed"
 
-	"github.com/luxfi/node/utils/units"
-	"github.com/luxfi/node/vms/platformvm/reward"
-	"github.com/luxfi/node/vms/platformvm/txs/fee"
+	"github.com/SkyChains/chain/utils/units"
+	"github.com/SkyChains/chain/vms/platformvm/reward"
+	"github.com/SkyChains/chain/vms/platformvm/txs/fee"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/luxfi/node/api/health"
+	"github.com/SkyChains/chain/api/health"
 )
 
 // Waits for the nodes at the provided URIs to report healthy.

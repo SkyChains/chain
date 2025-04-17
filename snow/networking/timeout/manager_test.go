@@ -11,9 +11,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/networking/benchlist"
-	"github.com/luxfi/node/utils/timer"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/networking/benchlist"
+	"github.com/SkyChains/chain/utils/timer"
 )
 
 func TestManagerFire(t *testing.T) {

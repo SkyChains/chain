@@ -6,8 +6,8 @@ package avm
 import (
 	"cmp"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/vms/avm/txs"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/vms/avm/txs"
 )
 
 var _ utils.Sortable[*GenesisAsset] = (*GenesisAsset)(nil)

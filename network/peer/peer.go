@@ -17,19 +17,19 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/message"
-	"github.com/luxfi/node/proto/pb/p2p"
-	"github.com/luxfi/node/staking"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/bloom"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/ips"
-	"github.com/luxfi/node/utils/json"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/utils/wrappers"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/message"
+	"github.com/SkyChains/chain/proto/pb/p2p"
+	"github.com/SkyChains/chain/staking"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/bloom"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/ips"
+	"github.com/SkyChains/chain/utils/json"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/SkyChains/chain/version"
 )
 
 const (

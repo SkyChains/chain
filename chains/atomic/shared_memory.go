@@ -4,10 +4,10 @@
 package atomic
 
 import (
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/versiondb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/versiondb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils"
 )
 
 var _ SharedMemory = (*sharedMemory)(nil)

@@ -12,8 +12,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/network/throttling"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/network/throttling"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 var _ Dialer = (*dialer)(nil)

@@ -7,11 +7,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/luxfi/node/api/health"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/api/health"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 // Engine describes the standard interface of a consensus engine.

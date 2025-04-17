@@ -6,10 +6,10 @@ package vertex
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/consensus/lux"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/hashing"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/consensus/lux"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/hashing"
 )
 
 // Builder builds a vertex given a set of parentIDs and transactions.

@@ -6,7 +6,7 @@ package uptime
 import (
 	"time"
 
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/ids"
 )
 
 var NoOpCalculator Calculator = noOpCalculator{}

@@ -8,18 +8,18 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/luxfi/coreth/plugin/evm"
+	"github.com/SkyChains/coreth/plugin/evm"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/keychain"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/components/verify"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/keychain"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 )
 
 const version = 0
@@ -60,14 +60,14 @@ type SignerBackend interface {
 }
 
 type txSigner struct {
-	luxKC  keychain.Keychain
+	luxKC   keychain.Keychain
 	ethKC   EthKeychain
 	backend SignerBackend
 }
 
 func NewSigner(luxKC keychain.Keychain, ethKC EthKeychain, backend SignerBackend) Signer {
 	return &txSigner{
-		luxKC:  luxKC,
+		luxKC:   luxKC,
 		ethKC:   ethKC,
 		backend: backend,
 	}

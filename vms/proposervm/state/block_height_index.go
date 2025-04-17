@@ -4,11 +4,11 @@
 package state
 
 import (
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/database/versiondb"
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/database/versiondb"
+	"github.com/SkyChains/chain/ids"
 )
 
 const cacheSize = 8192 // max cache entries

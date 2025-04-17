@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 var _ Resolver = (*mockResolver)(nil)

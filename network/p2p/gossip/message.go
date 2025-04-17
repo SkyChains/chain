@@ -6,9 +6,9 @@ package gossip
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/proto/pb/sdk"
-	"github.com/luxfi/node/utils/bloom"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/proto/pb/sdk"
+	"github.com/SkyChains/chain/utils/bloom"
 )
 
 func MarshalAppRequest(filter, salt []byte) ([]byte, error) {

@@ -12,10 +12,10 @@ package txs
 import (
 	reflect "reflect"
 
-	ids "github.com/luxfi/node/ids"
-	snow "github.com/luxfi/node/snow"
-	set "github.com/luxfi/node/utils/set"
-	lux "github.com/luxfi/node/vms/components/lux"
+	ids "github.com/SkyChains/chain/ids"
+	snow "github.com/SkyChains/chain/snow"
+	set "github.com/SkyChains/chain/utils/set"
+	lux "github.com/SkyChains/chain/vms/components/lux"
 	gomock "go.uber.org/mock/gomock"
 )
 

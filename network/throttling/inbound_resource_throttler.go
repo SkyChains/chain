@@ -12,9 +12,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/networking/tracker"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/networking/tracker"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 )
 
 const epsilon = time.Millisecond

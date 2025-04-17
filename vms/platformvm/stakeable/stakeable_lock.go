@@ -6,7 +6,7 @@ package stakeable
 import (
 	"errors"
 
-	"github.com/luxfi/node/vms/components/lux"
+	"github.com/SkyChains/chain/vms/components/lux"
 )
 
 var (

@@ -6,10 +6,10 @@ package lux
 import (
 	"fmt"
 
-	"github.com/luxfi/node/chains/atomic"
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/chains/atomic"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 var _ AtomicUTXOManager = (*atomicUTXOManager)(nil)

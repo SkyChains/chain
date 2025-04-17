@@ -9,11 +9,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/vms/platformvm/block"
-	"github.com/luxfi/node/vms/platformvm/metrics"
-	"github.com/luxfi/node/vms/platformvm/state"
-	"github.com/luxfi/node/vms/platformvm/validators"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/vms/platformvm/block"
+	"github.com/SkyChains/chain/vms/platformvm/metrics"
+	"github.com/SkyChains/chain/vms/platformvm/state"
+	"github.com/SkyChains/chain/vms/platformvm/validators"
 )
 
 var (

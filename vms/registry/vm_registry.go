@@ -6,8 +6,8 @@ package registry
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms"
 )
 
 var _ VMRegistry = (*vmRegistry)(nil)

@@ -9,11 +9,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/message"
-	"github.com/luxfi/node/network/throttling"
-	"github.com/luxfi/node/utils/buffer"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/message"
+	"github.com/SkyChains/chain/network/throttling"
+	"github.com/SkyChains/chain/utils/buffer"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 const initialQueueSize = 64

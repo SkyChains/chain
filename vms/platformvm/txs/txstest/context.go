@@ -6,11 +6,11 @@ package txstest
 import (
 	"time"
 
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/vms/platformvm/config"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/platformvm/txs/fee"
-	"github.com/luxfi/node/wallet/chain/p/builder"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/vms/platformvm/config"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/platformvm/txs/fee"
+	"github.com/SkyChains/chain/wallet/chain/p/builder"
 )
 
 func newContext(

@@ -16,8 +16,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 var (

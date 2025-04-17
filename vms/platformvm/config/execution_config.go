@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/luxfi/node/utils/units"
-	"github.com/luxfi/node/vms/platformvm/network"
+	"github.com/SkyChains/chain/utils/units"
+	"github.com/SkyChains/chain/vms/platformvm/network"
 )
 
 var DefaultExecutionConfig = ExecutionConfig{

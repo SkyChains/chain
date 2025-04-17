@@ -7,8 +7,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/proto/pb/p2p"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/proto/pb/p2p"
 )
 
 var (

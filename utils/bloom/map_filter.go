@@ -6,7 +6,7 @@ package bloom
 import (
 	"sync"
 
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 type mapFilter struct {

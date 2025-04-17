@@ -4,8 +4,8 @@
 package math
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/heap"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/heap"
 )
 
 var _ AveragerHeap = (*averagerHeap)(nil)

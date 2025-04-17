@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/linked"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/utils/setmap"
-	"github.com/luxfi/node/utils/units"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/linked"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/utils/setmap"
+	"github.com/SkyChains/chain/utils/units"
 )
 
 const (

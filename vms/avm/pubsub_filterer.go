@@ -4,10 +4,10 @@
 package avm
 
 import (
-	"github.com/luxfi/node/api"
-	"github.com/luxfi/node/pubsub"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/components/lux"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/pubsub"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/components/lux"
 )
 
 var _ pubsub.Filterer = (*connector)(nil)

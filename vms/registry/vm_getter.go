@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/luxfi/node/api/metrics"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/filesystem"
-	"github.com/luxfi/node/utils/resource"
-	"github.com/luxfi/node/vms"
-	"github.com/luxfi/node/vms/rpcchainvm"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime"
+	"github.com/SkyChains/chain/api/metrics"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/filesystem"
+	"github.com/SkyChains/chain/utils/resource"
+	"github.com/SkyChains/chain/vms"
+	"github.com/SkyChains/chain/vms/rpcchainvm"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
 )
 
 var (

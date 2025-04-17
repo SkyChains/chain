@@ -7,10 +7,10 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/proto/pb/p2p"
-	"github.com/luxfi/node/utils/compression"
-	"github.com/luxfi/node/utils/ips"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/proto/pb/p2p"
+	"github.com/SkyChains/chain/utils/compression"
+	"github.com/SkyChains/chain/utils/ips"
 )
 
 var _ OutboundMsgBuilder = (*outMsgBuilder)(nil)

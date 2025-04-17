@@ -3,7 +3,7 @@
 
 package merkledb
 
-import "github.com/luxfi/node/trace"
+import "github.com/SkyChains/chain/trace"
 
 const (
 	DebugTrace TraceLevel = iota - 1

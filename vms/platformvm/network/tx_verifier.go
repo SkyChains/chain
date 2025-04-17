@@ -6,7 +6,7 @@ package network
 import (
 	"sync"
 
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 )
 
 var _ TxVerifier = (*LockedTxVerifier)(nil)

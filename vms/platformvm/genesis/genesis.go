@@ -4,8 +4,8 @@
 package genesis
 
 import (
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 )
 
 // UTXO adds messages to UTXOs

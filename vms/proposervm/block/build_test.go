@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/staking"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/staking"
 )
 
 func TestBuild(t *testing.T) {

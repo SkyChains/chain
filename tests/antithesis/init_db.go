@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/luxfi/node/tests/fixture/tmpnet"
-	"github.com/luxfi/node/utils/perms"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/utils/perms"
 )
 
 // Given a path, compose the expected path of the bootstrap node's docker compose db volume.

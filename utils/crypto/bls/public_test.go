@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/utils"
+	"github.com/SkyChains/chain/utils"
 )
 
 func TestPublicKeyFromCompressedBytesWrongSize(t *testing.T) {

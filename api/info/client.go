@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/rpc"
-	"github.com/luxfi/node/vms/platformvm/signer"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/SkyChains/chain/vms/platformvm/signer"
 )
 
 var _ Client = (*client)(nil)

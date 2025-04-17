@@ -6,9 +6,9 @@ package gwarp
 import (
 	"context"
 
-	"github.com/luxfi/node/vms/platformvm/warp"
+	"github.com/SkyChains/chain/vms/platformvm/warp"
 
-	pb "github.com/luxfi/node/proto/pb/warp"
+	pb "github.com/SkyChains/chain/proto/pb/warp"
 )
 
 var _ warp.Signer = (*Client)(nil)

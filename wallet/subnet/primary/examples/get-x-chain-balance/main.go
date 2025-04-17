@@ -8,12 +8,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/luxfi/node/utils/formatting/address"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/wallet/chain/x"
-	"github.com/luxfi/node/wallet/chain/x/builder"
-	"github.com/luxfi/node/wallet/subnet/primary"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/utils/formatting/address"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/wallet/chain/x"
+	"github.com/SkyChains/chain/wallet/chain/x/builder"
+	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 )
 
 func main() {

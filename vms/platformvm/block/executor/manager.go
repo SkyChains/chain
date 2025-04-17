@@ -6,16 +6,16 @@ package executor
 import (
 	"errors"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/consensus/snowman"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/platformvm/block"
-	"github.com/luxfi/node/vms/platformvm/metrics"
-	"github.com/luxfi/node/vms/platformvm/state"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/platformvm/txs/executor"
-	"github.com/luxfi/node/vms/platformvm/txs/mempool"
-	"github.com/luxfi/node/vms/platformvm/validators"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/platformvm/block"
+	"github.com/SkyChains/chain/vms/platformvm/metrics"
+	"github.com/SkyChains/chain/vms/platformvm/state"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/platformvm/txs/executor"
+	"github.com/SkyChains/chain/vms/platformvm/txs/mempool"
+	"github.com/SkyChains/chain/vms/platformvm/validators"
 )
 
 var (

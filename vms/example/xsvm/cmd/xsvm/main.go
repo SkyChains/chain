@@ -10,11 +10,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/luxfi/node/vms/example/xsvm/cmd/account"
-	"github.com/luxfi/node/vms/example/xsvm/cmd/chain"
-	"github.com/luxfi/node/vms/example/xsvm/cmd/issue"
-	"github.com/luxfi/node/vms/example/xsvm/cmd/run"
-	"github.com/luxfi/node/vms/example/xsvm/cmd/version"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/account"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/chain"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/run"
+	"github.com/SkyChains/chain/vms/example/xsvm/cmd/version"
 )
 
 func init() {

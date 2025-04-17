@@ -6,18 +6,18 @@ package txs
 import (
 	"fmt"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/network/p2p/gossip"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/avm/fxs"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/nftfx"
-	"github.com/luxfi/node/vms/propertyfx"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/network/p2p/gossip"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/avm/fxs"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/nftfx"
+	"github.com/SkyChains/chain/vms/propertyfx"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 )
 
 var _ gossip.Gossipable = (*Tx)(nil)

@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/luxfi/node/vms/components/verify"
+	"github.com/SkyChains/chain/vms/components/verify"
 )
 
 var (

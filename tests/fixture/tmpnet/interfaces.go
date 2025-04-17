@@ -7,8 +7,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/node"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/node"
 )
 
 // Defines network capabilities supportable regardless of how a network is orchestrated.

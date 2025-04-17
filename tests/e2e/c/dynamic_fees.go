@@ -9,17 +9,17 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/luxfi/coreth/core/types"
-	"github.com/luxfi/coreth/params"
-	"github.com/luxfi/coreth/plugin/evm"
+	"github.com/SkyChains/coreth/core/types"
+	"github.com/SkyChains/coreth/params"
+	"github.com/SkyChains/coreth/plugin/evm"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/tests"
-	"github.com/luxfi/node/tests/fixture/e2e"
-	"github.com/luxfi/node/tests/fixture/tmpnet"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/tests"
+	"github.com/SkyChains/chain/tests/fixture/e2e"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

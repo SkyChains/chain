@@ -11,7 +11,7 @@ import (
 
 	"github.com/Microsoft/go-winio"
 
-	"github.com/luxfi/node/utils/constants"
+	"github.com/SkyChains/chain/utils/constants"
 )
 
 // listen creates a net.Listen backed by a Windows named pipe

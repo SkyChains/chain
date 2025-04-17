@@ -6,15 +6,15 @@ package p
 import (
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/wallet/chain/p/builder"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/wallet/chain/p/builder"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 
-	vmsigner "github.com/luxfi/node/vms/platformvm/signer"
-	walletsigner "github.com/luxfi/node/wallet/chain/p/signer"
+	vmsigner "github.com/SkyChains/chain/vms/platformvm/signer"
+	walletsigner "github.com/SkyChains/chain/wallet/chain/p/signer"
 )
 
 var _ Wallet = (*walletWithOptions)(nil)

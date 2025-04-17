@@ -19,18 +19,18 @@ user on a node it exists _only_ on that node. However, users may be imported and
 API.
 
 For validation and cross-chain transfer on the Mainnet, you should issue transactions through
-[LuxJS](/tooling/luxjs-overview). That way control keys for your funds won't be stored on
+[LuxJS](/tooling/js-sdk-overview). That way control keys for your funds won't be stored on
 the node, which significantly lowers the risk should a computer running a node be compromised. See
 following docs for details:
 
 - Transfer LUX Tokens Between Chains:
 
-  - C-Chain: [export](https://github.com/luxfi/luxjs/blob/master/examples/c-chain/export.ts) and
-    [import](https://github.com/luxfi/luxjs/blob/master/examples/c-chain/import.ts)
-  - P-Chain: [export](https://github.com/luxfi/luxjs/blob/master/examples/p-chain/export.ts) and
-    [import](https://github.com/luxfi/luxjs/blob/master/examples/p-chain/import.ts)
-  - X-Chain: [export](https://github.com/luxfi/luxjs/blob/master/examples/x-chain/export.ts) and
-    [import](https://github.com/luxfi/luxjs/blob/master/examples/x-chain/import.ts)
+  - C-Chain: [export](https://github.com/SkyChains/js-sdk/blob/master/examples/c-chain/export.ts) and
+    [import](https://github.com/SkyChains/js-sdk/blob/master/examples/c-chain/import.ts)
+  - P-Chain: [export](https://github.com/SkyChains/js-sdk/blob/master/examples/p-chain/export.ts) and
+    [import](https://github.com/SkyChains/js-sdk/blob/master/examples/p-chain/import.ts)
+  - X-Chain: [export](https://github.com/SkyChains/js-sdk/blob/master/examples/x-chain/export.ts) and
+    [import](https://github.com/SkyChains/js-sdk/blob/master/examples/x-chain/import.ts)
 
 - [Add a Node to the Validator Set](/nodes/validate/add-a-validator)
 
@@ -57,7 +57,7 @@ This API uses the `json 2.0` API format. For more information on making JSON RPC
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -106,7 +106,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -146,7 +146,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -203,7 +203,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -255,7 +255,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/luxfi/node/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
 
 :::
 

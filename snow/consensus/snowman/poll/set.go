@@ -12,11 +12,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/bag"
-	"github.com/luxfi/node/utils/linked"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/metric"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/bag"
+	"github.com/SkyChains/chain/utils/linked"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/metric"
 )
 
 var (

@@ -6,12 +6,12 @@ package builder
 import (
 	"context"
 
-	"github.com/luxfi/node/api/info"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/avm"
+	"github.com/SkyChains/chain/api/info"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/avm"
 )
 
 const Alias = "P"

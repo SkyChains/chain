@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"slices"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 const (

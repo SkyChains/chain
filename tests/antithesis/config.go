@@ -10,8 +10,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/wallet/subnet/primary"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/wallet/subnet/primary"
 )
 
 const (

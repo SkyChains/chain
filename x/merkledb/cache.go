@@ -7,8 +7,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/luxfi/node/utils/linked"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/utils/linked"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 var errEmptyCacheTooLarge = errors.New("cache is empty yet still too large")

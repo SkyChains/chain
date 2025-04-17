@@ -8,8 +8,8 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
 )
 
 func NewStopper(logger logging.Logger, cmd *exec.Cmd) runtime.Stopper {

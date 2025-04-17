@@ -6,8 +6,8 @@ package validators
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/version"
 )
 
 // Connector represents a handler that is called when a connection is marked as

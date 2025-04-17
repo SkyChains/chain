@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/cb58"
-	"github.com/luxfi/node/utils/hashing"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/cb58"
+	"github.com/SkyChains/chain/utils/hashing"
 )
 
 const ShortIDLen = 20

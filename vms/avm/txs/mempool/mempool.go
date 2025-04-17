@@ -6,10 +6,10 @@ package mempool
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/vms/avm/txs"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/vms/avm/txs"
 
-	txmempool "github.com/luxfi/node/vms/txs/mempool"
+	txmempool "github.com/SkyChains/chain/vms/txs/mempool"
 )
 
 var _ Mempool = (*mempool)(nil)

@@ -7,12 +7,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/vms/example/xsvm/state"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/vms/example/xsvm/state"
 
-	smblock "github.com/luxfi/node/snow/engine/snowman/block"
-	xsblock "github.com/luxfi/node/vms/example/xsvm/block"
+	smblock "github.com/SkyChains/chain/snow/engine/snowman/block"
+	xsblock "github.com/SkyChains/chain/vms/example/xsvm/block"
 )
 
 var errNoTxs = errors.New("no transactions")

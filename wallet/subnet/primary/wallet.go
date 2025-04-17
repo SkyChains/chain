@@ -6,20 +6,20 @@ package primary
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/keychain"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/wallet/chain/c"
-	"github.com/luxfi/node/wallet/chain/p"
-	"github.com/luxfi/node/wallet/chain/x"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/keychain"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/wallet/chain/c"
+	"github.com/SkyChains/chain/wallet/chain/p"
+	"github.com/SkyChains/chain/wallet/chain/x"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 
-	pbuilder "github.com/luxfi/node/wallet/chain/p/builder"
-	psigner "github.com/luxfi/node/wallet/chain/p/signer"
-	xbuilder "github.com/luxfi/node/wallet/chain/x/builder"
-	xsigner "github.com/luxfi/node/wallet/chain/x/signer"
+	pbuilder "github.com/SkyChains/chain/wallet/chain/p/builder"
+	psigner "github.com/SkyChains/chain/wallet/chain/p/signer"
+	xbuilder "github.com/SkyChains/chain/wallet/chain/x/builder"
+	xsigner "github.com/SkyChains/chain/wallet/chain/x/signer"
 )
 
 var _ Wallet = (*wallet)(nil)

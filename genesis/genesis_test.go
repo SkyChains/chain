@@ -17,11 +17,11 @@ import (
 
 	_ "embed"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/utils/perms"
-	"github.com/luxfi/node/vms/platformvm/genesis"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/utils/perms"
+	"github.com/SkyChains/chain/vms/platformvm/genesis"
 )
 
 var (

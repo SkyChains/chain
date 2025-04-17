@@ -14,12 +14,12 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/maybe"
-	"github.com/luxfi/node/x/merkledb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/SkyChains/chain/x/merkledb"
 
-	pb "github.com/luxfi/node/proto/pb/sync"
+	pb "github.com/SkyChains/chain/proto/pb/sync"
 )
 
 const (

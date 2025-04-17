@@ -11,10 +11,10 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/utils/units"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/utils/units"
 
-	rpcdbpb "github.com/luxfi/node/proto/pb/rpcdb"
+	rpcdbpb "github.com/SkyChains/chain/proto/pb/rpcdb"
 )
 
 const iterationBatchSize = 128 * units.KiB

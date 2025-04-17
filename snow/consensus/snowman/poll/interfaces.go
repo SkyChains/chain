@@ -6,9 +6,9 @@ package poll
 import (
 	"fmt"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/bag"
-	"github.com/luxfi/node/utils/formatting"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/bag"
+	"github.com/SkyChains/chain/utils/formatting"
 )
 
 // Set is a collection of polls

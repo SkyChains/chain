@@ -9,11 +9,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/crypto/bls"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/crypto/bls"
 
-	pb "github.com/luxfi/node/proto/pb/validatorstate"
+	pb "github.com/SkyChains/chain/proto/pb/validatorstate"
 )
 
 var (

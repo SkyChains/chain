@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
 )
 
 var (

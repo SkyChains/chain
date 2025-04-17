@@ -4,9 +4,9 @@
 package pubsub
 
 import (
-	"github.com/luxfi/node/api"
-	"github.com/luxfi/node/utils/formatting/address"
-	"github.com/luxfi/node/utils/json"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/utils/formatting/address"
+	"github.com/SkyChains/chain/utils/json"
 )
 
 // NewBloom command for a new bloom filter

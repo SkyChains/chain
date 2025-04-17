@@ -7,14 +7,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/choices"
-	"github.com/luxfi/node/snow/consensus/snowman"
-	"github.com/luxfi/node/snow/engine/snowman/block"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/choices"
+	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/utils/wrappers"
 
-	statelessblock "github.com/luxfi/node/vms/proposervm/block"
+	statelessblock "github.com/SkyChains/chain/vms/proposervm/block"
 )
 
 var _ block.BatchedChainVM = (*VM)(nil)

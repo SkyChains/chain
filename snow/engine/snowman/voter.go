@@ -8,9 +8,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/engine/snowman/job"
-	"github.com/luxfi/node/utils/bag"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/engine/snowman/job"
+	"github.com/SkyChains/chain/utils/bag"
 )
 
 var _ job.Job[ids.ID] = (*voter)(nil)

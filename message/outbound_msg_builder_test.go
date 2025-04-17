@@ -10,9 +10,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/compression"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/compression"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func Test_newOutboundBuilder(t *testing.T) {

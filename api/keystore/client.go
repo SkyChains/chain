@@ -6,9 +6,9 @@ package keystore
 import (
 	"context"
 
-	"github.com/luxfi/node/api"
-	"github.com/luxfi/node/utils/formatting"
-	"github.com/luxfi/node/utils/rpc"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/chain/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

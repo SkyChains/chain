@@ -11,14 +11,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/bloom"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/ips"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/sampler"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/bloom"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/ips"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/sampler"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 const (

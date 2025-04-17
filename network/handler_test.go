@@ -4,9 +4,9 @@
 package network
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/networking/router"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/networking/router"
+	"github.com/SkyChains/chain/version"
 )
 
 var _ router.ExternalHandler = (*testHandler)(nil)

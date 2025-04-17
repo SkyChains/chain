@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/luxfi/node/api/metrics"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/validators"
+	"github.com/SkyChains/chain/api/metrics"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/validators"
 )
 
 var _ Manager = (*manager)(nil)

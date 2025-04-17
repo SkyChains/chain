@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/buffer"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/buffer"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 )
 
 var _ Window[struct{}] = (*window[struct{}])(nil)

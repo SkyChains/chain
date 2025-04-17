@@ -6,9 +6,9 @@ package fee
 import (
 	"time"
 
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/platformvm/upgrade"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/platformvm/upgrade"
 )
 
 var _ txs.Visitor = (*calculator)(nil)

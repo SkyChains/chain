@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/vms/avm/txs"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/vms/avm/txs"
 )
 
 var _ Block = (*StandardBlock)(nil)

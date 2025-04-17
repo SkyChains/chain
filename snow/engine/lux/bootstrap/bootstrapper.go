@@ -9,18 +9,18 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/proto/pb/p2p"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/choices"
-	"github.com/luxfi/node/snow/consensus/lux"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/utils/bimap"
-	"github.com/luxfi/node/utils/heap"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/proto/pb/p2p"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/choices"
+	"github.com/SkyChains/chain/snow/consensus/lux"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/bimap"
+	"github.com/SkyChains/chain/utils/heap"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/version"
 )
 
 const (

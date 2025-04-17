@@ -6,8 +6,8 @@ package proposervm
 import (
 	"context"
 
-	"github.com/luxfi/node/snow/engine/snowman/block"
-	"github.com/luxfi/node/vms/proposervm/summary"
+	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/SkyChains/chain/vms/proposervm/summary"
 )
 
 var _ block.StateSummary = (*stateSummary)(nil)

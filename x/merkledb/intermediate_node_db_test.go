@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/memdb"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/maybe"
-	"github.com/luxfi/node/utils/units"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/SkyChains/chain/utils/units"
 )
 
 // Tests:

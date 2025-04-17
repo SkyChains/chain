@@ -6,7 +6,7 @@ package cache
 import (
 	"sync"
 
-	"github.com/luxfi/node/utils/linked"
+	"github.com/SkyChains/chain/utils/linked"
 )
 
 var _ Deduplicator[struct{}, Evictable[struct{}]] = (*EvictableLRU[struct{}, Evictable[struct{}]])(nil)

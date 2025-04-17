@@ -15,21 +15,21 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/luxfi/coreth/core"
-	"github.com/luxfi/coreth/params"
-	"github.com/luxfi/coreth/plugin/evm"
+	"github.com/SkyChains/coreth/core"
+	"github.com/SkyChains/coreth/params"
+	"github.com/SkyChains/coreth/plugin/evm"
 
-	"github.com/luxfi/node/config"
-	"github.com/luxfi/node/genesis"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/staking"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/crypto/secp256k1"
-	"github.com/luxfi/node/utils/formatting/address"
-	"github.com/luxfi/node/utils/perms"
-	"github.com/luxfi/node/utils/units"
-	"github.com/luxfi/node/vms/platformvm/reward"
+	"github.com/SkyChains/chain/config"
+	"github.com/SkyChains/chain/genesis"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/staking"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/SkyChains/chain/utils/formatting/address"
+	"github.com/SkyChains/chain/utils/perms"
+	"github.com/SkyChains/chain/utils/units"
+	"github.com/SkyChains/chain/vms/platformvm/reward"
 )
 
 const (
@@ -342,7 +342,7 @@ func NewTestGenesis(
 	// The eth address is only needed to link pre-mainnet assets. Until that capability
 	// becomes necessary for testing, use a bogus address.
 	//
-	// Reference: https://github.com/luxfi/node/issues/1365#issuecomment-1511508767
+	// Reference: https://github.com/SkyChains/chain/issues/1365#issuecomment-1511508767
 	ethAddress := "0x0000000000000000000000000000000000000000"
 
 	now := time.Now()
@@ -352,7 +352,7 @@ func NewTestGenesis(
 		Allocations: []genesis.UnparsedAllocation{
 			{
 				ETHAddr:       ethAddress,
-				LUXAddr:      stakeAddress,
+				LUXAddr:       stakeAddress,
 				InitialAmount: 0,
 				UnlockSchedule: []genesis.LockedAmount{ // Provides stake to validators
 					{
@@ -379,7 +379,7 @@ func NewTestGenesis(
 			config.Allocations,
 			genesis.UnparsedAllocation{
 				ETHAddr:       ethAddress,
-				LUXAddr:      luxAddr,
+				LUXAddr:       luxAddr,
 				InitialAmount: balance,
 				UnlockSchedule: []genesis.LockedAmount{
 					{

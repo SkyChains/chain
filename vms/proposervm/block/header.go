@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/luxfi/node/ids"
+import "github.com/SkyChains/chain/ids"
 
 type Header interface {
 	ChainID() ids.ID

@@ -6,17 +6,17 @@ package executor
 import (
 	"errors"
 
-	"github.com/luxfi/node/chains/atomic"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/consensus/snowman"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/utils/timer/mockable"
-	"github.com/luxfi/node/vms/avm/block"
-	"github.com/luxfi/node/vms/avm/metrics"
-	"github.com/luxfi/node/vms/avm/state"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/avm/txs/executor"
-	"github.com/luxfi/node/vms/avm/txs/mempool"
+	"github.com/SkyChains/chain/chains/atomic"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/SkyChains/chain/vms/avm/block"
+	"github.com/SkyChains/chain/vms/avm/metrics"
+	"github.com/SkyChains/chain/vms/avm/state"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/avm/txs/executor"
+	"github.com/SkyChains/chain/vms/avm/txs/mempool"
 )
 
 var (

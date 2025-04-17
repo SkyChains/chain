@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/database/memdb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/formatting"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms"
-	"github.com/luxfi/node/vms/registry"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms"
+	"github.com/SkyChains/chain/vms/registry"
 
-	rpcdbpb "github.com/luxfi/node/proto/pb/rpcdb"
+	rpcdbpb "github.com/SkyChains/chain/proto/pb/rpcdb"
 )
 
 type loadVMsTest struct {

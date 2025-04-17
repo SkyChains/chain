@@ -10,10 +10,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/bloom"
-	"github.com/luxfi/node/utils/ips"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/bloom"
+	"github.com/SkyChains/chain/utils/ips"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func newTestIPTracker(t *testing.T) *ipTracker {

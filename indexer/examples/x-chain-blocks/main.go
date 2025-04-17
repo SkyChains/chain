@@ -8,11 +8,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/indexer"
-	"github.com/luxfi/node/vms/proposervm/block"
-	"github.com/luxfi/node/wallet/chain/x/builder"
-	"github.com/luxfi/node/wallet/subnet/primary"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/indexer"
+	"github.com/SkyChains/chain/vms/proposervm/block"
+	"github.com/SkyChains/chain/wallet/chain/x/builder"
+	"github.com/SkyChains/chain/wallet/subnet/primary"
 )
 
 // This example program continuously polls for the next X-Chain block

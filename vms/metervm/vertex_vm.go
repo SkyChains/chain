@@ -8,12 +8,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/consensus/snowstorm"
-	"github.com/luxfi/node/snow/engine/lux/vertex"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/consensus/snowstorm"
+	"github.com/SkyChains/chain/snow/engine/lux/vertex"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 )
 
 var (

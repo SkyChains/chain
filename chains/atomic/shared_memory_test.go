@@ -6,9 +6,9 @@ package atomic
 import (
 	"testing"
 
-	"github.com/luxfi/node/database/memdb"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/ids"
 )
 
 func TestSharedMemory(t *testing.T) {

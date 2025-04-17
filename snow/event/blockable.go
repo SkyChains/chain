@@ -6,8 +6,8 @@ package event
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 // Blockable defines what an object must implement to be able to block on

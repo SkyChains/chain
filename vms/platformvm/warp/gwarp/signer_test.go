@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/vms/platformvm/warp"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
 
-	pb "github.com/luxfi/node/proto/pb/warp"
+	pb "github.com/SkyChains/chain/proto/pb/warp"
 )
 
 type testSigner struct {

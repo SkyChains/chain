@@ -3,7 +3,7 @@
 
 package linked
 
-import "github.com/luxfi/node/utils"
+import "github.com/SkyChains/chain/utils"
 
 type keyValue[K, V any] struct {
 	key   K

@@ -6,9 +6,9 @@ package ipcs
 import (
 	"context"
 
-	"github.com/luxfi/node/api"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/rpc"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

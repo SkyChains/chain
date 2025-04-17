@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/networking/tracker"
-	"github.com/luxfi/node/utils/math/meter"
-	"github.com/luxfi/node/utils/resource"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/networking/tracker"
+	"github.com/SkyChains/chain/utils/math/meter"
+	"github.com/SkyChains/chain/utils/resource"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 )
 
 func TestNewSystemThrottler(t *testing.T) {

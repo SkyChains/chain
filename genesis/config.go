@@ -13,12 +13,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/formatting/address"
-	"github.com/luxfi/node/utils/math"
-	"github.com/luxfi/node/vms/platformvm/signer"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/formatting/address"
+	"github.com/SkyChains/chain/utils/math"
+	"github.com/SkyChains/chain/vms/platformvm/signer"
 )
 
 var (

@@ -13,19 +13,19 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/avm/block/executor"
-	"github.com/luxfi/node/vms/avm/fxs"
-	"github.com/luxfi/node/vms/avm/txs"
-	"github.com/luxfi/node/vms/nftfx"
-	"github.com/luxfi/node/vms/propertyfx"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/vms/txs/mempool"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/avm/block/executor"
+	"github.com/SkyChains/chain/vms/avm/fxs"
+	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/SkyChains/chain/vms/nftfx"
+	"github.com/SkyChains/chain/vms/propertyfx"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/vms/txs/mempool"
 
-	xmempool "github.com/luxfi/node/vms/avm/txs/mempool"
+	xmempool "github.com/SkyChains/chain/vms/avm/txs/mempool"
 )
 
 var (

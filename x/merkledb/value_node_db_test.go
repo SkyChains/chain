@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/memdb"
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/maybe"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/memdb"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/maybe"
 )
 
 // Test putting, modifying, deleting, and getting key-node pairs.

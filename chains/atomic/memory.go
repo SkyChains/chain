@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/hashing"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/hashing"
 )
 
 type rcLock struct {

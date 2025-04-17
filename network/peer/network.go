@@ -4,9 +4,9 @@
 package peer
 
 import (
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/bloom"
-	"github.com/luxfi/node/utils/ips"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/bloom"
+	"github.com/SkyChains/chain/utils/ips"
 )
 
 // Network defines the interface that is used by a peer to help establish a well

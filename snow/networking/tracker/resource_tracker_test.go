@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/math/meter"
-	"github.com/luxfi/node/utils/resource"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/math/meter"
+	"github.com/SkyChains/chain/utils/resource"
 )
 
 func TestNewCPUTracker(t *testing.T) {

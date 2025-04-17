@@ -15,34 +15,34 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/cache/metercacher"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/database/linkeddb"
-	"github.com/luxfi/node/database/prefixdb"
-	"github.com/luxfi/node/database/versiondb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/snow/choices"
-	"github.com/luxfi/node/snow/uptime"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/crypto/bls"
-	"github.com/luxfi/node/utils/hashing"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/timer"
-	"github.com/luxfi/node/utils/wrappers"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/platformvm/block"
-	"github.com/luxfi/node/vms/platformvm/config"
-	"github.com/luxfi/node/vms/platformvm/fx"
-	"github.com/luxfi/node/vms/platformvm/genesis"
-	"github.com/luxfi/node/vms/platformvm/metrics"
-	"github.com/luxfi/node/vms/platformvm/reward"
-	"github.com/luxfi/node/vms/platformvm/status"
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/cache/metercacher"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/database/linkeddb"
+	"github.com/SkyChains/chain/database/prefixdb"
+	"github.com/SkyChains/chain/database/versiondb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/snow/choices"
+	"github.com/SkyChains/chain/snow/uptime"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/timer"
+	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/platformvm/block"
+	"github.com/SkyChains/chain/vms/platformvm/config"
+	"github.com/SkyChains/chain/vms/platformvm/fx"
+	"github.com/SkyChains/chain/vms/platformvm/genesis"
+	"github.com/SkyChains/chain/vms/platformvm/metrics"
+	"github.com/SkyChains/chain/vms/platformvm/reward"
+	"github.com/SkyChains/chain/vms/platformvm/status"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 
-	safemath "github.com/luxfi/node/utils/math"
+	safemath "github.com/SkyChains/chain/utils/math"
 )
 
 const (
@@ -198,7 +198,7 @@ type State interface {
 	Close() error
 }
 
-// Prior to https://github.com/luxfi/node/pull/1719, blocks were
+// Prior to https://github.com/SkyChains/chain/pull/1719, blocks were
 // stored as a map from blkID to stateBlk. Nodes synced prior to this PR may
 // still have blocks partially stored using this legacy format.
 //

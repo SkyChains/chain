@@ -6,8 +6,8 @@ package common
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 // SendConfig is used to specify who to send messages to over the p2p network.

@@ -6,9 +6,9 @@ package p
 import (
 	stdcontext "context"
 
-	"github.com/luxfi/node/api/info"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/vms/avm"
+	"github.com/SkyChains/chain/api/info"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/vms/avm"
 )
 
 var _ Context = (*context)(nil)

@@ -4,7 +4,7 @@
 package sampler
 
 import (
-	safemath "github.com/luxfi/node/utils/math"
+	safemath "github.com/SkyChains/chain/utils/math"
 )
 
 type weightedWithoutReplacementGeneric struct {

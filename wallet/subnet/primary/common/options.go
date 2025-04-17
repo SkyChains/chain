@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )

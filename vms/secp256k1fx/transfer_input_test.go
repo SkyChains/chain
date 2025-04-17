@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/codec/linearcodec"
-	"github.com/luxfi/node/vms/components/verify"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/codec/linearcodec"
+	"github.com/SkyChains/chain/vms/components/verify"
 )
 
 func TestTransferInputAmount(t *testing.T) {

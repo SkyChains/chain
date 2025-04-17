@@ -13,8 +13,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/luxfi/node/ids"
-	set "github.com/luxfi/node/utils/set"
+	ids "github.com/SkyChains/chain/ids"
+	set "github.com/SkyChains/chain/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -6,12 +6,12 @@ package state
 import (
 	"time"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/utils/set"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/utils/set"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 // preDelegateeRewardSize is the size of codec marshalling

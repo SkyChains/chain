@@ -7,9 +7,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/json"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/json"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 type Info struct {

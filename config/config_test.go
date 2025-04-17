@@ -16,10 +16,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/chains"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/consensus/snowball"
-	"github.com/luxfi/node/subnets"
+	"github.com/SkyChains/chain/chains"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/consensus/snowball"
+	"github.com/SkyChains/chain/subnets"
 )
 
 const chainConfigFilenameExtention = ".ex"

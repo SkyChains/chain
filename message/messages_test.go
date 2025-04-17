@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/proto/pb/p2p"
-	"github.com/luxfi/node/staking"
-	"github.com/luxfi/node/utils/compression"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/proto/pb/p2p"
+	"github.com/SkyChains/chain/staking"
+	"github.com/SkyChains/chain/utils/compression"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func TestMessage(t *testing.T) {

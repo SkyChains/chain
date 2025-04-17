@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/luxfi/node/utils/units"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/utils/units"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 const (

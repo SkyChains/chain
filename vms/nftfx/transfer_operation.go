@@ -6,9 +6,9 @@ package nftfx
 import (
 	"errors"
 
-	"github.com/luxfi/node/snow"
-	"github.com/luxfi/node/vms/components/verify"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/snow"
+	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 )
 
 var errNilTransferOperation = errors.New("nil transfer operation")

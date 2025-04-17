@@ -6,10 +6,10 @@ package vertex
 import (
 	"errors"
 
-	"github.com/luxfi/node/codec"
-	"github.com/luxfi/node/codec/linearcodec"
-	"github.com/luxfi/node/codec/reflectcodec"
-	"github.com/luxfi/node/utils/units"
+	"github.com/SkyChains/chain/codec"
+	"github.com/SkyChains/chain/codec/linearcodec"
+	"github.com/SkyChains/chain/codec/reflectcodec"
+	"github.com/SkyChains/chain/utils/units"
 )
 
 const (

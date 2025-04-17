@@ -7,11 +7,11 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/luxfi/node/vms/rpcchainvm/ghttp/gresponsewriter"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/vms/rpcchainvm/ghttp/gresponsewriter"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
 
-	httppb "github.com/luxfi/node/proto/pb/http"
-	responsewriterpb "github.com/luxfi/node/proto/pb/http/responsewriter"
+	httppb "github.com/SkyChains/chain/proto/pb/http"
+	responsewriterpb "github.com/SkyChains/chain/proto/pb/http/responsewriter"
 )
 
 var _ http.Handler = (*Client)(nil)

@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/cb58"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/cb58"
 )
 
 func TestID(t *testing.T) {

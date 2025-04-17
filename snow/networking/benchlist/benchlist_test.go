@@ -10,9 +10,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/snowtest"
-	"github.com/luxfi/node/snow/validators"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/snowtest"
+	"github.com/SkyChains/chain/snow/validators"
 )
 
 var minimumFailingDuration = 5 * time.Minute

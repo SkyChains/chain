@@ -14,17 +14,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/luxfi/coreth/core/types"
-	"github.com/luxfi/coreth/ethclient"
-	"github.com/luxfi/coreth/interfaces"
+	"github.com/SkyChains/coreth/core/types"
+	"github.com/SkyChains/coreth/ethclient"
+	"github.com/SkyChains/coreth/interfaces"
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/tests"
-	"github.com/luxfi/node/tests/fixture/tmpnet"
-	"github.com/luxfi/node/vms/secp256k1fx"
-	"github.com/luxfi/node/wallet/subnet/primary"
-	"github.com/luxfi/node/wallet/subnet/primary/common"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/tests"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/SkyChains/chain/wallet/subnet/primary/common"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )
@@ -59,9 +59,9 @@ const (
 func NewWallet(keychain *secp256k1fx.Keychain, nodeURI tmpnet.NodeURI) primary.Wallet {
 	tests.Outf("{{blue}} initializing a new wallet for node %s with URI: %s {{/}}\n", nodeURI.NodeID, nodeURI.URI)
 	baseWallet, err := primary.MakeWallet(DefaultContext(), &primary.WalletConfig{
-		URI:          nodeURI.URI,
+		URI:         nodeURI.URI,
 		LUXKeychain: keychain,
-		EthKeychain:  keychain,
+		EthKeychain: keychain,
 	})
 	require.NoError(ginkgo.GinkgoT(), err)
 	return primary.NewWalletWithOptions(
@@ -176,7 +176,7 @@ func SuggestGasPrice(ethClient ethclient.Client) *big.Int {
 	require.NoError(ginkgo.GinkgoT(), err)
 	// Double the suggested gas price to maximize the chances of
 	// acceptance. Maybe this can be revisited pending resolution of
-	// https://github.com/luxfi/coreth/issues/314.
+	// https://github.com/SkyChains/coreth/issues/314.
 	gasPrice.Add(gasPrice, gasPrice)
 	return gasPrice
 }

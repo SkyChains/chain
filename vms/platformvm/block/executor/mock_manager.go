@@ -12,12 +12,12 @@ package executor
 import (
 	reflect "reflect"
 
-	ids "github.com/luxfi/node/ids"
-	snowman "github.com/luxfi/node/snow/consensus/snowman"
-	set "github.com/luxfi/node/utils/set"
-	block "github.com/luxfi/node/vms/platformvm/block"
-	state "github.com/luxfi/node/vms/platformvm/state"
-	txs "github.com/luxfi/node/vms/platformvm/txs"
+	ids "github.com/SkyChains/chain/ids"
+	snowman "github.com/SkyChains/chain/snow/consensus/snowman"
+	set "github.com/SkyChains/chain/utils/set"
+	block "github.com/SkyChains/chain/vms/platformvm/block"
+	state "github.com/SkyChains/chain/vms/platformvm/state"
+	txs "github.com/SkyChains/chain/vms/platformvm/txs"
 	gomock "go.uber.org/mock/gomock"
 )
 

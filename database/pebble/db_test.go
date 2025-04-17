@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 func newDB(t testing.TB) *Database {

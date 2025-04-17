@@ -6,9 +6,9 @@ package merkledb
 import (
 	"errors"
 
-	"github.com/luxfi/node/cache"
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/utils"
+	"github.com/SkyChains/chain/cache"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/utils"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	readerpb "github.com/luxfi/node/proto/pb/io/reader"
+	readerpb "github.com/SkyChains/chain/proto/pb/io/reader"
 )
 
 var _ io.Reader = (*Client)(nil)

@@ -13,9 +13,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	database "github.com/luxfi/node/database"
-	ids "github.com/luxfi/node/ids"
-	maybe "github.com/luxfi/node/utils/maybe"
+	database "github.com/SkyChains/chain/database"
+	ids "github.com/SkyChains/chain/ids"
+	maybe "github.com/SkyChains/chain/utils/maybe"
 	gomock "go.uber.org/mock/gomock"
 )
 

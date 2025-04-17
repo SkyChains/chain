@@ -6,8 +6,8 @@ package constants
 import (
 	"time"
 
-	"github.com/luxfi/node/utils/compression"
-	"github.com/luxfi/node/utils/units"
+	"github.com/SkyChains/chain/utils/compression"
+	"github.com/SkyChains/chain/utils/units"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/luxfi/node/tests/antithesis"
-	"github.com/luxfi/node/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/tests/antithesis"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
 )
 
 const baseImageName = "antithesis-node"

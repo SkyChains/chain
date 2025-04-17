@@ -10,7 +10,7 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/luxfi/node/utils/perms"
+	"github.com/SkyChains/chain/utils/perms"
 )
 
 // Defines a mapping of flag keys to values intended to be supplied to

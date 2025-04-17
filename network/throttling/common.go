@@ -6,9 +6,9 @@ package throttling
 import (
 	"sync"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/validators"
-	"github.com/luxfi/node/utils/logging"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/validators"
+	"github.com/SkyChains/chain/utils/logging"
 )
 
 // Used by the sybil-safe inbound and outbound message throttlers

@@ -6,9 +6,9 @@ package galiasreader
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
+	"github.com/SkyChains/chain/ids"
 
-	aliasreaderpb "github.com/luxfi/node/proto/pb/aliasreader"
+	aliasreaderpb "github.com/SkyChains/chain/proto/pb/aliasreader"
 )
 
 var _ aliasreaderpb.AliasReaderServer = (*Server)(nil)

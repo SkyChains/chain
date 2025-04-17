@@ -6,12 +6,12 @@ package admin
 import (
 	"context"
 
-	"github.com/luxfi/node/api"
-	"github.com/luxfi/node/database/rpcdb"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/formatting"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/rpc"
+	"github.com/SkyChains/chain/api"
+	"github.com/SkyChains/chain/database/rpcdb"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

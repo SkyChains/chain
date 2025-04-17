@@ -3,7 +3,7 @@
 
 package tx
 
-import "github.com/luxfi/node/ids"
+import "github.com/SkyChains/chain/ids"
 
 type Payload struct {
 	// Sender + Nonce provides replay protection

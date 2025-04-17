@@ -8,9 +8,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/luxfi/node/utils/constants"
-	"github.com/luxfi/node/version"
-	"github.com/luxfi/node/vms/example/xsvm"
+	"github.com/SkyChains/chain/utils/constants"
+	"github.com/SkyChains/chain/version"
+	"github.com/SkyChains/chain/vms/example/xsvm"
 )
 
 const format = `%s:

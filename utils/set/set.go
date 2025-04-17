@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/luxfi/node/utils"
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/utils"
+	"github.com/SkyChains/chain/utils/wrappers"
 
-	avajson "github.com/luxfi/node/utils/json"
+	avajson "github.com/SkyChains/chain/utils/json"
 )
 
 // The minimum capacity of a set

@@ -14,8 +14,8 @@ import (
 	"github.com/shirou/gopsutil/process"
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/utils/storage"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/utils/storage"
 )
 
 var (

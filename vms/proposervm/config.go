@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/staking"
+	"github.com/SkyChains/chain/staking"
 )
 
 type Config struct {

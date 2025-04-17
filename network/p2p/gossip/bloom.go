@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/bloom"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/bloom"
 )
 
 // NewBloomFilter returns a new instance of a bloom filter with at least [minTargetElements] elements

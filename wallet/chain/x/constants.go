@@ -4,11 +4,11 @@
 package x
 
 import (
-	"github.com/luxfi/node/vms/avm/block"
-	"github.com/luxfi/node/vms/avm/fxs"
-	"github.com/luxfi/node/vms/nftfx"
-	"github.com/luxfi/node/vms/propertyfx"
-	"github.com/luxfi/node/vms/secp256k1fx"
+	"github.com/SkyChains/chain/vms/avm/block"
+	"github.com/SkyChains/chain/vms/avm/fxs"
+	"github.com/SkyChains/chain/vms/nftfx"
+	"github.com/SkyChains/chain/vms/propertyfx"
+	"github.com/SkyChains/chain/vms/secp256k1fx"
 )
 
 const (

@@ -3,7 +3,7 @@
 
 package message
 
-import "github.com/luxfi/node/ids"
+import "github.com/SkyChains/chain/ids"
 
 var _ Message = (*Tx)(nil)
 

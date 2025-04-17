@@ -11,10 +11,10 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/heap"
-	"github.com/luxfi/node/utils/math"
-	"github.com/luxfi/node/utils/timer/mockable"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/heap"
+	"github.com/SkyChains/chain/utils/math"
+	"github.com/SkyChains/chain/utils/timer/mockable"
 )
 
 var (

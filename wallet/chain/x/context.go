@@ -6,9 +6,9 @@ package x
 import (
 	"context"
 
-	"github.com/luxfi/node/api/info"
-	"github.com/luxfi/node/vms/avm"
-	"github.com/luxfi/node/wallet/chain/x/builder"
+	"github.com/SkyChains/chain/api/info"
+	"github.com/SkyChains/chain/vms/avm"
+	"github.com/SkyChains/chain/wallet/chain/x/builder"
 )
 
 func NewContextFromURI(ctx context.Context, uri string) (*builder.Context, error) {

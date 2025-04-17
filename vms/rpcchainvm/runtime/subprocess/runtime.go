@@ -15,12 +15,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/rpcchainvm/grpcutils"
-	"github.com/luxfi/node/vms/rpcchainvm/gruntime"
-	"github.com/luxfi/node/vms/rpcchainvm/runtime"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/SkyChains/chain/vms/rpcchainvm/gruntime"
+	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
 
-	pb "github.com/luxfi/node/proto/pb/vm/runtime"
+	pb "github.com/SkyChains/chain/proto/pb/vm/runtime"
 )
 
 type Config struct {

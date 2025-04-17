@@ -13,13 +13,13 @@ import (
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/luxfi/node/database"
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/x/merkledb"
+	"github.com/SkyChains/chain/database"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/x/merkledb"
 
-	pb "github.com/luxfi/node/proto/pb/sync"
+	pb "github.com/SkyChains/chain/proto/pb/sync"
 )
 
 func Test_Server_GetRangeProof(t *testing.T) {

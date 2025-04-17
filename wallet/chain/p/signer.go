@@ -6,10 +6,10 @@ package p
 import (
 	stdcontext "context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/crypto/keychain"
-	"github.com/luxfi/node/vms/components/lux"
-	"github.com/luxfi/node/vms/platformvm/txs"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/crypto/keychain"
+	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
 )
 
 var _ Signer = (*txSigner)(nil)

@@ -6,10 +6,10 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/formatting"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/formatting"
 
-	avajson "github.com/luxfi/node/utils/json"
+	avajson "github.com/SkyChains/chain/utils/json"
 )
 
 // This file contains structs used in arguments and responses in services

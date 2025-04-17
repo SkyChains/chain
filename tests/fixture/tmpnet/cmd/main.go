@@ -14,8 +14,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/luxfi/node/tests/fixture/tmpnet"
-	"github.com/luxfi/node/version"
+	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/SkyChains/chain/version"
 )
 
 const cliVersion = "0.0.1"

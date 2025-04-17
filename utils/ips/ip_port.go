@@ -9,7 +9,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/luxfi/node/utils/wrappers"
+	"github.com/SkyChains/chain/utils/wrappers"
 )
 
 const nullStr = "null"

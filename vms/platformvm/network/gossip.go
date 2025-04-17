@@ -11,15 +11,15 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/network/p2p"
-	"github.com/luxfi/node/network/p2p/gossip"
-	"github.com/luxfi/node/snow/engine/common"
-	"github.com/luxfi/node/utils/logging"
-	"github.com/luxfi/node/vms/platformvm/txs"
-	"github.com/luxfi/node/vms/txs/mempool"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/network/p2p"
+	"github.com/SkyChains/chain/network/p2p/gossip"
+	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/SkyChains/chain/utils/logging"
+	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/SkyChains/chain/vms/txs/mempool"
 
-	pmempool "github.com/luxfi/node/vms/platformvm/txs/mempool"
+	pmempool "github.com/SkyChains/chain/vms/platformvm/txs/mempool"
 )
 
 var (

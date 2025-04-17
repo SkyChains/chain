@@ -6,8 +6,8 @@ package bootstrapper
 import (
 	"context"
 
-	"github.com/luxfi/node/ids"
-	"github.com/luxfi/node/utils/set"
+	"github.com/SkyChains/chain/ids"
+	"github.com/SkyChains/chain/utils/set"
 )
 
 var Noop Poll = noop{}

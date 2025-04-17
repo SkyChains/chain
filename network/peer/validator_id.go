@@ -3,7 +3,7 @@
 
 package peer
 
-import "github.com/luxfi/node/ids"
+import "github.com/SkyChains/chain/ids"
 
 // ValidatorID represents a validator that we gossip to other peers
 type ValidatorID struct {
