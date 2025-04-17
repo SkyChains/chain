@@ -4,13 +4,13 @@
 package snowman
 
 import (
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/consensus/snowball"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/engine/common/tracker"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/snow/validators"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/consensus/snowball"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/engine/common/tracker"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/snow/validators"
 )
 
 // Config wraps all the parameters needed for a snowman engine

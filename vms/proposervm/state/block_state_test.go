@@ -11,12 +11,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/vms/proposervm/block"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/vms/proposervm/block"
 )
 
 func testBlockState(require *require.Assertions, bs BlockState) {

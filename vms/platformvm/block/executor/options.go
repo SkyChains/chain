@@ -9,15 +9,15 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/uptime"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/platformvm/block"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/platformvm/txs/executor"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/uptime"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/platformvm/txs/executor"
 )
 
 var (

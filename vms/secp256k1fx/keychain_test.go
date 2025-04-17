@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/formatting"
 )
 
 var (

@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/platformvm/fx"
-	"github.com/SkyChains/chain/vms/platformvm/status"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/platformvm/fx"
+	"github.com/skychains/chain/vms/platformvm/status"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 var (

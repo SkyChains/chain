@@ -6,9 +6,9 @@ package p
 import (
 	stdcontext "context"
 
-	"github.com/SkyChains/chain/api/info"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/avm"
+	"github.com/skychains/chain/api/info"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/avm"
 )
 
 var _ Context = (*context)(nil)

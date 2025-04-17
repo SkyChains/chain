@@ -3,7 +3,7 @@
 
 package buffer
 
-import "github.com/SkyChains/chain/utils"
+import "github.com/skychains/chain/utils"
 
 const defaultInitSize = 32
 

@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/maybe"
 )
 
 func getBasicDB() (*merkleDB, error) {

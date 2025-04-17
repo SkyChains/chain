@@ -6,12 +6,12 @@ package c
 import (
 	"context"
 
-	"github.com/SkyChains/chain/api/info"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/avm"
+	"github.com/skychains/chain/api/info"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/avm"
 )
 
 const Alias = "C"

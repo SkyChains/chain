@@ -9,18 +9,18 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/proto/pb/p2p"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/lux"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/bimap"
-	"github.com/SkyChains/chain/utils/heap"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/lux"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/bimap"
+	"github.com/skychains/chain/utils/heap"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/version"
 )
 
 const (

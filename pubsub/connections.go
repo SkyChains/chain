@@ -6,7 +6,7 @@ package pubsub
 import (
 	"sync"
 
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/utils/set"
 )
 
 type connections struct {

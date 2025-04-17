@@ -3,7 +3,7 @@
 
 package sync
 
-import "github.com/SkyChains/chain/x/merkledb"
+import "github.com/skychains/chain/x/merkledb"
 
 type DB interface {
 	merkledb.Clearer

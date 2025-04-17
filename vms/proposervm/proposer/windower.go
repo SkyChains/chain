@@ -11,12 +11,12 @@ import (
 
 	"gonum.org/v1/gonum/mathext/prng"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/utils/sampler"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/utils/sampler"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 // Proposer list constants

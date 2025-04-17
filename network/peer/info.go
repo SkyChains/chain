@@ -7,9 +7,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/set"
 )
 
 type Info struct {

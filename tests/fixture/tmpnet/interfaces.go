@@ -7,8 +7,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/node"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/node"
 )
 
 // Defines network capabilities supportable regardless of how a network is orchestrated.

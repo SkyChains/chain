@@ -8,9 +8,9 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/trace"
-	"github.com/SkyChains/chain/utils/bag"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/trace"
+	"github.com/skychains/chain/utils/bag"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

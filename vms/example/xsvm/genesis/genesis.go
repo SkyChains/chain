@@ -4,9 +4,9 @@
 package genesis
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/vms/example/xsvm/block"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/vms/example/xsvm/block"
 )
 
 type Genesis struct {

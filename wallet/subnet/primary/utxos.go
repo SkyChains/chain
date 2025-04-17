@@ -9,10 +9,10 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 )
 
 var (

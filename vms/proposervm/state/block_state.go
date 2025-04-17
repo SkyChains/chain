@@ -8,16 +8,16 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/cache/metercacher"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/metric"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/proposervm/block"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/cache/metercacher"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/metric"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/proposervm/block"
 )
 
 const blockCacheSize = 64 * units.MiB

@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/bag"
+	"github.com/skychains/chain/utils/bag"
 )
 
 func newEarlyTermNoTraversalTestFactory(require *require.Assertions, alpha int) Factory {

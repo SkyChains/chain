@@ -10,11 +10,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/networking/benchlist"
-	"github.com/SkyChains/chain/utils/timer"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/networking/benchlist"
+	"github.com/skychains/chain/utils/timer"
 )
 
 var _ Manager = (*manager)(nil)

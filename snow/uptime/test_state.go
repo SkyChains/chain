@@ -6,8 +6,8 @@ package uptime
 import (
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
 )
 
 var _ State = (*TestState)(nil)

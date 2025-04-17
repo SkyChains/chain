@@ -10,14 +10,14 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/cache/metercacher"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/cache/metercacher"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/utils/constants"
 )
 
 func cachedBlockSize(_ ids.ID, bw *BlockWrapper) int {

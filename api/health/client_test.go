@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 type mockClient struct {

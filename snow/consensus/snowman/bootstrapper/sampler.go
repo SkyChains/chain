@@ -6,9 +6,9 @@ package bootstrapper
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/utils/sampler"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/utils/sampler"
+	"github.com/skychains/chain/utils/set"
 )
 
 var errUnexpectedSamplerFailure = errors.New("unexpected sampler failure")

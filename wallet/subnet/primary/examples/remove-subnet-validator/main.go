@@ -8,11 +8,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/wallet/subnet/primary"
 )
 
 func main() {

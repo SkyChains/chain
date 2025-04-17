@@ -6,7 +6,7 @@ package metrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/block"
 )
 
 const blkLabel = "blk"

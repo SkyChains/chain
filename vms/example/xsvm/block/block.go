@@ -6,9 +6,9 @@ package block
 import (
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/vms/example/xsvm/tx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/vms/example/xsvm/tx"
 )
 
 // Stateless blocks are blocks as they are marshalled/unmarshalled and sent over

@@ -11,17 +11,17 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/lux"
-	"github.com/SkyChains/chain/snow/engine/lux/vertex"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/metric"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/lux"
+	"github.com/skychains/chain/snow/engine/lux/vertex"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/metric"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 // Get requests are always served, regardless node state (bootstrapping or normal operations).

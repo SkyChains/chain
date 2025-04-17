@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/types"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/types"
 )
 
 // MaxMemoSize is the maximum number of bytes in the memo field

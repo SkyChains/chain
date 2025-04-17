@@ -4,8 +4,8 @@
 package validators
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/bls"
 )
 
 // Validator is a struct that contains the base values representing a validator

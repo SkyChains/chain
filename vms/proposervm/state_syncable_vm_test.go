@@ -11,20 +11,20 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/consensus/snowman/snowmantest"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/snow/snowtest"
-	"github.com/SkyChains/chain/vms/proposervm/summary"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/consensus/snowman/snowmantest"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/snow/snowtest"
+	"github.com/skychains/chain/vms/proposervm/summary"
 
-	statelessblock "github.com/SkyChains/chain/vms/proposervm/block"
+	statelessblock "github.com/skychains/chain/vms/proposervm/block"
 )
 
 func helperBuildStateSyncTestObjects(t *testing.T) (*fullVM, *VM) {

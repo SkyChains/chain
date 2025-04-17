@@ -6,12 +6,12 @@ package chains
 import (
 	"context"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/engine/lux/vertex"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/engine/lux/vertex"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 )
 
 var (

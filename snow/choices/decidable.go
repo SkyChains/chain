@@ -6,7 +6,7 @@ package choices
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 // Decidable represents element that can be decided.

@@ -3,7 +3,7 @@
 
 package summary
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 var _ StateSummary = (*stateSummary)(nil)
 

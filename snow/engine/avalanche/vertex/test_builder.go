@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/lux"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/lux"
 )
 
 var (

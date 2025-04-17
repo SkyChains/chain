@@ -10,9 +10,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/network/peer"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/network/peer"
+	"github.com/skychains/chain/utils/set"
 )
 
 type metrics struct {

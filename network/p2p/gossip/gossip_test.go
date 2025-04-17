@@ -14,15 +14,15 @@ import (
 	"golang.org/x/exp/maps"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/network/p2p"
-	"github.com/SkyChains/chain/proto/pb/sdk"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/network/p2p"
+	"github.com/skychains/chain/proto/pb/sdk"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/units"
 )
 
 func TestGossiperShutdown(*testing.T) {

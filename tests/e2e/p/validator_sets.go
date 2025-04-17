@@ -11,17 +11,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/tests"
-	"github.com/SkyChains/chain/tests/fixture/e2e"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/vms/platformvm"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/tests"
+	"github.com/skychains/chain/tests/fixture/e2e"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/vms/platformvm"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

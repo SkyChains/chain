@@ -6,7 +6,7 @@ package common
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 type Request struct {

@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 // IPSigner will return a signedIP for the current value of our dynamic IP.

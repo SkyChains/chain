@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/utils/perms"
 )
 
 // InitNodeStakingKeyPair generates a self-signed TLS key/cert pair to use in

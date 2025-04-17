@@ -4,10 +4,10 @@
 package atomic
 
 import (
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/versiondb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/versiondb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
 )
 
 var _ SharedMemory = (*sharedMemory)(nil)

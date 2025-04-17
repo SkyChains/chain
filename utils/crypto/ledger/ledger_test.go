@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 const (

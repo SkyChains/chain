@@ -6,9 +6,9 @@ package galiasreader
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 
-	aliasreaderpb "github.com/SkyChains/chain/proto/pb/aliasreader"
+	aliasreaderpb "github.com/skychains/chain/proto/pb/aliasreader"
 )
 
 var _ ids.AliaserReader = (*Client)(nil)

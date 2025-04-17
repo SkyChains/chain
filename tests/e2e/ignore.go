@@ -9,5 +9,5 @@ package e2e
 // ```
 // Failed to compile e2e:
 //
-// github.com/SkyChains/chain/tests/e2e: no non-test Go files in /path/to/node/tests/e2e
+// github.com/skychains/chain/tests/e2e: no non-test Go files in /path/to/node/tests/e2e
 // ```

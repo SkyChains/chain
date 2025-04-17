@@ -6,8 +6,8 @@ package cache
 import (
 	"sync"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/linked"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/linked"
 )
 
 var _ Cacher[struct{}, any] = (*sizedLRU[struct{}, any])(nil)

@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/indexer"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/perms"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/indexer"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/perms"
+	"github.com/skychains/chain/utils/set"
 )
 
 const (

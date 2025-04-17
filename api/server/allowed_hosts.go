@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/utils/set"
 )
 
 const wildcard = "*"

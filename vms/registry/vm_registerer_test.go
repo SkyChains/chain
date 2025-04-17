@@ -13,12 +13,12 @@ import (
 
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/api/server"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/snowman/block/mocks"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms"
+	"github.com/skychains/chain/api/server"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/snowman/block/mocks"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms"
 )
 
 var id = ids.GenerateTestID()

@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/vms/components/lux"
 )
 
 func NewDeterministicChainUTXOs(require *require.Assertions, utxoSets map[ids.ID][]*lux.UTXO) *DeterministicChainUTXOs {

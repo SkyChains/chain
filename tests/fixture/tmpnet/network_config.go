@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/perms"
 )
 
 // The Network type is defined in this file (reading/writing configuration) and network.go

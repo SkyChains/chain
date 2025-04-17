@@ -6,9 +6,9 @@ package indexer
 import (
 	"context"
 
-	"github.com/SkyChains/chain/database/versiondb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/database/versiondb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/snowman"
 )
 
 // BlockServer represents all requests heightIndexer can issue

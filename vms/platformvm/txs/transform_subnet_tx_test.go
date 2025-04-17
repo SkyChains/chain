@@ -10,17 +10,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
-	"github.com/SkyChains/chain/vms/platformvm/stakeable"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/vms/types"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/vms/platformvm/stakeable"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/vms/types"
 )
 
 func TestTransformSubnetTxSerialization(t *testing.T) {

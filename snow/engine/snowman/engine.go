@@ -4,8 +4,8 @@
 package snowman
 
 import (
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 )
 
 // Engine describes the events that can occur to a Snowman instance.

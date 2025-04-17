@@ -6,8 +6,8 @@ package nftfx
 import (
 	"encoding/json"
 
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 var _ verify.State = (*MintOutput)(nil)

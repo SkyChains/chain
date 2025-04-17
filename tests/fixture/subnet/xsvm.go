@@ -7,10 +7,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/vms/example/xsvm/genesis"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/vms/example/xsvm/genesis"
 )
 
 func NewXSVMOrPanic(name string, key *secp256k1.PrivateKey, nodes ...*tmpnet.Node) *tmpnet.Subnet {

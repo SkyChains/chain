@@ -7,8 +7,8 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/database"
 )
 
 const (

@@ -6,7 +6,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/formatting"
 )
 
 // JSONByteSlice represents [[]byte] that is json marshalled to hex

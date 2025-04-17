@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 var (

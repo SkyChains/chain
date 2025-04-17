@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 func NextBlockTime(state Chain, clk *mockable.Clock) (time.Time, bool, error) {

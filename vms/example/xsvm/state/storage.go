@@ -6,10 +6,10 @@ package state
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/vms/platformvm/warp"
 )
 
 var (

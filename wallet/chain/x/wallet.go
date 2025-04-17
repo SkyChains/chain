@@ -4,15 +4,15 @@
 package x
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/avm"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/wallet/chain/x/builder"
-	"github.com/SkyChains/chain/wallet/chain/x/signer"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/avm"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/wallet/chain/x/builder"
+	"github.com/skychains/chain/wallet/chain/x/signer"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 )
 
 var _ Wallet = (*wallet)(nil)

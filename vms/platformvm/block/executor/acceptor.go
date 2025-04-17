@@ -9,11 +9,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/vms/platformvm/block"
-	"github.com/SkyChains/chain/vms/platformvm/metrics"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/validators"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/metrics"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/validators"
 )
 
 var (

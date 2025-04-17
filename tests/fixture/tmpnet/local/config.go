@@ -6,8 +6,8 @@ package local
 import (
 	"time"
 
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
 )
 
 const (
@@ -45,7 +45,7 @@ func LocalFlags() tmpnet.FlagsMap {
 func LocalCChainConfig() tmpnet.FlagsMap {
 	// Supply only non-default configuration to ensure that default
 	// values will be used. Available C-Chain configuration options are
-	// defined in the `github.com/SkyChains/coreth/evm` package.
+	// defined in the `github.com/skychains/coreth/evm` package.
 	return tmpnet.FlagsMap{
 		"log-level": "trace",
 	}

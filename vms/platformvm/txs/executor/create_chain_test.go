@@ -10,20 +10,20 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/platformvm/txs/txstest"
-	"github.com/SkyChains/chain/vms/platformvm/utxo"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/platformvm/txs/txstest"
+	"github.com/skychains/chain/vms/platformvm/utxo"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
-	walletsigner "github.com/SkyChains/chain/wallet/chain/p/signer"
+	walletsigner "github.com/skychains/chain/wallet/chain/p/signer"
 )
 
 // Ensure Execute fails when there are not enough control sigs

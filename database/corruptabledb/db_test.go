@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/memdb"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/memdb"
 )
 
 var errTest = errors.New("non-nil error")

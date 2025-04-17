@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 var (

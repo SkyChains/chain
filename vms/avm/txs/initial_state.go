@@ -9,11 +9,11 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 var (

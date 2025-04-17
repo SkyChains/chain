@@ -7,10 +7,10 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/proto/pb/p2p"
-	"github.com/SkyChains/chain/utils/compression"
-	"github.com/SkyChains/chain/utils/ips"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/utils/compression"
+	"github.com/skychains/chain/utils/ips"
 )
 
 var _ OutboundMsgBuilder = (*outMsgBuilder)(nil)

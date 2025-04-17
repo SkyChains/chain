@@ -9,17 +9,17 @@ import (
 
 	stdcontext "context"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/keychain"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/platformvm/stakeable"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/keychain"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/platformvm/stakeable"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 var (

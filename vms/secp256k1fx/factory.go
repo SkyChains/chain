@@ -4,8 +4,8 @@
 package secp256k1fx
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/fx"
 )
 
 const Name = "secp256k1fx"

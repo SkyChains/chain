@@ -6,9 +6,9 @@ package avm
 import (
 	"reflect"
 
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/avm/fxs"
-	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/avm/fxs"
+	"github.com/skychains/chain/vms/avm/txs"
 )
 
 var _ txs.Visitor = (*txInit)(nil)

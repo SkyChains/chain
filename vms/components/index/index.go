@@ -12,13 +12,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/components/lux"
 )
 
 var (

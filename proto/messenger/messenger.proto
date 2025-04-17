@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package messenger;
 
-option go_package = "github.com/SkyChains/chain/proto/pb/messenger";
+option go_package = "github.com/skychains/chain/proto/pb/messenger";
 
 service Messenger {
   rpc Notify(NotifyRequest) returns (NotifyResponse);

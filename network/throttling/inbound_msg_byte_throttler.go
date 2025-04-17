@@ -10,13 +10,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/linked"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/metric"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/linked"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/metric"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 // See inbound_msg_throttler.go

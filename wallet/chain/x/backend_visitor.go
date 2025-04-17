@@ -6,9 +6,9 @@ package x
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/components/lux"
 )
 
 var _ txs.Visitor = (*backendVisitor)(nil)

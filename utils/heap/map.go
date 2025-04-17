@@ -6,7 +6,7 @@ package heap
 import (
 	"container/heap"
 
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/utils"
 )
 
 var _ heap.Interface = (*indexedQueue[int, int])(nil)

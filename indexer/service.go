@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/json"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/json"
 )
 
 type service struct {

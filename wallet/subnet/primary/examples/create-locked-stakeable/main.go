@@ -8,14 +8,14 @@ import (
 	"log"
 	"time"
 
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/platformvm/stakeable"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/platformvm/stakeable"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/wallet/subnet/primary"
 )
 
 func main() {

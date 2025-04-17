@@ -3,7 +3,7 @@
 
 package indexer
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 // Container is something that gets accepted
 // (a block, transaction or vertex)

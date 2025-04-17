@@ -11,12 +11,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/chains"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/ipcs"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/chains"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/ipcs"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/logging"
 )
 
 type Service struct {

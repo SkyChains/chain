@@ -6,10 +6,10 @@ package x
 import (
 	stdcontext "context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/keychain"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/keychain"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/components/lux"
 )
 
 var _ Signer = (*signer)(nil)

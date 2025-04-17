@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/platformvm/fx"
-	"github.com/SkyChains/chain/vms/platformvm/status"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/platformvm/fx"
+	"github.com/skychains/chain/vms/platformvm/status"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 func TestDiffMissingState(t *testing.T) {

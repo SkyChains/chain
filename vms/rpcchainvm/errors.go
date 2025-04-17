@@ -4,10 +4,10 @@
 package rpcchainvm
 
 import (
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 
-	vmpb "github.com/SkyChains/chain/proto/pb/vm"
+	vmpb "github.com/skychains/chain/proto/pb/vm"
 )
 
 var (

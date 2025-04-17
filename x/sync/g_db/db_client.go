@@ -9,12 +9,12 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/maybe"
-	"github.com/SkyChains/chain/x/merkledb"
-	"github.com/SkyChains/chain/x/sync"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/maybe"
+	"github.com/skychains/chain/x/merkledb"
+	"github.com/skychains/chain/x/sync"
 
-	pb "github.com/SkyChains/chain/proto/pb/sync"
+	pb "github.com/skychains/chain/proto/pb/sync"
 )
 
 var _ sync.DB = (*DBClient)(nil)

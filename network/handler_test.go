@@ -4,9 +4,9 @@
 package network
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/networking/router"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/networking/router"
+	"github.com/skychains/chain/version"
 )
 
 var _ router.ExternalHandler = (*testHandler)(nil)

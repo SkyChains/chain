@@ -7,15 +7,15 @@ import (
 	"context"
 	"errors"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/example/xsvm/state"
-	"github.com/SkyChains/chain/vms/example/xsvm/tx"
-	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/example/xsvm/state"
+	"github.com/skychains/chain/vms/example/xsvm/tx"
+	"github.com/skychains/chain/vms/platformvm/warp"
 )
 
 const (

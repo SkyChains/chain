@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/snowman"
 )
 
 // Tree handles the propagation of block acceptance and rejection to inner

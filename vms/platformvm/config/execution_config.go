@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/platformvm/network"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/platformvm/network"
 )
 
 var DefaultExecutionConfig = ExecutionConfig{

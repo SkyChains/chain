@@ -6,9 +6,9 @@ package subnets
 import (
 	"sync"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/set"
 )
 
 var _ Subnet = (*subnet)(nil)

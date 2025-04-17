@@ -7,11 +7,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/SkyChains/chain/api/health"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/api/health"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/set"
 )
 
 // Engine describes the standard interface of a consensus engine.

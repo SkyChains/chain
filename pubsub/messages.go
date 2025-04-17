@@ -4,9 +4,9 @@
 package pubsub
 
 import (
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/json"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/json"
 )
 
 // NewBloom command for a new bloom filter

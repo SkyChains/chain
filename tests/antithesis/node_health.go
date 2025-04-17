@@ -9,7 +9,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/SkyChains/chain/api/health"
+	"github.com/skychains/chain/api/health"
 )
 
 // Waits for the nodes at the provided URIs to report healthy.

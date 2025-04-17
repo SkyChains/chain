@@ -16,9 +16,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/rpcchainvm/runtime"
 )
 
 func NewCmd(path string, args ...string) *exec.Cmd {

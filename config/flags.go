@@ -13,17 +13,17 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/SkyChains/chain/database/leveldb"
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/database/pebbledb"
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/snow/consensus/snowball"
-	"github.com/SkyChains/chain/trace"
-	"github.com/SkyChains/chain/utils/compression"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/dynamicip"
-	"github.com/SkyChains/chain/utils/ulimit"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/database/leveldb"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/database/pebbledb"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/snow/consensus/snowball"
+	"github.com/skychains/chain/trace"
+	"github.com/skychains/chain/utils/compression"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/dynamicip"
+	"github.com/skychains/chain/utils/ulimit"
+	"github.com/skychains/chain/utils/units"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/engine/common"
 )
 
 var (

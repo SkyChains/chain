@@ -6,17 +6,17 @@ package peer
 import (
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/network/throttling"
-	"github.com/SkyChains/chain/snow/networking/router"
-	"github.com/SkyChains/chain/snow/networking/tracker"
-	"github.com/SkyChains/chain/snow/uptime"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/network/throttling"
+	"github.com/skychains/chain/snow/networking/router"
+	"github.com/skychains/chain/snow/networking/tracker"
+	"github.com/skychains/chain/snow/uptime"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/version"
 )
 
 type Config struct {

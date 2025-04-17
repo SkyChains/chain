@@ -7,8 +7,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/SkyChains/chain/utils/linked"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/linked"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var errEmptyCacheTooLarge = errors.New("cache is empty yet still too large")

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/utils/constants"
 )
 
 func TestSampleBootstrappers(t *testing.T) {

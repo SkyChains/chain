@@ -4,7 +4,7 @@ package rpcdb;
 
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/SkyChains/chain/proto/pb/rpcdb";
+option go_package = "github.com/skychains/chain/proto/pb/rpcdb";
 
 service Database {
   rpc Has(HasRequest) returns (HasResponse);

@@ -11,14 +11,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/chains/atomic"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/vms/avm/block"
-	"github.com/SkyChains/chain/vms/avm/state"
-	"github.com/SkyChains/chain/vms/avm/txs/executor"
+	"github.com/skychains/chain/chains/atomic"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/vms/avm/block"
+	"github.com/skychains/chain/vms/avm/state"
+	"github.com/skychains/chain/vms/avm/txs/executor"
 )
 
 const SyncBound = 10 * time.Second

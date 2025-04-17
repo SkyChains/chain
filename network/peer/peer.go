@@ -17,19 +17,19 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/proto/pb/p2p"
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/bloom"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/ips"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/bloom"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/ips"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/version"
 )
 
 const (

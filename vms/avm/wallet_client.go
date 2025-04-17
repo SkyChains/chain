@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 var _ WalletClient = (*client)(nil)

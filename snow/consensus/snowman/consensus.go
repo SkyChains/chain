@@ -7,11 +7,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/SkyChains/chain/api/health"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/consensus/snowball"
-	"github.com/SkyChains/chain/utils/bag"
+	"github.com/skychains/chain/api/health"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/consensus/snowball"
+	"github.com/skychains/chain/utils/bag"
 )
 
 // Consensus represents a general snowman instance that can be used directly to

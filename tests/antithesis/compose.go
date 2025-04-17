@@ -13,11 +13,11 @@ import (
 	"github.com/compose-spec/compose-go/types"
 	"gopkg.in/yaml.v3"
 
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/perms"
 )
 
 const bootstrapIndex = 0

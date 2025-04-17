@@ -10,11 +10,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/set"
 
-	rpcdbpb "github.com/SkyChains/chain/proto/pb/rpcdb"
+	rpcdbpb "github.com/skychains/chain/proto/pb/rpcdb"
 )
 
 var (

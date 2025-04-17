@@ -3,7 +3,7 @@
 
 package state
 
-import "github.com/SkyChains/chain/utils/heap"
+import "github.com/skychains/chain/utils/heap"
 
 var _ StakerIterator = (*mergedIterator)(nil)
 

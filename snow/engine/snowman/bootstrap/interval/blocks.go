@@ -3,7 +3,7 @@
 
 package interval
 
-import "github.com/SkyChains/chain/database"
+import "github.com/skychains/chain/database"
 
 // Add the block to the tree and return if the parent block should be fetched,
 // but wasn't desired before.

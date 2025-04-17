@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/btree"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 var _ btree.LessFunc[*Staker] = (*Staker).Less

@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/SkyChains/chain/utils/math"
+	"github.com/skychains/chain/utils/math"
 )
 
 var _ Calculator = (*calculator)(nil)

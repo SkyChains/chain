@@ -7,16 +7,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/network/p2p/gossip"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/network/p2p/gossip"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 var (

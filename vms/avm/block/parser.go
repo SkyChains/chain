@@ -7,11 +7,11 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/vms/avm/fxs"
-	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/vms/avm/fxs"
+	"github.com/skychains/chain/vms/avm/txs"
 )
 
 // CodecVersion is the current default codec version

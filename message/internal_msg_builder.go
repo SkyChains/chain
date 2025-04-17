@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/proto/pb/p2p"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/version"
 )
 
 var (

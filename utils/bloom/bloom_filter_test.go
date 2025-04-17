@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/utils/units"
 )
 
 func TestNew(t *testing.T) {

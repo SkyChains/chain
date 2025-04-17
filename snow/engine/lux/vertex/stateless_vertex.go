@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 const (

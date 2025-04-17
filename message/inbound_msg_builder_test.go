@@ -10,11 +10,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/proto/pb/p2p"
-	"github.com/SkyChains/chain/utils/compression"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/utils/compression"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 func Test_newMsgBuilder(t *testing.T) {

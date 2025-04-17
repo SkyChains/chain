@@ -7,10 +7,10 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/SkyChains/chain/api/health"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/validators"
+	"github.com/skychains/chain/api/health"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/validators"
 )
 
 // VM describes the interface that all consensus VMs must implement

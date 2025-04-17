@@ -4,8 +4,8 @@
 package setmap
 
 import (
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/set"
 )
 
 type Entry[K any, V comparable] struct {

@@ -6,11 +6,11 @@ package executor
 import (
 	"reflect"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/avm/config"
-	"github.com/SkyChains/chain/vms/avm/fxs"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/avm/config"
+	"github.com/skychains/chain/vms/avm/fxs"
 )
 
 type Backend struct {

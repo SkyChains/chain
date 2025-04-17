@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/codec"
+	"github.com/skychains/chain/codec"
 )
 
 func TestParse(t *testing.T) {

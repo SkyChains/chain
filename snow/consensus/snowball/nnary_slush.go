@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 func newNnarySlush(choice ids.ID) nnarySlush {

@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/maps"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/utils/maybe"
 )
 
 func Test_View_Iterator(t *testing.T) {

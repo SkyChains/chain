@@ -7,7 +7,7 @@ import (
 	"context"
 	"io"
 
-	readerpb "github.com/SkyChains/chain/proto/pb/io/reader"
+	readerpb "github.com/skychains/chain/proto/pb/io/reader"
 )
 
 var _ readerpb.ReaderServer = (*Server)(nil)

@@ -11,7 +11,7 @@ import (
 	"net/netip"
 	"strings"
 
-	"github.com/SkyChains/chain/utils/ips"
+	"github.com/skychains/chain/utils/ips"
 )
 
 var _ Resolver = (*ifConfigResolver)(nil)

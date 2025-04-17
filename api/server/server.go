@@ -18,13 +18,13 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/net/http2"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/trace"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/trace"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
 )
 
 const (

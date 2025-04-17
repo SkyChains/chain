@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/json"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/json"
 )
 
 var addrStrArray = []string{

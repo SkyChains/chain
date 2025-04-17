@@ -4,9 +4,9 @@
 package platformvm
 
 import (
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms"
-	"github.com/SkyChains/chain/vms/platformvm/config"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms"
+	"github.com/skychains/chain/vms/platformvm/config"
 )
 
 var _ vms.Factory = (*Factory)(nil)

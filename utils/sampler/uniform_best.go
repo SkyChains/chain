@@ -7,7 +7,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 var _ Uniform = (*uniformBest)(nil)

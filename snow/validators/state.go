@@ -7,7 +7,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 var _ State = (*lockedState)(nil)

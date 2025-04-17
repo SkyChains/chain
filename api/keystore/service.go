@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/logging"
 )
 
 type service struct {

@@ -9,9 +9,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 
-	pb "github.com/SkyChains/chain/proto/pb/message"
+	pb "github.com/skychains/chain/proto/pb/message"
 )
 
 var (

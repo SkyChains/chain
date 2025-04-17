@@ -15,10 +15,10 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/database/rpcdb"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/database/rpcdb"
 
-	pb "github.com/SkyChains/chain/proto/pb/rpcdb"
+	pb "github.com/skychains/chain/proto/pb/rpcdb"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 )
 

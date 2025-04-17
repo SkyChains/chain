@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/utils/logging"
 )
 
 // Note: TestInterface tests other batch functionality.

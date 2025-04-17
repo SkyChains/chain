@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/lux"
-	"github.com/SkyChains/chain/snow/consensus/snowstorm"
-	"github.com/SkyChains/chain/snow/engine/lux/vertex"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/lux"
+	"github.com/skychains/chain/snow/consensus/snowstorm"
+	"github.com/skychains/chain/snow/engine/lux/vertex"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 var (

@@ -4,11 +4,11 @@
 package signer
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/keychain"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/platformvm/fx"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/keychain"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/platformvm/fx"
+	"github.com/skychains/chain/vms/platformvm/txs"
 
 	stdcontext "context"
 )

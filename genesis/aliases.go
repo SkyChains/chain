@@ -6,13 +6,13 @@ package genesis
 import (
 	"path"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/vms/nftfx"
-	"github.com/SkyChains/chain/vms/platformvm/genesis"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/propertyfx"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/vms/nftfx"
+	"github.com/skychains/chain/vms/platformvm/genesis"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/propertyfx"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 var (

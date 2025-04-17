@@ -3,7 +3,7 @@
 
 package genesis
 
-import "github.com/SkyChains/chain/vms/example/xsvm/block"
+import "github.com/skychains/chain/vms/example/xsvm/block"
 
 const CodecVersion = block.CodecVersion
 

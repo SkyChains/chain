@@ -6,11 +6,11 @@ package txstest
 import (
 	"time"
 
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/platformvm/config"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/platformvm/txs/fee"
-	"github.com/SkyChains/chain/wallet/chain/p/builder"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/platformvm/config"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/platformvm/txs/fee"
+	"github.com/skychains/chain/wallet/chain/p/builder"
 )
 
 func newContext(

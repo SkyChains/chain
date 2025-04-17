@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
 )
 
 const (

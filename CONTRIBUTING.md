@@ -20,12 +20,12 @@ To start developing on Lux Node, you'll need a few things installed.
 
 ### Making an Issue
 
-- Check that the issue you're filing doesn't already exist by searching under [issues](https://github.com/SkyChains/chain/issues).
-- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/SkyChains/chain/issues/new/choose). Be sure to include a *title and clear description* with as much relevant information as possible.
+- Check that the issue you're filing doesn't already exist by searching under [issues](https://github.com/skychains/chain/issues).
+- If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/skychains/chain/issues/new/choose). Be sure to include a *title and clear description* with as much relevant information as possible.
 
 ## Features
 
-- If you want to start a discussion about the development of a new feature or the modification of an existing one, start a thread under GitHub [discussions](https://github.com/SkyChains/chain/discussions/categories/ideas).
+- If you want to start a discussion about the development of a new feature or the modification of an existing one, start a thread under GitHub [discussions](https://github.com/skychains/chain/discussions/categories/ideas).
 - Post a thread about your idea and why it should be added to Lux Node.
 - Don't start working on a pull request until you've received positive feedback from the maintainers.
 
@@ -81,8 +81,8 @@ To start developing on Lux Node, you'll need a few things installed.
 
 ### Do you have questions about the source code?
 
-- Ask any question about Lux Node under GitHub [discussions](https://github.com/SkyChains/chain/discussions/categories/q-a).
+- Ask any question about Lux Node under GitHub [discussions](https://github.com/skychains/chain/discussions/categories/q-a).
 
 ### Do you want to contribute to the Lux documentation?
 
-- Please check out the `lux-docs` repository [here](https://github.com/SkyChains/docs).
+- Please check out the `lux-docs` repository [here](https://github.com/skychains/docs).

@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"slices"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 // TODO: Support configurable hash lengths

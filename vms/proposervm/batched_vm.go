@@ -7,14 +7,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/utils/wrappers"
 
-	statelessblock "github.com/SkyChains/chain/vms/proposervm/block"
+	statelessblock "github.com/skychains/chain/vms/proposervm/block"
 )
 
 var _ block.BatchedChainVM = (*VM)(nil)

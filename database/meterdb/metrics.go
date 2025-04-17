@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/utils/metric"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/metric"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 func newSizeMetric(namespace, name string, reg prometheus.Registerer, errs *wrappers.Errs) metric.Averager {

@@ -4,9 +4,9 @@
 package merkledb
 
 import (
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/utils"
 )
 
 // Holds intermediate nodes. That is, those without values.

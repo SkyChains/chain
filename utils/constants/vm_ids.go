@@ -3,7 +3,7 @@
 
 package constants
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 const (
 	PlatformVMName = "platformvm"

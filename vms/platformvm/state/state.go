@@ -15,34 +15,34 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/cache/metercacher"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/linkeddb"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/database/versiondb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/uptime"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/timer"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/platformvm/block"
-	"github.com/SkyChains/chain/vms/platformvm/config"
-	"github.com/SkyChains/chain/vms/platformvm/fx"
-	"github.com/SkyChains/chain/vms/platformvm/genesis"
-	"github.com/SkyChains/chain/vms/platformvm/metrics"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
-	"github.com/SkyChains/chain/vms/platformvm/status"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/cache/metercacher"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/linkeddb"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/database/versiondb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/uptime"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/timer"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/config"
+	"github.com/skychains/chain/vms/platformvm/fx"
+	"github.com/skychains/chain/vms/platformvm/genesis"
+	"github.com/skychains/chain/vms/platformvm/metrics"
+	"github.com/skychains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/vms/platformvm/status"
+	"github.com/skychains/chain/vms/platformvm/txs"
 
-	safemath "github.com/SkyChains/chain/utils/math"
+	safemath "github.com/skychains/chain/utils/math"
 )
 
 const (
@@ -198,7 +198,7 @@ type State interface {
 	Close() error
 }
 
-// Prior to https://github.com/SkyChains/chain/pull/1719, blocks were
+// Prior to https://github.com/skychains/chain/pull/1719, blocks were
 // stored as a map from blkID to stateBlk. Nodes synced prior to this PR may
 // still have blocks partially stored using this legacy format.
 //

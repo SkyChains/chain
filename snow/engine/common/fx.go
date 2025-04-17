@@ -3,7 +3,7 @@
 
 package common
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 // Fx wraps an instance of a feature extension
 type Fx struct {

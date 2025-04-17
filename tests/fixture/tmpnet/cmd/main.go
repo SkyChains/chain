@@ -14,8 +14,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/version"
 )
 
 const cliVersion = "0.0.1"

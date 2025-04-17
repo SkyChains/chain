@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/linked"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/setmap"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/linked"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/setmap"
+	"github.com/skychains/chain/utils/units"
 )
 
 const (

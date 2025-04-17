@@ -3,7 +3,7 @@
 
 package snowball
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 var (
 	SnowballFactory  Factory = snowballFactory{}

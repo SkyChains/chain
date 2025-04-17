@@ -6,9 +6,9 @@ package genesis
 import (
 	"time"
 
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
-	"github.com/SkyChains/chain/vms/platformvm/txs/fee"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/vms/platformvm/txs/fee"
 )
 
 type StakingConfig struct {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/btree"
 
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 var (

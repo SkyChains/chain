@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/utils/perms"
 )
 
 const (

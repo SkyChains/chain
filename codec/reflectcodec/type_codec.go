@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"slices"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 const (

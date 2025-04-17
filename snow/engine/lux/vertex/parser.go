@@ -6,8 +6,8 @@ package vertex
 import (
 	"context"
 
-	"github.com/SkyChains/chain/snow/consensus/lux"
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/snow/consensus/lux"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 // Parser parses bytes into a vertex.

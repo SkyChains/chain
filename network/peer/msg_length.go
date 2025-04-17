@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var (

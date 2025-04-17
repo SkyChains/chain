@@ -8,8 +8,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/SkyChains/chain/api/health"
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/api/health"
+	"github.com/skychains/chain/database"
 )
 
 var (

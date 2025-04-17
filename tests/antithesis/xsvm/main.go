@@ -14,15 +14,15 @@ import (
 	"github.com/antithesishq/antithesis-sdk-go/assert"
 	"github.com/antithesishq/antithesis-sdk-go/lifecycle"
 
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/tests/antithesis"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/example/xsvm/api"
-	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/status"
-	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/transfer"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/tests/antithesis"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/example/xsvm/api"
+	"github.com/skychains/chain/vms/example/xsvm/cmd/issue/status"
+	"github.com/skychains/chain/vms/example/xsvm/cmd/issue/transfer"
 )
 
 const (

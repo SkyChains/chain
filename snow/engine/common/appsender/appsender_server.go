@@ -8,11 +8,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/set"
 
-	appsenderpb "github.com/SkyChains/chain/proto/pb/appsender"
+	appsenderpb "github.com/skychains/chain/proto/pb/appsender"
 )
 
 var _ appsenderpb.AppSenderServer = (*Server)(nil)

@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/formatting"
 )
 
 var (

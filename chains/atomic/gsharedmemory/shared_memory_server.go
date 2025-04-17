@@ -6,11 +6,11 @@ package gsharedmemory
 import (
 	"context"
 
-	"github.com/SkyChains/chain/chains/atomic"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/chains/atomic"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
 
-	sharedmemorypb "github.com/SkyChains/chain/proto/pb/sharedmemory"
+	sharedmemorypb "github.com/skychains/chain/proto/pb/sharedmemory"
 )
 
 var _ sharedmemorypb.SharedMemoryServer = (*Server)(nil)

@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SkyChains/chain/api/metrics"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/validators"
+	"github.com/skychains/chain/api/metrics"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/validators"
 )
 
 var _ Manager = (*manager)(nil)

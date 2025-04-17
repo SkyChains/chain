@@ -4,13 +4,13 @@
 package fxs
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/nftfx"
-	"github.com/SkyChains/chain/vms/propertyfx"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/nftfx"
+	"github.com/skychains/chain/vms/propertyfx"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 var (

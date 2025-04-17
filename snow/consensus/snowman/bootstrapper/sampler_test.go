@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
 
-	safemath "github.com/SkyChains/chain/utils/math"
+	safemath "github.com/skychains/chain/utils/math"
 )
 
 func TestSample(t *testing.T) {

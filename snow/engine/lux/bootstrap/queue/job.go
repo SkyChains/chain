@@ -6,8 +6,8 @@ package queue
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
 )
 
 // Job defines the interface required to be placed on the job queue.

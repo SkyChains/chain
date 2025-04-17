@@ -6,8 +6,8 @@ package lux
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 var (

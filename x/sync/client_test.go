@@ -14,16 +14,16 @@ import (
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/trace"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/maybe"
-	"github.com/SkyChains/chain/x/merkledb"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/trace"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/maybe"
+	"github.com/skychains/chain/x/merkledb"
 
-	pb "github.com/SkyChains/chain/proto/pb/sync"
+	pb "github.com/skychains/chain/proto/pb/sync"
 )
 
 func newDefaultDBConfig() merkledb.Config {

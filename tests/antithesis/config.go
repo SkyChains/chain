@@ -10,8 +10,8 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/wallet/subnet/primary"
 )
 
 const (

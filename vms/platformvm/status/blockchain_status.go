@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 // List of possible blockchain status values:

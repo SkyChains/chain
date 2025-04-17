@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/maybe"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/maybe"
+	"github.com/skychains/chain/utils/set"
 
-	pb "github.com/SkyChains/chain/proto/pb/sync"
+	pb "github.com/skychains/chain/proto/pb/sync"
 )
 
 func Test_Proof_Empty(t *testing.T) {

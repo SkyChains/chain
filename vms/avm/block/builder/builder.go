@@ -7,18 +7,18 @@ import (
 	"context"
 	"errors"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/avm/block"
-	"github.com/SkyChains/chain/vms/avm/state"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/avm/txs/mempool"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/avm/block"
+	"github.com/skychains/chain/vms/avm/state"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/avm/txs/mempool"
 
-	blockexecutor "github.com/SkyChains/chain/vms/avm/block/executor"
-	txexecutor "github.com/SkyChains/chain/vms/avm/txs/executor"
+	blockexecutor "github.com/skychains/chain/vms/avm/block/executor"
+	txexecutor "github.com/skychains/chain/vms/avm/txs/executor"
 )
 
 // targetBlockSize is the max block size we aim to produce

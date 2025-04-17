@@ -9,11 +9,11 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/components/lux"
 )
 
 const (

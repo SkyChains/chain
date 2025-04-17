@@ -8,12 +8,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/wallet/chain/x"
-	"github.com/SkyChains/chain/wallet/chain/x/builder"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/wallet/chain/x"
+	"github.com/skychains/chain/wallet/chain/x/builder"
+	"github.com/skychains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 )
 
 func main() {

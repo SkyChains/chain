@@ -6,10 +6,10 @@ package uptime
 import (
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 var _ Manager = (*manager)(nil)

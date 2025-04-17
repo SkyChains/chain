@@ -6,8 +6,8 @@ package vertex
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/lux"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/lux"
 )
 
 // Storage defines the persistent storage that is required by the consensus

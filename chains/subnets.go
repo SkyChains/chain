@@ -7,9 +7,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/subnets"
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/subnets"
+	"github.com/skychains/chain/utils/constants"
 )
 
 var ErrNoPrimaryNetworkConfig = errors.New("no subnet config for primary network found")

@@ -6,10 +6,10 @@ package txs
 import (
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/components/lux"
 )
 
 var _ UnsignedTx = (*AdvanceTimeTx)(nil)

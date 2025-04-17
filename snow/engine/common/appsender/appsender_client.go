@@ -6,11 +6,11 @@ package appsender
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/set"
 
-	appsenderpb "github.com/SkyChains/chain/proto/pb/appsender"
+	appsenderpb "github.com/skychains/chain/proto/pb/appsender"
 )
 
 var _ common.AppSender = (*Client)(nil)

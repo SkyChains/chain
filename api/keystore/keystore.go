@@ -11,14 +11,14 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/SkyChains/chain/chains/atomic"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/encdb"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/password"
+	"github.com/skychains/chain/chains/atomic"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/encdb"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/password"
 )
 
 const (

@@ -3,7 +3,7 @@
 
 package tx
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 var _ Unsigned = (*Transfer)(nil)
 

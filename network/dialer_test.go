@@ -9,7 +9,7 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/SkyChains/chain/network/dialer"
+	"github.com/skychains/chain/network/dialer"
 )
 
 var (

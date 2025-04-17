@@ -16,8 +16,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var (

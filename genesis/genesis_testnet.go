@@ -8,8 +8,8 @@ import (
 
 	_ "embed"
 
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/platformvm/reward"
 )
 
 var (

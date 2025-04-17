@@ -6,7 +6,7 @@ package summary
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 func Build(

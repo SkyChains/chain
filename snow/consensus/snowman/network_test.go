@@ -7,14 +7,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowball"
-	"github.com/SkyChains/chain/snow/consensus/snowman/snowmantest"
-	"github.com/SkyChains/chain/snow/snowtest"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/bag"
-	"github.com/SkyChains/chain/utils/sampler"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowball"
+	"github.com/skychains/chain/snow/consensus/snowman/snowmantest"
+	"github.com/skychains/chain/snow/snowtest"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/bag"
+	"github.com/skychains/chain/utils/sampler"
 )
 
 type Network struct {

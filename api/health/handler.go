@@ -9,9 +9,9 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/utils/logging"
 
-	avajson "github.com/SkyChains/chain/utils/json"
+	avajson "github.com/skychains/chain/utils/json"
 )
 
 // NewGetAndPostHandler returns a health handler that supports GET and jsonrpc

@@ -6,9 +6,9 @@ package atomic
 import (
 	"bytes"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/ids"
 )
 
 var (

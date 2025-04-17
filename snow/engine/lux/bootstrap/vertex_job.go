@@ -12,13 +12,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/lux"
-	"github.com/SkyChains/chain/snow/engine/lux/vertex"
-	"github.com/SkyChains/chain/snow/engine/common/queue"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/lux"
+	"github.com/skychains/chain/snow/engine/lux/vertex"
+	"github.com/skychains/chain/snow/engine/common/queue"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
 )
 
 var errMissingVtxDependenciesOnAccept = errors.New("attempting to execute blocked vertex")

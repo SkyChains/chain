@@ -4,14 +4,14 @@
 package executor
 
 import (
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/uptime"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/vms/platformvm/config"
-	"github.com/SkyChains/chain/vms/platformvm/fx"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
-	"github.com/SkyChains/chain/vms/platformvm/utxo"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/uptime"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/vms/platformvm/config"
+	"github.com/skychains/chain/vms/platformvm/fx"
+	"github.com/skychains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/vms/platformvm/utxo"
 )
 
 type Backend struct {

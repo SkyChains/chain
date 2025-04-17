@@ -11,15 +11,15 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/network/p2p"
-	"github.com/SkyChains/chain/network/p2p/gossip"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/txs/mempool"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/network/p2p"
+	"github.com/skychains/chain/network/p2p/gossip"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/txs/mempool"
 
-	pmempool "github.com/SkyChains/chain/vms/platformvm/txs/mempool"
+	pmempool "github.com/skychains/chain/vms/platformvm/txs/mempool"
 )
 
 var (

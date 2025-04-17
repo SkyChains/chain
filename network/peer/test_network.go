@@ -4,9 +4,9 @@
 package peer
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/bloom"
-	"github.com/SkyChains/chain/utils/ips"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/bloom"
+	"github.com/skychains/chain/utils/ips"
 )
 
 var TestNetwork Network = testNetwork{}

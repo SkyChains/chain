@@ -3,7 +3,7 @@
 
 package bootstrapper
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 var (
 	nodeID0 = ids.GenerateTestNodeID()

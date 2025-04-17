@@ -12,10 +12,10 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var (

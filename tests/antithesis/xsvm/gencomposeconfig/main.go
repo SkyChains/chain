@@ -8,10 +8,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/tests/antithesis"
-	"github.com/SkyChains/chain/tests/fixture/subnet"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/tests/antithesis"
+	"github.com/skychains/chain/tests/fixture/subnet"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
 )
 
 const baseImageName = "antithesis-xsvm"

@@ -11,7 +11,7 @@ import (
 
 	"github.com/mr-tron/base58/base58"
 
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 const checksumLen = 4

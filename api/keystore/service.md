@@ -25,12 +25,12 @@ following docs for details:
 
 - Transfer LUX Tokens Between Chains:
 
-  - C-Chain: [export](https://github.com/SkyChains/js-sdk/blob/master/examples/c-chain/export.ts) and
-    [import](https://github.com/SkyChains/js-sdk/blob/master/examples/c-chain/import.ts)
-  - P-Chain: [export](https://github.com/SkyChains/js-sdk/blob/master/examples/p-chain/export.ts) and
-    [import](https://github.com/SkyChains/js-sdk/blob/master/examples/p-chain/import.ts)
-  - X-Chain: [export](https://github.com/SkyChains/js-sdk/blob/master/examples/x-chain/export.ts) and
-    [import](https://github.com/SkyChains/js-sdk/blob/master/examples/x-chain/import.ts)
+  - C-Chain: [export](https://github.com/skychains/js-sdk/blob/master/examples/c-chain/export.ts) and
+    [import](https://github.com/skychains/js-sdk/blob/master/examples/c-chain/import.ts)
+  - P-Chain: [export](https://github.com/skychains/js-sdk/blob/master/examples/p-chain/export.ts) and
+    [import](https://github.com/skychains/js-sdk/blob/master/examples/p-chain/import.ts)
+  - X-Chain: [export](https://github.com/skychains/js-sdk/blob/master/examples/x-chain/export.ts) and
+    [import](https://github.com/skychains/js-sdk/blob/master/examples/x-chain/import.ts)
 
 - [Add a Node to the Validator Set](/nodes/validate/add-a-validator)
 
@@ -57,7 +57,7 @@ This API uses the `json 2.0` API format. For more information on making JSON RPC
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/skychains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -106,7 +106,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/skychains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -146,7 +146,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/skychains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -203,7 +203,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/skychains/chain/releases/tag/v1.9.12).
 
 :::
 
@@ -255,7 +255,7 @@ curl -X POST --data '{
 
 :::caution
 
-Deprecated as of [**v1.9.12**](https://github.com/SkyChains/chain/releases/tag/v1.9.12).
+Deprecated as of [**v1.9.12**](https://github.com/skychains/chain/releases/tag/v1.9.12).
 
 :::
 

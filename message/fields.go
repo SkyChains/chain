@@ -7,8 +7,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/proto/pb/p2p"
 )
 
 var (

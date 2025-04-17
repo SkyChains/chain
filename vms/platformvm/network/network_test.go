@@ -13,13 +13,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/snowtest"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/txs/mempool"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/snowtest"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/txs/mempool"
 
-	pmempool "github.com/SkyChains/chain/vms/platformvm/txs/mempool"
+	pmempool "github.com/skychains/chain/vms/platformvm/txs/mempool"
 )
 
 var (

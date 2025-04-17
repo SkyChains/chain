@@ -9,9 +9,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/snow/networking/router"
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/snow/networking/router"
+	"github.com/skychains/chain/utils/constants"
 )
 
 func ExampleStartTestPeer() {

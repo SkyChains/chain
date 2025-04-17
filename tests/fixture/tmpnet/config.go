@@ -15,21 +15,21 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/SkyChains/coreth/core"
-	"github.com/SkyChains/coreth/params"
-	"github.com/SkyChains/coreth/plugin/evm"
+	"github.com/skychains/coreth/core"
+	"github.com/skychains/coreth/params"
+	"github.com/skychains/coreth/plugin/evm"
 
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/perms"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/perms"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/platformvm/reward"
 )
 
 const (
@@ -342,7 +342,7 @@ func NewTestGenesis(
 	// The eth address is only needed to link pre-mainnet assets. Until that capability
 	// becomes necessary for testing, use a bogus address.
 	//
-	// Reference: https://github.com/SkyChains/chain/issues/1365#issuecomment-1511508767
+	// Reference: https://github.com/skychains/chain/issues/1365#issuecomment-1511508767
 	ethAddress := "0x0000000000000000000000000000000000000000"
 
 	now := time.Now()

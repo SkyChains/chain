@@ -13,19 +13,19 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/avm/block/executor"
-	"github.com/SkyChains/chain/vms/avm/fxs"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/nftfx"
-	"github.com/SkyChains/chain/vms/propertyfx"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/vms/txs/mempool"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/avm/block/executor"
+	"github.com/skychains/chain/vms/avm/fxs"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/nftfx"
+	"github.com/skychains/chain/vms/propertyfx"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/vms/txs/mempool"
 
-	xmempool "github.com/SkyChains/chain/vms/avm/txs/mempool"
+	xmempool "github.com/skychains/chain/vms/avm/txs/mempool"
 )
 
 var (

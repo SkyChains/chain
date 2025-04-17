@@ -11,9 +11,9 @@ import (
 	"github.com/gorilla/websocket"
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/units"
 )
 
 const (

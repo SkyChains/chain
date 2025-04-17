@@ -6,7 +6,7 @@ package snow
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/proto/pb/p2p"
 )
 
 const (

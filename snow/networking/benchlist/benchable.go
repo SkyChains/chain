@@ -3,7 +3,7 @@
 
 package benchlist
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 // Benchable is notified when a validator is benched or unbenched from a given chain
 type Benchable interface {

@@ -6,7 +6,7 @@ package api
 import (
 	"context"
 
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 var _ StaticClient = (*staticClient)(nil)

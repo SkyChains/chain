@@ -6,7 +6,7 @@ package bootstrap
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/utils"
 )
 
 type metrics struct {

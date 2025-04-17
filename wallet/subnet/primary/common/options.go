@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )

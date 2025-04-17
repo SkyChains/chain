@@ -3,7 +3,7 @@
 
 package secp256k1
 
-import "github.com/SkyChains/chain/utils/cb58"
+import "github.com/skychains/chain/utils/cb58"
 
 func TestKeys() []*PrivateKey {
 	var (

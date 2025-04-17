@@ -6,9 +6,9 @@ package lux
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var ErrInsufficientFunds = errors.New("insufficient funds")

@@ -3,7 +3,7 @@
 
 package signer
 
-import "github.com/SkyChains/chain/utils/crypto/bls"
+import "github.com/skychains/chain/utils/crypto/bls"
 
 var _ Signer = (*Empty)(nil)
 

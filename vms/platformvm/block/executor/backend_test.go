@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/platformvm/block"
-	"github.com/SkyChains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/state"
 )
 
 func TestGetState(t *testing.T) {

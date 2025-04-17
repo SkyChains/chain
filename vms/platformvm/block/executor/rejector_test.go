@@ -10,15 +10,15 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/platformvm/block"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/platformvm/txs/mempool"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/platformvm/txs/mempool"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 func TestRejectBlock(t *testing.T) {

@@ -6,7 +6,7 @@ package linearcodec
 import (
 	"testing"
 
-	"github.com/SkyChains/chain/codec"
+	"github.com/skychains/chain/codec"
 )
 
 func TestVectors(t *testing.T) {

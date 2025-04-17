@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/rpc"
-	"github.com/SkyChains/chain/vms/example/xsvm/block"
-	"github.com/SkyChains/chain/vms/example/xsvm/genesis"
-	"github.com/SkyChains/chain/vms/example/xsvm/tx"
-	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/rpc"
+	"github.com/skychains/chain/vms/example/xsvm/block"
+	"github.com/skychains/chain/vms/example/xsvm/genesis"
+	"github.com/skychains/chain/vms/example/xsvm/tx"
+	"github.com/skychains/chain/vms/platformvm/warp"
 )
 
 const DefaultPollingInterval = 50 * time.Millisecond

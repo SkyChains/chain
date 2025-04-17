@@ -7,9 +7,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/engine/common"
 
-	messengerpb "github.com/SkyChains/chain/proto/pb/messenger"
+	messengerpb "github.com/skychains/chain/proto/pb/messenger"
 )
 
 var (

@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/filesystem"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/resource"
-	"github.com/SkyChains/chain/vms"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/filesystem"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/resource"
+	"github.com/skychains/chain/vms"
 )
 
 var (

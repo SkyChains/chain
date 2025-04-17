@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils/ips"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils/ips"
 )
 
 var (

@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/platformvm/reward"
 )
 
 var (

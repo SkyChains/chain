@@ -15,14 +15,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/perms"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/perms"
+	"github.com/skychains/chain/utils/set"
 )
 
 const (

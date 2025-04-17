@@ -7,12 +7,12 @@ import (
 	"errors"
 	"math"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/codec/linearcodec"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/platformvm/signer"
-	"github.com/SkyChains/chain/vms/platformvm/stakeable"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/codec/linearcodec"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/platformvm/signer"
+	"github.com/skychains/chain/vms/platformvm/stakeable"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 const CodecVersion = 0

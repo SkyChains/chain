@@ -4,8 +4,8 @@
 package signer
 
 import (
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 type Signer interface {

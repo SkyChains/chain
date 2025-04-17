@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 const (

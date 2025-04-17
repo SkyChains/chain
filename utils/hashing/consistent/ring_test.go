@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 var (

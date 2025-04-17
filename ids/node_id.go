@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 const (

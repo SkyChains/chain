@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	safemath "github.com/SkyChains/chain/utils/math"
+	safemath "github.com/skychains/chain/utils/math"
 )
 
 var (

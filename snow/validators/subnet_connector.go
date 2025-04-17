@@ -6,7 +6,7 @@ package validators
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 // SubnetConnector represents a handler that is called when a connection is

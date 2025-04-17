@@ -6,12 +6,12 @@ package admin
 import (
 	"context"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/database/rpcdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/database/rpcdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

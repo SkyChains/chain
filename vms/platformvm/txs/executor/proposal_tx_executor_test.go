@@ -11,17 +11,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/status"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/status"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
-	walletsigner "github.com/SkyChains/chain/wallet/chain/p/signer"
+	walletsigner "github.com/skychains/chain/wallet/chain/p/signer"
 )
 
 func TestProposalTxExecuteAddDelegator(t *testing.T) {

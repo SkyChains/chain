@@ -6,10 +6,10 @@ package tracker
 import (
 	"sync"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/set"
 )
 
 var _ Accepted = (*accepted)(nil)

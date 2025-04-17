@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/utils"
 )
 
 var (

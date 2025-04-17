@@ -3,7 +3,7 @@
 
 package cache
 
-import "github.com/SkyChains/chain/utils"
+import "github.com/skychains/chain/utils"
 
 var _ Cacher[struct{}, struct{}] = (*Empty[struct{}, struct{}])(nil)
 

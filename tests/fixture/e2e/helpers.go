@@ -14,17 +14,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SkyChains/coreth/core/types"
-	"github.com/SkyChains/coreth/ethclient"
-	"github.com/SkyChains/coreth/interfaces"
+	"github.com/skychains/coreth/core/types"
+	"github.com/skychains/coreth/ethclient"
+	"github.com/skychains/coreth/interfaces"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/tests"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/tests"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )
@@ -176,7 +176,7 @@ func SuggestGasPrice(ethClient ethclient.Client) *big.Int {
 	require.NoError(ginkgo.GinkgoT(), err)
 	// Double the suggested gas price to maximize the chances of
 	// acceptance. Maybe this can be revisited pending resolution of
-	// https://github.com/SkyChains/coreth/issues/314.
+	// https://github.com/skychains/coreth/issues/314.
 	gasPrice.Add(gasPrice, gasPrice)
 	return gasPrice
 }

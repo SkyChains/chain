@@ -18,8 +18,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/password"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/password"
 )
 
 var (

@@ -6,7 +6,7 @@ package uptime
 import (
 	"time"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 type State interface {

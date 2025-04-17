@@ -3,7 +3,7 @@
 
 package gossip
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 // Gossipable is an item that can be gossiped across the network
 type Gossipable interface {

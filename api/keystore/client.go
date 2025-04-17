@@ -6,9 +6,9 @@ package keystore
 import (
 	"context"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

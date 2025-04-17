@@ -4,8 +4,8 @@
 package peer
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/sampler"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/sampler"
 )
 
 var _ Set = (*peerSet)(nil)

@@ -8,12 +8,12 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/ipcs/socket"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/ipcs/socket"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var _ snow.Acceptor = (*EventSockets)(nil)

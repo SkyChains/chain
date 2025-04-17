@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/utils/units"
 )
 
 func BenchmarkEncodings(b *testing.B) {

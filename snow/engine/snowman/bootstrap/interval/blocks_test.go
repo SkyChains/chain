@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/memdb"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/memdb"
 )
 
 func TestAdd(t *testing.T) {

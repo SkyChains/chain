@@ -6,8 +6,8 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/bag"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/bag"
 )
 
 // Consensus represents a general snow instance that can be used directly to

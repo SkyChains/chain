@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 const (

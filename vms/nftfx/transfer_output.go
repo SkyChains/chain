@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/vms/types"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/vms/types"
 )
 
 const (

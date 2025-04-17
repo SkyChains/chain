@@ -18,8 +18,8 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/units"
 )
 
 // Tests is a list of all database tests

@@ -8,15 +8,15 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/api/keystore"
-	"github.com/SkyChains/chain/api/metrics"
-	"github.com/SkyChains/chain/chains/atomic"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/api/keystore"
+	"github.com/skychains/chain/api/metrics"
+	"github.com/skychains/chain/chains/atomic"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/platformvm/warp"
 )
 
 // ContextInitializable represents an object that can be initialized

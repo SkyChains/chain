@@ -3,7 +3,7 @@
 
 package xsvm
 
-import "github.com/SkyChains/chain/version"
+import "github.com/skychains/chain/version"
 
 var Version = &version.Semantic{
 	Major: 1,

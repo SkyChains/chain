@@ -6,16 +6,16 @@ package api
 import (
 	"net/http"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/example/xsvm/block"
-	"github.com/SkyChains/chain/vms/example/xsvm/builder"
-	"github.com/SkyChains/chain/vms/example/xsvm/chain"
-	"github.com/SkyChains/chain/vms/example/xsvm/genesis"
-	"github.com/SkyChains/chain/vms/example/xsvm/state"
-	"github.com/SkyChains/chain/vms/example/xsvm/tx"
-	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/example/xsvm/block"
+	"github.com/skychains/chain/vms/example/xsvm/builder"
+	"github.com/skychains/chain/vms/example/xsvm/chain"
+	"github.com/skychains/chain/vms/example/xsvm/genesis"
+	"github.com/skychains/chain/vms/example/xsvm/state"
+	"github.com/skychains/chain/vms/example/xsvm/tx"
+	"github.com/skychains/chain/vms/platformvm/warp"
 )
 
 // Server defines the xsvm API server.

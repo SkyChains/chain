@@ -10,7 +10,7 @@ package database
 import (
 	"io"
 
-	"github.com/SkyChains/chain/api/health"
+	"github.com/skychains/chain/api/health"
 )
 
 // KeyValueReader wraps the Has and Get method of a backing data store.

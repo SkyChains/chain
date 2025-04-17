@@ -7,16 +7,16 @@ import (
 	"context"
 	"time"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/rpc"
-	"github.com/SkyChains/chain/vms/platformvm/status"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/rpc"
+	"github.com/skychains/chain/vms/platformvm/status"
 )
 
 var _ Client = (*client)(nil)

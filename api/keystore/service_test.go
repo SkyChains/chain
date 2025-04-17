@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/password"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/password"
 )
 
 // strongPassword defines a password used for the following tests that

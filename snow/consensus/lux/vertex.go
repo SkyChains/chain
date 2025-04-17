@@ -6,8 +6,8 @@ package lux
 import (
 	"context"
 
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowstorm"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowstorm"
 )
 
 // Vertex is a collection of multiple transactions tied to other vertices

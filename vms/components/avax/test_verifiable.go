@@ -4,8 +4,8 @@
 package lux
 
 import (
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 var (

@@ -12,11 +12,11 @@ package sender
 import (
 	reflect "reflect"
 
-	ids "github.com/SkyChains/chain/ids"
-	message "github.com/SkyChains/chain/message"
-	common "github.com/SkyChains/chain/snow/engine/common"
-	subnets "github.com/SkyChains/chain/subnets"
-	set "github.com/SkyChains/chain/utils/set"
+	ids "github.com/skychains/chain/ids"
+	message "github.com/skychains/chain/message"
+	common "github.com/skychains/chain/snow/engine/common"
+	subnets "github.com/skychains/chain/subnets"
+	set "github.com/skychains/chain/utils/set"
 	gomock "go.uber.org/mock/gomock"
 )
 

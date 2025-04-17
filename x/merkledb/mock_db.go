@@ -13,9 +13,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	database "github.com/SkyChains/chain/database"
-	ids "github.com/SkyChains/chain/ids"
-	maybe "github.com/SkyChains/chain/utils/maybe"
+	database "github.com/skychains/chain/database"
+	ids "github.com/skychains/chain/ids"
+	maybe "github.com/skychains/chain/utils/maybe"
 	gomock "go.uber.org/mock/gomock"
 )
 

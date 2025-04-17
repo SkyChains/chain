@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 type mockClient struct {

@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/snowstorm"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/snowstorm"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 )
 
 var (

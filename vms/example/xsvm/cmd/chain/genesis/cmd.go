@@ -10,8 +10,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/vms/example/xsvm/genesis"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/vms/example/xsvm/genesis"
 )
 
 var errUnknownEncoding = errors.New("unknown encoding")

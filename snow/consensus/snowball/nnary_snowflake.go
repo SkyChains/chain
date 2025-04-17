@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 var _ Nnary = (*nnarySnowflake)(nil)

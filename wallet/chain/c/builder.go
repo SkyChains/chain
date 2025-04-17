@@ -8,15 +8,15 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/SkyChains/coreth/plugin/evm"
+	"github.com/skychains/coreth/plugin/evm"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )

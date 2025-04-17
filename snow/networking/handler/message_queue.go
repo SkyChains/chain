@@ -10,14 +10,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/proto/pb/p2p"
-	"github.com/SkyChains/chain/snow/networking/tracker"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/buffer"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/snow/networking/tracker"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/buffer"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 var _ MessageQueue = (*messageQueue)(nil)

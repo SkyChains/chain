@@ -6,7 +6,7 @@ package p2p
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 // NodeSampler samples nodes in network

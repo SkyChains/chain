@@ -17,11 +17,11 @@ import (
 
 	_ "embed"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/perms"
-	"github.com/SkyChains/chain/vms/platformvm/genesis"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/perms"
+	"github.com/skychains/chain/vms/platformvm/genesis"
 )
 
 var (

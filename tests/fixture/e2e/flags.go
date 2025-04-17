@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
 )
 
 type FlagVars struct {

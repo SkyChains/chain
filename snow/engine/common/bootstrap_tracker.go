@@ -3,7 +3,7 @@
 
 package common
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 // BootstrapTracker describes the standard interface for tracking the status of
 // a subnet bootstrapping

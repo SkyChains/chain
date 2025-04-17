@@ -16,12 +16,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gonum.org/v1/gonum/mathext/prng"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowball"
-	"github.com/SkyChains/chain/snow/consensus/snowman/snowmantest"
-	"github.com/SkyChains/chain/snow/snowtest"
-	"github.com/SkyChains/chain/utils/bag"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowball"
+	"github.com/skychains/chain/snow/consensus/snowman/snowmantest"
+	"github.com/skychains/chain/snow/snowtest"
+	"github.com/skychains/chain/utils/bag"
 )
 
 type testFunc func(*testing.T, Factory)

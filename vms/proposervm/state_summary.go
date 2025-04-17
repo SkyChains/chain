@@ -6,8 +6,8 @@ package proposervm
 import (
 	"context"
 
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/vms/proposervm/summary"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/vms/proposervm/summary"
 )
 
 var _ block.StateSummary = (*stateSummary)(nil)

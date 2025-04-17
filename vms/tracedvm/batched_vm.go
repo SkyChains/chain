@@ -9,9 +9,9 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

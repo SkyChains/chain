@@ -3,7 +3,7 @@
 
 package genesis
 
-import "github.com/SkyChains/chain/vms/platformvm/block"
+import "github.com/skychains/chain/vms/platformvm/block"
 
 const CodecVersion = block.CodecVersion
 

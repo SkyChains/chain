@@ -9,13 +9,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/snowtest"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/platformvm/stakeable"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/snowtest"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/platformvm/stakeable"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 var preFundedKeys = secp256k1.TestKeys()

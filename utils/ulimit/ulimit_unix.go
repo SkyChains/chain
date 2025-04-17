@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/utils/logging"
 )
 
 const DefaultFDLimit = 32 * 1024

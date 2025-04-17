@@ -12,12 +12,12 @@ package executor
 import (
 	reflect "reflect"
 
-	ids "github.com/SkyChains/chain/ids"
-	snowman "github.com/SkyChains/chain/snow/consensus/snowman"
-	set "github.com/SkyChains/chain/utils/set"
-	block "github.com/SkyChains/chain/vms/platformvm/block"
-	state "github.com/SkyChains/chain/vms/platformvm/state"
-	txs "github.com/SkyChains/chain/vms/platformvm/txs"
+	ids "github.com/skychains/chain/ids"
+	snowman "github.com/skychains/chain/snow/consensus/snowman"
+	set "github.com/skychains/chain/utils/set"
+	block "github.com/skychains/chain/vms/platformvm/block"
+	state "github.com/skychains/chain/vms/platformvm/state"
+	txs "github.com/skychains/chain/vms/platformvm/txs"
 	gomock "go.uber.org/mock/gomock"
 )
 

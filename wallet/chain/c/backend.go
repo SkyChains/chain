@@ -10,12 +10,12 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/SkyChains/coreth/plugin/evm"
+	"github.com/skychains/coreth/plugin/evm"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )

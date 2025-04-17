@@ -9,14 +9,14 @@ package banff
 import (
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/tests"
-	"github.com/SkyChains/chain/tests/fixture/e2e"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/components/verify"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/tests"
+	"github.com/skychains/chain/tests/fixture/e2e"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/verify"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

@@ -1,7 +1,7 @@
 // Copyright (C) 2019-2024, Lux Partners Limited. All rights reserved.
 // See the file LICENSE for licensing terms.
 
-// TODO: https://github.com/SkyChains/chain/issues/3174
+// TODO: https://github.com/skychains/chain/issues/3174
 //go:build test || !test
 
 package validators
@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 var (

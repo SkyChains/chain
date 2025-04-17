@@ -6,7 +6,7 @@ package avm
 import (
 	"encoding/json"
 
-	"github.com/SkyChains/chain/vms/avm/network"
+	"github.com/skychains/chain/vms/avm/network"
 )
 
 var DefaultConfig = Config{

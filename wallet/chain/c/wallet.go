@@ -8,13 +8,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/SkyChains/coreth/ethclient"
-	"github.com/SkyChains/coreth/plugin/evm"
+	"github.com/skychains/coreth/ethclient"
+	"github.com/skychains/coreth/plugin/evm"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/rpc"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/rpc"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )

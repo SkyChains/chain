@@ -8,18 +8,18 @@ import (
 	"errors"
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/versiondb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/example/xsvm/execute"
-	"github.com/SkyChains/chain/vms/example/xsvm/state"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/versiondb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/example/xsvm/execute"
+	"github.com/skychains/chain/vms/example/xsvm/state"
 
-	smblock "github.com/SkyChains/chain/snow/engine/snowman/block"
-	xsblock "github.com/SkyChains/chain/vms/example/xsvm/block"
+	smblock "github.com/skychains/chain/snow/engine/snowman/block"
+	xsblock "github.com/skychains/chain/vms/example/xsvm/block"
 )
 
 const maxClockSkew = 10 * time.Second

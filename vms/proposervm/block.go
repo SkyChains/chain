@@ -11,14 +11,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/vms/proposervm/block"
-	"github.com/SkyChains/chain/vms/proposervm/proposer"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/vms/proposervm/block"
+	"github.com/skychains/chain/vms/proposervm/proposer"
 
-	smblock "github.com/SkyChains/chain/snow/engine/snowman/block"
+	smblock "github.com/skychains/chain/snow/engine/snowman/block"
 )
 
 const (

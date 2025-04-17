@@ -6,7 +6,7 @@ package beacon
 import (
 	"net/netip"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 var _ Beacon = (*beacon)(nil)

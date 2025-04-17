@@ -6,10 +6,10 @@ package metrics
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/utils/metric"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/avm/block"
-	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/skychains/chain/utils/metric"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/avm/block"
+	"github.com/skychains/chain/vms/avm/txs"
 )
 
 var _ Metrics = (*metrics)(nil)

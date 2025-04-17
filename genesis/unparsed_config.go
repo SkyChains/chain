@@ -7,9 +7,9 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/vms/platformvm/signer"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/vms/platformvm/signer"
 )
 
 var errInvalidETHAddress = errors.New("invalid eth address")

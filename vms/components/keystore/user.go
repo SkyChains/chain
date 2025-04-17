@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/SkyChains/chain/api/keystore"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/encdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/api/keystore"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/encdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 // Max number of addresses allowed for a single keystore user

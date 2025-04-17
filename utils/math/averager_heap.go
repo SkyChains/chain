@@ -4,8 +4,8 @@
 package math
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/heap"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/heap"
 )
 
 var _ AveragerHeap = (*averagerHeap)(nil)

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
 )
 
 // Const variables to be exported

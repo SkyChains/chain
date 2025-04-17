@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/linkeddb"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/linkeddb"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/set"
 )
 
 var (

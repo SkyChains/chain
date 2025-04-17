@@ -4,7 +4,7 @@ Name:           node
 Version:        %{version}
 Release:        %{release}
 Summary:        The Lux platform binaries
-URL:            https://github.com/SkyChains/%{name}
+URL:            https://github.com/skychains/%{name}
 License:        BSD-3
 AutoReqProv:    no
 

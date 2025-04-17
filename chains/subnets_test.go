@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/subnets"
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/subnets"
+	"github.com/skychains/chain/utils/constants"
 )
 
 func TestNewSubnets(t *testing.T) {

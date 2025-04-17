@@ -4,13 +4,13 @@
 package txstest
 
 import (
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/vms/platformvm/config"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/wallet/chain/p/builder"
-	"github.com/SkyChains/chain/wallet/chain/p/signer"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/vms/platformvm/config"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/wallet/chain/p/builder"
+	"github.com/skychains/chain/wallet/chain/p/signer"
 )
 
 func NewWalletFactory(

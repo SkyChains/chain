@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 var _ txs.Visitor = (*MempoolTxVerifier)(nil)

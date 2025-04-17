@@ -6,16 +6,16 @@ package config
 import (
 	"time"
 
-	"github.com/SkyChains/chain/chains"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/uptime"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/platformvm/reward"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/platformvm/txs/fee"
-	"github.com/SkyChains/chain/vms/platformvm/upgrade"
+	"github.com/skychains/chain/chains"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/uptime"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/platformvm/reward"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/platformvm/txs/fee"
+	"github.com/skychains/chain/vms/platformvm/upgrade"
 )
 
 // Struct collecting all foundational parameters of PlatformVM

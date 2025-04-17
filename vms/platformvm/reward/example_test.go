@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/utils/units"
 )
 
 func ExampleNewCalculator() {

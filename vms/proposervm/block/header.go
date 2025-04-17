@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 type Header interface {
 	ChainID() ids.ID

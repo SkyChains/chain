@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/chain/version"
-	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
+	"github.com/skychains/chain/version"
+	"github.com/skychains/chain/vms/rpcchainvm/runtime"
 )
 
 var _ runtime.Initializer = (*initializer)(nil)

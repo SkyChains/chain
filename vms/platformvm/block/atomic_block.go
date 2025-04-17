@@ -6,9 +6,9 @@ package block
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 var _ Block = (*ApricotAtomicBlock)(nil)

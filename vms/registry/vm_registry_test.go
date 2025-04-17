@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms"
 )
 
 var (

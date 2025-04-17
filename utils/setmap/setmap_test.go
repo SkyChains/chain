@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/utils/set"
 )
 
 func TestSetMapPut(t *testing.T) {

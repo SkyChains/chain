@@ -10,13 +10,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/database/versiondb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/database/versiondb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 // Maximum number of containers IDs that can be fetched at a time in a call to

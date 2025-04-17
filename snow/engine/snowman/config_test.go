@@ -6,13 +6,13 @@ package snowman
 import (
 	"testing"
 
-	"github.com/SkyChains/chain/snow/consensus/snowball"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/engine/common/tracker"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/snow/snowtest"
-	"github.com/SkyChains/chain/snow/validators"
+	"github.com/skychains/chain/snow/consensus/snowball"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/engine/common/tracker"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/snow/snowtest"
+	"github.com/skychains/chain/snow/validators"
 )
 
 func DefaultConfig(t testing.TB) Config {

@@ -6,9 +6,9 @@ package ipcs
 import (
 	"context"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

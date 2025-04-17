@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/term"
 
-	"github.com/SkyChains/chain/app"
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/app"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/version"
 )
 
 func main() {

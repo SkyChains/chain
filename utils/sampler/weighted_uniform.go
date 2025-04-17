@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math"
 
-	safemath "github.com/SkyChains/chain/utils/math"
+	safemath "github.com/skychains/chain/utils/math"
 )
 
 var (

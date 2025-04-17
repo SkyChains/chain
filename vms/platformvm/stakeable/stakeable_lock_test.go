@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/lux"
 )
 
 var errTest = errors.New("hi mom")

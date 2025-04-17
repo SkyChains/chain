@@ -6,7 +6,7 @@ package executor
 import (
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/block"
 )
 
 var _ block.Visitor = (*rejector)(nil)

@@ -6,7 +6,7 @@ package block
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 // StateSummary represents all the information needed to download, verify, and

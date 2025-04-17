@@ -3,7 +3,7 @@
 
 package state
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 type Versions interface {
 	// GetState returns the state of the chain after [blkID] has been accepted.

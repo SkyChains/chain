@@ -10,12 +10,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/corruptabledb"
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/corruptabledb"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/vms/rpcchainvm/grpcutils"
 
-	rpcdbpb "github.com/SkyChains/chain/proto/pb/rpcdb"
+	rpcdbpb "github.com/skychains/chain/proto/pb/rpcdb"
 )
 
 type testDatabase struct {

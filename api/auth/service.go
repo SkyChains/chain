@@ -8,7 +8,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/api"
+	"github.com/skychains/chain/api"
 )
 
 // Service that serves the Auth API functionality.

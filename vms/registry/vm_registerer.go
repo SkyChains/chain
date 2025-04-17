@@ -12,12 +12,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/api/server"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms"
+	"github.com/skychains/chain/api/server"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms"
 )
 
 var (

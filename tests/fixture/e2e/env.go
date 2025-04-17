@@ -14,13 +14,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/api/info"
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/tests"
-	"github.com/SkyChains/chain/tests/fixture"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/api/info"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/tests"
+	"github.com/skychains/chain/tests/fixture"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

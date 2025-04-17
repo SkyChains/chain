@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/formatting"
 )
 
 var ErrNilCredential = errors.New("nil credential")

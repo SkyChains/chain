@@ -6,10 +6,10 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting"
 
-	avajson "github.com/SkyChains/chain/utils/json"
+	avajson "github.com/skychains/chain/utils/json"
 )
 
 // This file contains structs used in arguments and responses in services

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	writerpb "github.com/SkyChains/chain/proto/pb/io/writer"
+	writerpb "github.com/skychains/chain/proto/pb/io/writer"
 )
 
 var _ io.Writer = (*Client)(nil)

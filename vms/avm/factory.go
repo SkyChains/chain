@@ -4,9 +4,9 @@
 package avm
 
 import (
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms"
-	"github.com/SkyChains/chain/vms/avm/config"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms"
+	"github.com/skychains/chain/vms/avm/config"
 )
 
 var _ vms.Factory = (*Factory)(nil)

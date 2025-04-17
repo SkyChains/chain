@@ -4,8 +4,8 @@
 package proposer
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
 )
 
 var _ utils.Sortable[validatorData] = validatorData{}

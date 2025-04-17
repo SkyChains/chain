@@ -14,13 +14,13 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/exp/maps"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/maybe"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/x/merkledb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/maybe"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/x/merkledb"
 
-	pb "github.com/SkyChains/chain/proto/pb/sync"
+	pb "github.com/skychains/chain/proto/pb/sync"
 )
 
 const (

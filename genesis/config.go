@@ -13,12 +13,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/formatting/address"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/vms/platformvm/signer"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/formatting/address"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/vms/platformvm/signer"
 )
 
 var (

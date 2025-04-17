@@ -17,14 +17,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/memdb"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/trace"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/maybe"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/memdb"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/trace"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/maybe"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/units"
 )
 
 const defaultHistoryLength = 300

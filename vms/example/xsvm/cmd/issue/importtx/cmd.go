@@ -11,13 +11,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/SkyChains/chain/api/info"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/example/xsvm/api"
-	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/status"
-	"github.com/SkyChains/chain/vms/example/xsvm/tx"
-	"github.com/SkyChains/chain/vms/platformvm/warp"
+	"github.com/skychains/chain/api/info"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/example/xsvm/api"
+	"github.com/skychains/chain/vms/example/xsvm/cmd/issue/status"
+	"github.com/skychains/chain/vms/example/xsvm/tx"
+	"github.com/skychains/chain/vms/platformvm/warp"
 )
 
 func Command() *cobra.Command {

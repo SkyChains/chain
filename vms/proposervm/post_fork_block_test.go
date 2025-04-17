@@ -12,15 +12,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/choices"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/consensus/snowman/snowmantest"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/vms/proposervm/block"
-	"github.com/SkyChains/chain/vms/proposervm/proposer"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/choices"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/consensus/snowman/snowmantest"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/vms/proposervm/block"
+	"github.com/skychains/chain/vms/proposervm/proposer"
 )
 
 var errDuplicateVerify = errors.New("duplicate verify")

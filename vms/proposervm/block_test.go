@@ -16,17 +16,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/snow/consensus/snowman/snowmantest"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/timer/mockable"
-	"github.com/SkyChains/chain/vms/proposervm/proposer"
-	"github.com/SkyChains/chain/vms/proposervm/scheduler"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/snow/consensus/snowman/snowmantest"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/vms/proposervm/proposer"
+	"github.com/skychains/chain/vms/proposervm/scheduler"
 )
 
 // Assert that when the underlying VM implements ChainVMWithBuildBlockContext

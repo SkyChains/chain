@@ -3,7 +3,7 @@ syntax = "proto3";
 package p2p;
 
 // Reference: https://developers.google.com/protocol-buffers/docs/proto3
-option go_package = "github.com/SkyChains/chain/proto/pb/p2p";
+option go_package = "github.com/skychains/chain/proto/pb/p2p";
 
 // Represents peer-to-peer messages.
 // Only one type can be non-null.

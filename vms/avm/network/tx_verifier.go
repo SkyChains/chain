@@ -6,7 +6,7 @@ package network
 import (
 	"sync"
 
-	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/avm/txs"
 )
 
 var _ TxVerifier = (*LockedTxVerifier)(nil)

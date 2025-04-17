@@ -4,11 +4,11 @@
 package builder
 
 import (
-	"github.com/SkyChains/chain/vms/avm/block"
-	"github.com/SkyChains/chain/vms/avm/fxs"
-	"github.com/SkyChains/chain/vms/nftfx"
-	"github.com/SkyChains/chain/vms/propertyfx"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/vms/avm/block"
+	"github.com/skychains/chain/vms/avm/fxs"
+	"github.com/skychains/chain/vms/nftfx"
+	"github.com/skychains/chain/vms/propertyfx"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 const (

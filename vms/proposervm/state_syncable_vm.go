@@ -9,9 +9,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/vms/proposervm/summary"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/vms/proposervm/summary"
 )
 
 func (vm *VM) StateSyncEnabled(ctx context.Context) (bool, error) {

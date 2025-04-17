@@ -13,11 +13,11 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/SkyChains/chain/vms/rpcchainvm/ghttp/gresponsewriter"
-	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/skychains/chain/vms/rpcchainvm/ghttp/gresponsewriter"
+	"github.com/skychains/chain/vms/rpcchainvm/grpcutils"
 
-	httppb "github.com/SkyChains/chain/proto/pb/http"
-	responsewriterpb "github.com/SkyChains/chain/proto/pb/http/responsewriter"
+	httppb "github.com/skychains/chain/proto/pb/http"
+	responsewriterpb "github.com/skychains/chain/proto/pb/http/responsewriter"
 )
 
 var (

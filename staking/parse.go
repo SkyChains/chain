@@ -15,7 +15,7 @@ import (
 
 	"golang.org/x/crypto/cryptobyte"
 
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/utils/units"
 
 	cryptobyte_asn1 "golang.org/x/crypto/cryptobyte/asn1"
 )

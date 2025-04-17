@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/utils/constants"
 )
 
 var staleSocketTimeout = 100 * time.Millisecond

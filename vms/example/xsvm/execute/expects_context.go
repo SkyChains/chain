@@ -4,8 +4,8 @@
 package execute
 
 import (
-	"github.com/SkyChains/chain/vms/example/xsvm/block"
-	"github.com/SkyChains/chain/vms/example/xsvm/tx"
+	"github.com/skychains/chain/vms/example/xsvm/block"
+	"github.com/skychains/chain/vms/example/xsvm/tx"
 )
 
 var _ tx.Visitor = (*TxExpectsContext)(nil)

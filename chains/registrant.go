@@ -4,8 +4,8 @@
 package chains
 
 import (
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/engine/common"
 )
 
 // Registrant can register the existence of a chain

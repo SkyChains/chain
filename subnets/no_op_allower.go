@@ -3,7 +3,7 @@
 
 package subnets
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 // NoOpAllower is an Allower that always returns true
 var NoOpAllower Allower = noOpAllower{}

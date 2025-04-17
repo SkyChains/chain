@@ -16,13 +16,13 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"golang.org/x/exp/maps"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/trace"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/maybe"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/units"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/trace"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/maybe"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/units"
 
 	oteltrace "go.opentelemetry.io/otel/trace"
 )

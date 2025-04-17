@@ -18,11 +18,11 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/vms/platformvm/signer"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/vms/platformvm/signer"
 )
 
 // The Node type is defined in this file (node.go - orchestration) and

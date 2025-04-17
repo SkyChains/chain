@@ -6,9 +6,9 @@ package router
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/version"
 )
 
 var _ InboundHandler = InboundHandlerFunc(nil)

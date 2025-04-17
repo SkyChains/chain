@@ -8,9 +8,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/rpc"
-	"github.com/SkyChains/chain/vms/platformvm/signer"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/rpc"
+	"github.com/skychains/chain/vms/platformvm/signer"
 )
 
 var _ Client = (*client)(nil)

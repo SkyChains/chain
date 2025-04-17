@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/exp/constraints"
 
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/utils"
 )
 
 var (

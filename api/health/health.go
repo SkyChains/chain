@@ -10,7 +10,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/utils/logging"
 )
 
 const (

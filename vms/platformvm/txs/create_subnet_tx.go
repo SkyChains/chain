@@ -4,8 +4,8 @@
 package txs
 
 import (
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/platformvm/fx"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/platformvm/fx"
 )
 
 var _ UnsignedTx = (*CreateSubnetTx)(nil)

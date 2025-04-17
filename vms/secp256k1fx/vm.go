@@ -4,9 +4,9 @@
 package secp256k1fx
 
 import (
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 // VM that this Fx must be run by

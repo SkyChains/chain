@@ -6,7 +6,7 @@ package throttling
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 var _ InboundMsgThrottler = (*noInboundMsgThrottler)(nil)

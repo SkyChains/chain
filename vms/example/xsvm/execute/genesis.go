@@ -4,11 +4,11 @@
 package execute
 
 import (
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/example/xsvm/block"
-	"github.com/SkyChains/chain/vms/example/xsvm/genesis"
-	"github.com/SkyChains/chain/vms/example/xsvm/state"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/example/xsvm/block"
+	"github.com/skychains/chain/vms/example/xsvm/genesis"
+	"github.com/skychains/chain/vms/example/xsvm/state"
 )
 
 func Genesis(db database.KeyValueReaderWriterDeleter, chainID ids.ID, g *genesis.Genesis) error {

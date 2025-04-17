@@ -9,10 +9,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/cb58"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/cb58"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 const (

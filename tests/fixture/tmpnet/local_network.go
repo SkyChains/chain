@@ -6,9 +6,9 @@ package tmpnet
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/config"
-	"github.com/SkyChains/chain/genesis"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/config"
+	"github.com/skychains/chain/genesis"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
 )
 
 func LocalNetworkOrPanic() *Network {

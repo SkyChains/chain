@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/utils/sampler"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/utils/sampler"
+	"github.com/skychains/chain/utils/set"
 )
 
 var (

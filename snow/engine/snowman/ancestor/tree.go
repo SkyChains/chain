@@ -4,8 +4,8 @@
 package ancestor
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
 )
 
 var _ Tree = (*tree)(nil)

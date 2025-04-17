@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/SkyChains/chain/codec"
+import "github.com/skychains/chain/codec"
 
 func Parse(c codec.Manager, b []byte) (Block, error) {
 	var blk Block

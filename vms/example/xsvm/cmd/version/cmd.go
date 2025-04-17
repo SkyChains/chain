@@ -8,9 +8,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/version"
-	"github.com/SkyChains/chain/vms/example/xsvm"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/version"
+	"github.com/skychains/chain/vms/example/xsvm"
 )
 
 const format = `%s:

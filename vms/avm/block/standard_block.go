@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/vms/avm/txs"
 )
 
 var _ Block = (*StandardBlock)(nil)

@@ -3,7 +3,7 @@
 
 package dynamicip
 
-import "github.com/SkyChains/chain/utils/logging"
+import "github.com/skychains/chain/utils/logging"
 
 var _ Updater = noUpdater{}
 

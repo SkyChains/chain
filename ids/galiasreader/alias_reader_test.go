@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/rpcchainvm/grpcutils"
 
-	aliasreaderpb "github.com/SkyChains/chain/proto/pb/aliasreader"
+	aliasreaderpb "github.com/skychains/chain/proto/pb/aliasreader"
 )
 
 func TestInterface(t *testing.T) {

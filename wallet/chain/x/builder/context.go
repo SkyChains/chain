@@ -4,10 +4,10 @@
 package builder
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/logging"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/logging"
 )
 
 const Alias = "X"

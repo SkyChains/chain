@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/buffer"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/buffer"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 var _ Window[struct{}] = (*window[struct{}])(nil)

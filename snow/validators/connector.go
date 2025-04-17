@@ -6,8 +6,8 @@ package validators
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/version"
 )
 
 // Connector represents a handler that is called when a connection is marked as

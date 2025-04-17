@@ -4,11 +4,11 @@
 package state
 
 import (
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/prefixdb"
-	"github.com/SkyChains/chain/database/versiondb"
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/prefixdb"
+	"github.com/skychains/chain/database/versiondb"
+	"github.com/skychains/chain/ids"
 )
 
 const cacheSize = 8192 // max cache entries

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/vms/platformvm/block"
 )
 
 func TestOptionsUnexpectedBlockType(t *testing.T) {

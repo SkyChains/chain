@@ -6,7 +6,7 @@ package metervm
 import (
 	"context"
 
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/snow/engine/snowman/block"
 )
 
 func (vm *blockVM) StateSyncEnabled(ctx context.Context) (bool, error) {

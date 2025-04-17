@@ -9,14 +9,14 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/network/p2p"
-	"github.com/SkyChains/chain/network/p2p/gossip"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/avm/txs/mempool"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/network/p2p"
+	"github.com/skychains/chain/network/p2p/gossip"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/avm/txs/mempool"
 )
 
 const txGossipHandlerID = 0

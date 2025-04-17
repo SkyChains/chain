@@ -11,16 +11,16 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/exp/maps"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/linked"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/math"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
-	"github.com/SkyChains/chain/vms/txs/mempool"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/linked"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/math"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/vms/txs/mempool"
 )
 
 var errMissingUTXO = errors.New("missing utxo")

@@ -4,8 +4,8 @@
 package txs
 
 import (
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/secp256k1fx"
 )
 
 var (

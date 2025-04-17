@@ -8,12 +8,12 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/perms"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/platformvm"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/perms"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/platformvm"
+	"github.com/skychains/chain/wallet/subnet/primary"
 )
 
 // This fetches the current validator set of both Fuji and Mainnet.

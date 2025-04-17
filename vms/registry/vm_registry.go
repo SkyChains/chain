@@ -6,8 +6,8 @@ package registry
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms"
 )
 
 var _ VMRegistry = (*vmRegistry)(nil)

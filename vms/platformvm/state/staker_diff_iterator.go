@@ -4,8 +4,8 @@
 package state
 
 import (
-	"github.com/SkyChains/chain/utils/heap"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/utils/heap"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 var (

@@ -4,9 +4,9 @@
 package snowball
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/bag"
-	"github.com/SkyChains/chain/utils/sampler"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/bag"
+	"github.com/skychains/chain/utils/sampler"
 )
 
 type newConsensusFunc func(factory Factory, params Parameters, choice ids.ID) Consensus

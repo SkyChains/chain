@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	safemath "github.com/SkyChains/chain/utils/math"
+	safemath "github.com/skychains/chain/utils/math"
 )
 
 // BenchmarkAllWeightedSampling

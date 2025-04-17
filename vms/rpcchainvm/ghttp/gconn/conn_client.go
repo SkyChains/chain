@@ -12,9 +12,9 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/wrappers"
 
-	connpb "github.com/SkyChains/chain/proto/pb/net/conn"
+	connpb "github.com/skychains/chain/proto/pb/net/conn"
 )
 
 var _ net.Conn = (*Client)(nil)

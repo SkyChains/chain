@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
 )
 
 const pruneCommitPeriod = 1024

@@ -6,7 +6,7 @@ package buffer
 import (
 	"sync"
 
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/utils"
 )
 
 var _ BlockingDeque[int] = (*unboundedBlockingDeque[int])(nil)

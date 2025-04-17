@@ -11,7 +11,7 @@ import (
 
 	"github.com/cockroachdb/pebble"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 var (

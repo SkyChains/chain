@@ -3,7 +3,7 @@
 
 package state
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 var _ StakerIterator = (*maskedIterator)(nil)
 

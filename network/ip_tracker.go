@@ -11,14 +11,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils/bloom"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/ips"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/sampler"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils/bloom"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/ips"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/sampler"
+	"github.com/skychains/chain/utils/set"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var ErrFailedRegistering = errors.New("failed registering metric")

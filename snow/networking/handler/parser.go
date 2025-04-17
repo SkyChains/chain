@@ -4,8 +4,8 @@
 package handler
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
 )
 
 func getIDs(idsBytes [][]byte) (set.Set[ids.ID], error) {

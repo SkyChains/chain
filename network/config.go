@@ -9,16 +9,16 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/network/dialer"
-	"github.com/SkyChains/chain/network/throttling"
-	"github.com/SkyChains/chain/snow/networking/tracker"
-	"github.com/SkyChains/chain/snow/uptime"
-	"github.com/SkyChains/chain/snow/validators"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/compression"
-	"github.com/SkyChains/chain/utils/crypto/bls"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/network/dialer"
+	"github.com/skychains/chain/network/throttling"
+	"github.com/skychains/chain/snow/networking/tracker"
+	"github.com/skychains/chain/snow/uptime"
+	"github.com/skychains/chain/snow/validators"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/compression"
+	"github.com/skychains/chain/utils/crypto/bls"
+	"github.com/skychains/chain/utils/set"
 )
 
 // HealthConfig describes parameters for network layer health checks.

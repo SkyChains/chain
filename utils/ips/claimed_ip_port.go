@@ -7,10 +7,10 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/staking"
-	"github.com/SkyChains/chain/utils/hashing"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/staking"
+	"github.com/skychains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 const (

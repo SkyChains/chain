@@ -6,9 +6,9 @@ package merkledb
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/utils"
 )
 
 var (

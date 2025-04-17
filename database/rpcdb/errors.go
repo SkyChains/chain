@@ -4,9 +4,9 @@
 package rpcdb
 
 import (
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 
-	rpcdbpb "github.com/SkyChains/chain/proto/pb/rpcdb"
+	rpcdbpb "github.com/skychains/chain/proto/pb/rpcdb"
 )
 
 var (

@@ -12,19 +12,19 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/platformvm/block"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/status"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/vms/platformvm/txs/executor"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/platformvm/block"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/status"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/vms/platformvm/txs/executor"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
-	walletsigner "github.com/SkyChains/chain/wallet/chain/p/signer"
+	walletsigner "github.com/skychains/chain/wallet/chain/p/signer"
 )
 
 func TestApricotStandardBlockTimeVerification(t *testing.T) {
@@ -589,7 +589,7 @@ func TestBanffStandardBlockUpdateStakers(t *testing.T) {
 	}
 }
 
-// Regression test for https://github.com/SkyChains/chain/pull/584
+// Regression test for https://github.com/skychains/chain/pull/584
 // that ensures it fixes a bug where subnet validators are not removed
 // when timestamp is advanced and there is a pending staker whose start time
 // is after the new timestamp

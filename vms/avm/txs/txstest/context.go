@@ -4,10 +4,10 @@
 package txstest
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/vms/avm/config"
-	"github.com/SkyChains/chain/wallet/chain/x/builder"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/vms/avm/config"
+	"github.com/skychains/chain/wallet/chain/x/builder"
 )
 
 func newContext(

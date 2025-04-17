@@ -12,10 +12,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/metric"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/metric"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var _ bandwidthThrottler = (*bandwidthThrottlerImpl)(nil)

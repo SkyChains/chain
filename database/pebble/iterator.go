@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 var (

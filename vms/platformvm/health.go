@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/utils/constants"
 )
 
 func (vm *VM) HealthCheck(context.Context) (interface{}, error) {

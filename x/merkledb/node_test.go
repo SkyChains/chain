@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/skychains/chain/utils/maybe"
 )
 
 func Test_Node_Marshal(t *testing.T) {

@@ -6,14 +6,14 @@ package gkeystore
 import (
 	"context"
 
-	"github.com/SkyChains/chain/api/keystore"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/database/encdb"
-	"github.com/SkyChains/chain/database/rpcdb"
-	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/skychains/chain/api/keystore"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/database/encdb"
+	"github.com/skychains/chain/database/rpcdb"
+	"github.com/skychains/chain/vms/rpcchainvm/grpcutils"
 
-	keystorepb "github.com/SkyChains/chain/proto/pb/keystore"
-	rpcdbpb "github.com/SkyChains/chain/proto/pb/rpcdb"
+	keystorepb "github.com/skychains/chain/proto/pb/keystore"
+	rpcdbpb "github.com/skychains/chain/proto/pb/rpcdb"
 )
 
 var _ keystore.BlockchainKeystore = (*Client)(nil)

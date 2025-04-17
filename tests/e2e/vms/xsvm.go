@@ -11,17 +11,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/tests"
-	"github.com/SkyChains/chain/tests/fixture/e2e"
-	"github.com/SkyChains/chain/tests/fixture/subnet"
-	"github.com/SkyChains/chain/tests/fixture/tmpnet"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/example/xsvm/api"
-	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/export"
-	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/importtx"
-	"github.com/SkyChains/chain/vms/example/xsvm/cmd/issue/transfer"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/tests"
+	"github.com/skychains/chain/tests/fixture/e2e"
+	"github.com/skychains/chain/tests/fixture/subnet"
+	"github.com/skychains/chain/tests/fixture/tmpnet"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/example/xsvm/api"
+	"github.com/skychains/chain/vms/example/xsvm/cmd/issue/export"
+	"github.com/skychains/chain/vms/example/xsvm/cmd/issue/importtx"
+	"github.com/skychains/chain/vms/example/xsvm/cmd/issue/transfer"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
 )

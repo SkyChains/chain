@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/maybe"
 )
 
 var (

@@ -8,12 +8,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/SkyChains/chain/indexer"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/indexer"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/wallet/subnet/primary"
 
-	platformvmblock "github.com/SkyChains/chain/vms/platformvm/block"
-	proposervmblock "github.com/SkyChains/chain/vms/proposervm/block"
+	platformvmblock "github.com/skychains/chain/vms/platformvm/block"
+	proposervmblock "github.com/skychains/chain/vms/proposervm/block"
 )
 
 // This example program continuously polls for the next P-Chain block

@@ -6,7 +6,7 @@ package choices
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var errUnknownStatus = errors.New("unknown status")

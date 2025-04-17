@@ -3,7 +3,7 @@
 
 package block
 
-import "github.com/SkyChains/chain/vms/example/xsvm/tx"
+import "github.com/skychains/chain/vms/example/xsvm/tx"
 
 const CodecVersion = tx.CodecVersion
 

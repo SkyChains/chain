@@ -16,13 +16,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
-	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
-	"github.com/SkyChains/chain/vms/rpcchainvm/runtime/subprocess"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/skychains/chain/vms/rpcchainvm/runtime"
+	"github.com/skychains/chain/vms/rpcchainvm/runtime/subprocess"
 
-	vmpb "github.com/SkyChains/chain/proto/pb/vm"
+	vmpb "github.com/skychains/chain/proto/pb/vm"
 )
 
 const (

@@ -6,20 +6,20 @@ package primary
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
-	"github.com/SkyChains/chain/utils/crypto/keychain"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
-	"github.com/SkyChains/chain/wallet/chain/c"
-	"github.com/SkyChains/chain/wallet/chain/p"
-	"github.com/SkyChains/chain/wallet/chain/x"
-	"github.com/SkyChains/chain/wallet/subnet/primary/common"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
+	"github.com/skychains/chain/utils/crypto/keychain"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/wallet/chain/c"
+	"github.com/skychains/chain/wallet/chain/p"
+	"github.com/skychains/chain/wallet/chain/x"
+	"github.com/skychains/chain/wallet/subnet/primary/common"
 
-	pbuilder "github.com/SkyChains/chain/wallet/chain/p/builder"
-	psigner "github.com/SkyChains/chain/wallet/chain/p/signer"
-	xbuilder "github.com/SkyChains/chain/wallet/chain/x/builder"
-	xsigner "github.com/SkyChains/chain/wallet/chain/x/signer"
+	pbuilder "github.com/skychains/chain/wallet/chain/p/builder"
+	psigner "github.com/skychains/chain/wallet/chain/p/signer"
+	xbuilder "github.com/skychains/chain/wallet/chain/x/builder"
+	xsigner "github.com/skychains/chain/wallet/chain/x/signer"
 )
 
 var _ Wallet = (*wallet)(nil)

@@ -3,7 +3,7 @@
 
 package archivedb
 
-import "github.com/SkyChains/chain/database"
+import "github.com/skychains/chain/database"
 
 var _ database.KeyValueReader = (*Reader)(nil)
 

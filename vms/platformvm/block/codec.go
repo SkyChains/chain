@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/codec/linearcodec"
-	"github.com/SkyChains/chain/utils/wrappers"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/codec/linearcodec"
+	"github.com/skychains/chain/utils/wrappers"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 const CodecVersion = txs.CodecVersion

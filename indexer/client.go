@@ -7,10 +7,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/rpc"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/rpc"
 )
 
 var _ Client = (*client)(nil)

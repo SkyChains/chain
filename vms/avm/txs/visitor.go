@@ -3,7 +3,7 @@
 
 package txs
 
-import "github.com/SkyChains/chain/vms/components/lux"
+import "github.com/skychains/chain/vms/components/lux"
 
 var _ Visitor = (*utxoGetter)(nil)
 

@@ -11,7 +11,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/utils/set"
 )
 
 var (

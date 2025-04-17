@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/codec/reflectcodec"
-	"github.com/SkyChains/chain/utils/bimap"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/codec/reflectcodec"
+	"github.com/skychains/chain/utils/bimap"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 var (

@@ -6,9 +6,9 @@ package poll
 import (
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/bag"
-	"github.com/SkyChains/chain/utils/formatting"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/bag"
+	"github.com/skychains/chain/utils/formatting"
 )
 
 // Set is a collection of polls

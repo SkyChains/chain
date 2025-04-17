@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"slices"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 func (v *view) NewIterator() database.Iterator {

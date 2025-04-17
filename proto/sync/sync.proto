@@ -4,7 +4,7 @@ package sync;
 
 import "google/protobuf/empty.proto";
 
-option go_package = "github.com/SkyChains/chain/proto/pb/sync";
+option go_package = "github.com/skychains/chain/proto/pb/sync";
 
 // Request represents a request for information during syncing.
 message Request {

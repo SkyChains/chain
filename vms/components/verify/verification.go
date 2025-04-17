@@ -3,7 +3,7 @@
 
 package verify
 
-import "github.com/SkyChains/chain/snow"
+import "github.com/skychains/chain/snow"
 
 type Verifiable interface {
 	Verify() error

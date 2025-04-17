@@ -8,11 +8,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/indexer"
-	"github.com/SkyChains/chain/vms/proposervm/block"
-	"github.com/SkyChains/chain/wallet/chain/x/builder"
-	"github.com/SkyChains/chain/wallet/subnet/primary"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/indexer"
+	"github.com/skychains/chain/vms/proposervm/block"
+	"github.com/skychains/chain/wallet/chain/x/builder"
+	"github.com/skychains/chain/wallet/subnet/primary"
 )
 
 // This example program continuously polls for the next X-Chain block

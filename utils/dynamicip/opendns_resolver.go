@@ -9,7 +9,7 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/SkyChains/chain/utils/ips"
+	"github.com/skychains/chain/utils/ips"
 )
 
 const openDNSUrl = "resolver1.opendns.com:53"

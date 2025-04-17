@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/vms/platformvm/network"
+	"github.com/skychains/chain/vms/platformvm/network"
 )
 
 // Requires all values in a struct to be initialized

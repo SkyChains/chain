@@ -11,7 +11,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 const (

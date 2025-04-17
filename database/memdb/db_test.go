@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 func TestInterface(t *testing.T) {

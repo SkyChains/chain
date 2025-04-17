@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/bag"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/bag"
 )
 
 var (

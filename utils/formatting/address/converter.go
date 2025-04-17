@@ -3,7 +3,7 @@
 
 package address
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 func ParseToID(addrStr string) (ids.ShortID, error) {
 	_, _, addrBytes, err := Parse(addrStr)

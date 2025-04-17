@@ -12,8 +12,8 @@ import (
 	"math/bits"
 	"slices"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/maybe"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/maybe"
 )
 
 const (

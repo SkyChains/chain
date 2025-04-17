@@ -7,16 +7,16 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/chains/atomic"
-	"github.com/SkyChains/chain/codec"
-	"github.com/SkyChains/chain/database"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/avm/state"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/wallet/chain/x/builder"
-	"github.com/SkyChains/chain/wallet/chain/x/signer"
+	"github.com/skychains/chain/chains/atomic"
+	"github.com/skychains/chain/codec"
+	"github.com/skychains/chain/database"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/avm/state"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/wallet/chain/x/builder"
+	"github.com/skychains/chain/wallet/chain/x/signer"
 )
 
 const maxPageSize uint64 = 1024

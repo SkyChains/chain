@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/bag"
+	"github.com/skychains/chain/utils/bag"
 )
 
 func TestFlat(t *testing.T) {

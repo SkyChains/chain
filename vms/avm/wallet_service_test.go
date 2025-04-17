@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/api"
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/linked"
-	"github.com/SkyChains/chain/vms/avm/txs"
+	"github.com/skychains/chain/api"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/linked"
+	"github.com/skychains/chain/vms/avm/txs"
 )
 
 func TestWalletService_SendMultiple(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/vms/avm/network"
+	"github.com/skychains/chain/vms/avm/network"
 )
 
 func TestParseConfig(t *testing.T) {

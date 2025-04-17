@@ -11,12 +11,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/crypto/keychain"
-	"github.com/SkyChains/chain/utils/crypto/secp256k1"
-	"github.com/SkyChains/chain/utils/formatting"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/crypto/keychain"
+	"github.com/skychains/chain/utils/crypto/secp256k1"
+	"github.com/skychains/chain/utils/formatting"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 var (

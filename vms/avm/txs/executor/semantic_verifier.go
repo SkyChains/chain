@@ -8,11 +8,11 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/avm/state"
-	"github.com/SkyChains/chain/vms/avm/txs"
-	"github.com/SkyChains/chain/vms/components/lux"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/avm/state"
+	"github.com/skychains/chain/vms/avm/txs"
+	"github.com/skychains/chain/vms/components/lux"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/SkyChains/chain/utils/perms"
+	"github.com/skychains/chain/utils/perms"
 )
 
 // The Node type is defined in this file node_config.go

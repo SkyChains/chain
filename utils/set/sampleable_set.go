@@ -8,11 +8,11 @@ import (
 	"encoding/json"
 	"slices"
 
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/utils/sampler"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/utils/sampler"
+	"github.com/skychains/chain/utils/wrappers"
 
-	avajson "github.com/SkyChains/chain/utils/json"
+	avajson "github.com/skychains/chain/utils/json"
 )
 
 var _ json.Marshaler = (*Set[int])(nil)

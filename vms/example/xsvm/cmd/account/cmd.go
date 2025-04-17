@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/SkyChains/chain/vms/example/xsvm/api"
+	"github.com/skychains/chain/vms/example/xsvm/api"
 )
 
 func Command() *cobra.Command {

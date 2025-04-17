@@ -18,11 +18,11 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/SkyChains/chain/utils/json"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/password"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/utils/json"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/password"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 const (

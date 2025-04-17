@@ -13,8 +13,8 @@ import (
 	reflect "reflect"
 	time "time"
 
-	ids "github.com/SkyChains/chain/ids"
-	bls "github.com/SkyChains/chain/utils/crypto/bls"
+	ids "github.com/skychains/chain/ids"
+	bls "github.com/skychains/chain/utils/crypto/bls"
 	gomock "go.uber.org/mock/gomock"
 )
 

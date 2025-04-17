@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/SkyChains/chain/proto/pb/p2p"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/proto/pb/p2p"
+	"github.com/skychains/chain/utils/set"
 )
 
 // Op is an opcode

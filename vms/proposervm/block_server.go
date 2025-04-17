@@ -6,9 +6,9 @@ package proposervm
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/consensus/snowman"
-	"github.com/SkyChains/chain/vms/proposervm/indexer"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/consensus/snowman"
+	"github.com/skychains/chain/vms/proposervm/indexer"
 )
 
 var _ indexer.BlockServer = (*VM)(nil)

@@ -9,8 +9,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/cache"
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/cache"
+	"github.com/skychains/chain/ids"
 )
 
 func TestInterface(t *testing.T) {

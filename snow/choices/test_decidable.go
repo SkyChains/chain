@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/ids"
+	"github.com/skychains/chain/ids"
 )
 
 var _ Decidable = (*TestDecidable)(nil)

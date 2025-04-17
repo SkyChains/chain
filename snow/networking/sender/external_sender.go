@@ -4,11 +4,11 @@
 package sender
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/message"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/subnets"
-	"github.com/SkyChains/chain/utils/set"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/message"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/subnets"
+	"github.com/skychains/chain/utils/set"
 )
 
 // ExternalSender sends consensus messages to other validators

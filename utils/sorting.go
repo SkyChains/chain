@@ -8,7 +8,7 @@ import (
 	"cmp"
 	"slices"
 
-	"github.com/SkyChains/chain/utils/hashing"
+	"github.com/skychains/chain/utils/hashing"
 )
 
 // TODO can we handle sorting where the Compare function relies on a codec?

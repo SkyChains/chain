@@ -6,8 +6,8 @@ package validators
 import (
 	"context"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow/validators"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow/validators"
 )
 
 var TestManager Manager = testManager{}

@@ -6,7 +6,7 @@ package secp256k1fx
 import (
 	"errors"
 
-	"github.com/SkyChains/chain/snow"
+	"github.com/skychains/chain/snow"
 )
 
 var ErrNoValueInput = errors.New("input has no value")

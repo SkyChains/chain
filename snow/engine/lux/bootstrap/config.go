@@ -4,13 +4,13 @@
 package bootstrap
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/snow"
-	"github.com/SkyChains/chain/snow/engine/lux/vertex"
-	"github.com/SkyChains/chain/snow/engine/common"
-	"github.com/SkyChains/chain/snow/engine/common/queue"
-	"github.com/SkyChains/chain/snow/engine/common/tracker"
-	"github.com/SkyChains/chain/snow/validators"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/snow"
+	"github.com/skychains/chain/snow/engine/lux/vertex"
+	"github.com/skychains/chain/snow/engine/common"
+	"github.com/skychains/chain/snow/engine/common/queue"
+	"github.com/skychains/chain/snow/engine/common/tracker"
+	"github.com/skychains/chain/snow/validators"
 )
 
 type Config struct {

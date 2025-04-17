@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/utils/wrappers"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/utils/wrappers"
 )
 
 const (

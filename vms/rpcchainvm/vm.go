@@ -14,15 +14,15 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 
-	"github.com/SkyChains/chain/snow/engine/snowman/block"
-	"github.com/SkyChains/chain/utils"
-	"github.com/SkyChains/chain/version"
-	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
-	"github.com/SkyChains/chain/vms/rpcchainvm/gruntime"
-	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
+	"github.com/skychains/chain/snow/engine/snowman/block"
+	"github.com/skychains/chain/utils"
+	"github.com/skychains/chain/version"
+	"github.com/skychains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/skychains/chain/vms/rpcchainvm/gruntime"
+	"github.com/skychains/chain/vms/rpcchainvm/runtime"
 
-	vmpb "github.com/SkyChains/chain/proto/pb/vm"
-	runtimepb "github.com/SkyChains/chain/proto/pb/vm/runtime"
+	vmpb "github.com/skychains/chain/proto/pb/vm"
+	runtimepb "github.com/skychains/chain/proto/pb/vm/runtime"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )
 

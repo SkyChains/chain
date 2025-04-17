@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/utils/timer/mockable"
+	"github.com/skychains/chain/utils/timer/mockable"
 )
 
 const (

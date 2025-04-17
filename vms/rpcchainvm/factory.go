@@ -7,13 +7,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/SkyChains/chain/api/metrics"
-	"github.com/SkyChains/chain/utils/logging"
-	"github.com/SkyChains/chain/utils/resource"
-	"github.com/SkyChains/chain/vms"
-	"github.com/SkyChains/chain/vms/rpcchainvm/grpcutils"
-	"github.com/SkyChains/chain/vms/rpcchainvm/runtime"
-	"github.com/SkyChains/chain/vms/rpcchainvm/runtime/subprocess"
+	"github.com/skychains/chain/api/metrics"
+	"github.com/skychains/chain/utils/logging"
+	"github.com/skychains/chain/utils/resource"
+	"github.com/skychains/chain/vms"
+	"github.com/skychains/chain/vms/rpcchainvm/grpcutils"
+	"github.com/skychains/chain/vms/rpcchainvm/runtime"
+	"github.com/skychains/chain/vms/rpcchainvm/runtime/subprocess"
 )
 
 var _ vms.Factory = (*factory)(nil)

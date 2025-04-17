@@ -6,7 +6,7 @@ package admin
 import (
 	"context"
 
-	"github.com/SkyChains/chain/database"
+	"github.com/skychains/chain/database"
 )
 
 var _ database.KeyValueReader = (*KeyValueReader)(nil)

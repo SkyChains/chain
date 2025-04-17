@@ -10,15 +10,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/set"
-	"github.com/SkyChains/chain/utils/units"
-	"github.com/SkyChains/chain/vms/platformvm/state"
-	"github.com/SkyChains/chain/vms/platformvm/txs/txstest"
-	"github.com/SkyChains/chain/vms/platformvm/utxo"
-	"github.com/SkyChains/chain/vms/secp256k1fx"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/set"
+	"github.com/skychains/chain/utils/units"
+	"github.com/skychains/chain/vms/platformvm/state"
+	"github.com/skychains/chain/vms/platformvm/txs/txstest"
+	"github.com/skychains/chain/vms/platformvm/utxo"
+	"github.com/skychains/chain/vms/secp256k1fx"
 
-	walletsigner "github.com/SkyChains/chain/wallet/chain/p/signer"
+	walletsigner "github.com/skychains/chain/wallet/chain/p/signer"
 )
 
 func TestCreateSubnetTxAP3FeeChange(t *testing.T) {

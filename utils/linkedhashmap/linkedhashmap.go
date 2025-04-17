@@ -7,7 +7,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/utils"
 )
 
 var _ LinkedHashmap[int, struct{}] = (*linkedHashmap[int, struct{}])(nil)

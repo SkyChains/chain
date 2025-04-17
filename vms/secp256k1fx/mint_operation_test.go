@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/vms/components/verify"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/vms/components/verify"
 )
 
 func TestMintOperationVerify(t *testing.T) {

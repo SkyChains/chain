@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/constants"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/constants"
 )
 
 func TestSubnetValidatorVerifySubnetID(t *testing.T) {

@@ -4,9 +4,9 @@
 package txheap
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils/heap"
-	"github.com/SkyChains/chain/vms/platformvm/txs"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils/heap"
+	"github.com/skychains/chain/vms/platformvm/txs"
 )
 
 type Heap interface {

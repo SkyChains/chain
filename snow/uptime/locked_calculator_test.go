@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/utils"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/utils"
 )
 
 func TestLockedCalculator(t *testing.T) {

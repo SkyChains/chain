@@ -3,7 +3,7 @@
 
 package chains
 
-import "github.com/SkyChains/chain/ids"
+import "github.com/skychains/chain/ids"
 
 // TestManager implements Manager but does nothing. Always returns nil error.
 // To be used only in tests

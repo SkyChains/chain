@@ -4,8 +4,8 @@
 package keychain
 
 import (
-	"github.com/SkyChains/chain/ids"
-	"github.com/SkyChains/chain/version"
+	"github.com/skychains/chain/ids"
+	"github.com/skychains/chain/version"
 )
 
 // Ledger interface for the ledger wrapper
